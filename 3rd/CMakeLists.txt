@@ -86,7 +86,6 @@ else()
         lua/ltests.h
         lua/ltm.c
         lua/ltm.h
-        lua/lua.c
         lua/lua.h
         lua/luaconf.h
         lua/lualib.h
