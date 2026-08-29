@@ -22,7 +22,9 @@ else()
         $<$<BOOL:${Wduplicated-branches}>:-Wduplicated-branches>
         $<$<BOOL:${Wnull-dereference}>:-Wnull-dereference>
         $<$<BOOL:${Wlogical-op}>:-Wlogical-op>)
-    if(NOT (CMAKE_COMPILER_IS_GNUCXX AND CMAKE_CXX_COMPILER_VERSION VERSION_LESS 6))
+    # Windows-specific code uses Win32 pointer casts which are accepted by the
+    # native MSVC build but trigger these GCC diagnostics when cross-compiling.
+    if(NOT MINGW AND NOT (CMAKE_COMPILER_IS_GNUCXX AND CMAKE_CXX_COMPILER_VERSION VERSION_LESS 6))
         check_cxx_compiler_flag(-Wuseless-cast Wuseless-cast)
         add_compile_options(-Werror=old-style-cast
             $<$<BOOL:${Wuseless-cast}>:-Werror=useless-cast>)
@@ -559,6 +561,11 @@ target_link_libraries(${MMEX_EXE} PUBLIC
     fmt
     LuaGlue
     Lua)
+
+if(MINGW)
+    # MSVC receives this library through #pragma comment in _util.cpp.
+    target_link_libraries(${MMEX_EXE} PRIVATE dwmapi)
+endif()
 
 
 

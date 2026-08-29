@@ -27,6 +27,9 @@
 #include <wx/fs_mem.h>
 #include <wx/imagpng.h>
 #include <wx/mstream.h>
+#if defined(__WXMSW__)
+#include <wx/msw/registry.h>
+#endif
 
 #include "base/_constants.h"
 #include "base/mmPlatform.h"
