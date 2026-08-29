@@ -32,7 +32,6 @@ class AboutDialog : public wxDialog
     wxDECLARE_EVENT_TABLE();
 
 private:
-    wxCheckBox*   m_send_data   = nullptr;
     mmHtmlWindow* aboutText_    = nullptr;
     mmHtmlWindow* authorsText_  = nullptr;
     mmHtmlWindow* sponsorsText_ = nullptr;

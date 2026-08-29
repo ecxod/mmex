@@ -364,9 +364,10 @@ mmFrame::mmFrame(
     // store reference for toolbar updates
     mmToolbarList::instance().SetToolbarParent(this);
 
-    // Show license agreement at first open
-    if (SettingModel::instance().getString(INIDB_SEND_USAGE_STATS, "") == "") {
+    // Show the license agreement once, independently of any network setting.
+    if (!SettingModel::instance().getBool("LICENSEAGREEMENTACCEPTED", false)) {
         AboutDialog(this, 4).ShowModal();
+        SettingModel::instance().saveBool("LICENSEAGREEMENTACCEPTED", true);
     }
 
     //Check for new version at startup
@@ -426,10 +427,9 @@ mmFrame::~mmFrame()
         wxASSERT(false);
     }
 
-    // Report database statistics
+    // Report database statistics to the local debug log only.
     for (const auto & model : this->m_all_models) {
         model->debug_stat();
-        UsageModel::instance().append_cache(model->stat_json());
     }
 }
 //----------------------------------------------------------------------------
@@ -3624,15 +3624,6 @@ void mmFrame::OnBillsDeposits(wxCommandEvent& WXUNUSED(event))
 
 void mmFrame::createHomePage()
 {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String("Home Page");
-
-    const auto time = wxDateTime::UNow();
-
     m_nav_tree_ctrl->SetEvtHandlerEnabled(false);
     int id = panelCurrent_ ? panelCurrent_->GetId() : -1;
 
@@ -3663,11 +3654,6 @@ void mmFrame::createHomePage()
         m_nav_tree_ctrl->SetEvtHandlerEnabled(true);
     }
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
 }
 //----------------------------------------------------------------------------
 
@@ -3710,15 +3696,6 @@ void mmFrame::createHelpPage(int index)
 
 void mmFrame::createBillsDeposits()
 {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String("Bills & Deposits Panel");
-
-    const auto time = wxDateTime::UNow();
-
     m_nav_tree_ctrl->SetEvtHandlerEnabled(false);
     if (panelCurrent_ && panelCurrent_->GetId() == mmID_BILLS) {
         wxDynamicCast(panelCurrent_, SchedPanel)->refreshList();
@@ -3736,11 +3713,6 @@ void mmFrame::createBillsDeposits()
     menuPrintingEnable(true);
     m_nav_tree_ctrl->SetEvtHandlerEnabled(true);
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
     m_nav_tree_ctrl->SetFocus();
     setNavTreeSection(_t("Scheduled Transactions"));
 }
@@ -3748,15 +3720,6 @@ void mmFrame::createBillsDeposits()
 
 void mmFrame::createBudgetingPage(int64 budgetYearID)
 {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String("Budget Panel");
-
-    const auto time = wxDateTime::UNow();
-
     m_nav_tree_ctrl->SetEvtHandlerEnabled(false);
     if (panelCurrent_ && panelCurrent_->GetId() == mmID_BUDGET) {
         wxDynamicCast(panelCurrent_, BudgetPanel)->displayBudgetingDetails(budgetYearID);
@@ -3770,32 +3733,12 @@ void mmFrame::createBudgetingPage(int64 budgetYearID)
         DoWindowsFreezeThaw(homePanel_);
     }
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
-
     menuPrintingEnable(true);
     m_nav_tree_ctrl->SetEvtHandlerEnabled(true);
 }
 //----------------------------------------------------------------------------
 
 void mmFrame::createCheckingPage(int64 checking_id, const std::vector<int64> &group_ids) {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String(
-        (checking_id == -1) ? "All Transactions" :
-        (checking_id == -2) ? "Deleted Transactions" :
-        (checking_id <= -3) ? "Group Transactions" :
-        "Checking Panel"
-    );
-
-    const auto time = wxDateTime::UNow();
-
     // Check if the credit balance needs to be displayed or not
     // If this differs from before then we need to rebuild
     bool newCreditDisplayed = false;
@@ -3832,12 +3775,6 @@ void mmFrame::createCheckingPage(int64 checking_id, const std::vector<int64> &gr
         DoWindowsFreezeThaw(homePanel_);
     }
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
-
     menuPrintingEnable(true);
     if (checking_id >= 1 && gotoTransID_.ref_id() > 0) {
         JournalPanel* cp = wxDynamicCast(panelCurrent_, JournalPanel);
@@ -3850,15 +3787,6 @@ void mmFrame::createCheckingPage(int64 checking_id, const std::vector<int64> &gr
 
 void mmFrame::createStocksAccountPage(int64 account_id)
 {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String("Stock Panel");
-
-    const auto time = wxDateTime::UNow();
-
     if (panelCurrent_ && panelCurrent_->GetId() == mmID_STOCKS) {
         wxDynamicCast(panelCurrent_, StockPanel)->displayAccountDetails(account_id);
     }
@@ -3871,11 +3799,6 @@ void mmFrame::createStocksAccountPage(int64 account_id)
         DoWindowsFreezeThaw(homePanel_);
     }
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
     menuPrintingEnable(true);
 }
 
@@ -3937,15 +3860,6 @@ void mmFrame::OnGotoAccount(wxCommandEvent& event)
 
 void mmFrame::OnAssets(wxCommandEvent& /*event*/)
 {
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String("Asset Panel");
-
-    const auto time = wxDateTime::UNow();
-
     if (panelCurrent_ && panelCurrent_->GetId() == mmID_ASSETS)
         refreshPanelData();
     else {
@@ -3959,11 +3873,6 @@ void mmFrame::OnAssets(wxCommandEvent& /*event*/)
         setNavTreeSection(_t("Assets"));
     }
 
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    UsageModel::instance().append_usage(wxString::FromUTF8(json_buffer.GetString()));
 }
 //----------------------------------------------------------------------------
 
@@ -4582,14 +4491,6 @@ void mmFrame::DoUpdateReportNavigation(wxTreeItemId& parent_item)
 
         wxTreeItemId incexpMonthly = m_nav_tree_ctrl->AppendItem(incexpOverTime, _t("Monthly"), mmImage::img::PIECHART_PNG, mmImage::img::PIECHART_PNG);
         m_nav_tree_ctrl->SetItemData(incexpMonthly, new mmTreeItemData("Income vs Expenses - Monthly", new mmReportIncomeExpensesMonthly()));
-    }
-
-    ///////////////////////////////////////////////////////////////////
-
-    if (hidden_reports.Index("My Usage") == wxNOT_FOUND)
-    {
-        wxTreeItemId myusage = m_nav_tree_ctrl->AppendItem(parent_item, _t("My Usage"), mmImage::img::PIECHART_PNG, mmImage::img::PIECHART_PNG);
-        m_nav_tree_ctrl->SetItemData(myusage, new mmTreeItemData("My Usage", new UsageReport()));
     }
 
     //////////////////////////////////////////////////////////////////////

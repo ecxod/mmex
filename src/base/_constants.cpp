@@ -139,28 +139,13 @@ const wxString mmex::getCaption(const wxString& caption)
 }
 
 /* Namespace weblink */
-const wxString mmex::weblink::addReferralToURL(const wxString& BaseURL, const wxString& CampSource)
-{
-    /*
-    With Google analytics it's possible to send some data in URL
-    to divide direct access from access through desktop app links
-    https://support.google.com/analytics/answer/1033867?hl=en
-    */
-
-    const wxString url = wxString::Format("%s?utm_campaign=Application_Desktop&utm_source=%s&utm_medium=MMEX_v%s"
-        , BaseURL, CampSource, mmex::version::string);
-
-    return url;
-}
-
-const wxString mmex::weblink::AMP            = "http://usagestats.moneymanagerex.org/API/main_stats_v2.php";
-const wxString mmex::weblink::WebSite        = mmex::weblink::addReferralToURL("https://moneymanagerex.org", "Website");
+const wxString mmex::weblink::WebSite        = "https://moneymanagerex.org";
 const wxString mmex::weblink::Releases       = "https://api.github.com/repos/moneymanagerex/moneymanagerex/releases";
 const wxString mmex::weblink::Latest         = "https://api.github.com/repos/moneymanagerex/moneymanagerex/releases/latest";
-const wxString mmex::weblink::Download       = mmex::weblink::addReferralToURL("https://moneymanagerex.org/docs/downloads/latest", "Download");
-const wxString mmex::weblink::News           = mmex::weblink::addReferralToURL("https://moneymanagerex.org/blog/", "News");
+const wxString mmex::weblink::Download       = "https://moneymanagerex.org/docs/downloads/latest";
+const wxString mmex::weblink::News           = "https://moneymanagerex.org/blog/";
 const wxString mmex::weblink::NewsRSS        = "https://moneymanagerex.org/blog/index.xml";
-const wxString mmex::weblink::Forum          = mmex::weblink::addReferralToURL("http://forum.moneymanagerex.org", "Forum");
+const wxString mmex::weblink::Forum          = "https://forum.moneymanagerex.org";
 const wxString mmex::weblink::Wiki           = "https://github.com/moneymanagerex/moneymanagerex/wiki";
 const wxString mmex::weblink::BugReport      = "https://github.com/moneymanagerex/moneymanagerex/issues";
 const wxString mmex::weblink::Donate         = "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=moneymanagerex%40gmail%2ecom&lc=US&item_name=MoneyManagerEx&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest";
@@ -187,11 +172,11 @@ const wxString mmex::weblink::YahooQuotes = "https://query1.finance.yahoo.com/v7
 const wxString mmex::weblink::YahooQuotesHistory = "https://query1.finance.yahoo.com/v8/finance/chart/%s?%s&fields=currency";
 
 // coincap asset search by symbol and id
-const wxString mmex::weblink::CoinCapSearch = "http://api.coincap.io/v2/assets?search=%s";
+const wxString mmex::weblink::CoinCapSearch = "https://api.coincap.io/v2/assets?search=%s";
 
 // coincap asset price history, all values in USD
 // Valid intervals: [m1, m5, m15, m30, h1, h2, h6, h12, d1]
-const wxString mmex::weblink::CoinCapHistory = "http://api.coincap.io/v2/assets/%s/history?interval=%s&start=%lld&end=%lld";
+const wxString mmex::weblink::CoinCapHistory = "https://api.coincap.io/v2/assets/%s/history?interval=%s&start=%lld&end=%lld";
 
 const wxString mmex::weblink::GeneralReport = "https://moneymanagerex.org/general-reports/";
 
@@ -201,8 +186,6 @@ const wxString INIDB_USE_TRANSACTION_SOUND = "USETRANSSOUND";
 const wxString INIDB_USE_ORG_DATE_COPYPASTE = "USEORIGDATEONCOPYPASTE";
 const wxString INIDB_USE_ORG_DATE_DUPLICATE = "USEORIGDATEONDUPLICATE";
 const wxString INIDB_USE_ORG_STATE_DUPLICATE_PASTE = "USEORIGSTATEONDUPLICATEPASTE";
-const wxString INIDB_SEND_USAGE_STATS = "SENDUSAGESTATS";
-
 const wxString VIEW_ACCOUNTS_ALL_STR       = _n("ALL");
 const wxString VIEW_ACCOUNTS_OPEN_STR      = _n("Open");
 const wxString VIEW_ACCOUNTS_CLOSED_STR    = _n("Closed");

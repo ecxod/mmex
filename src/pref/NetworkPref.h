@@ -50,7 +50,6 @@ private:
 
 private:
     wxSpinCtrl* m_network_timeout = nullptr;
-    wxCheckBox* m_send_data = nullptr;
     wxCheckBox* m_webserver_checkbox = nullptr;
     wxSpinCtrl* m_webserver_port = nullptr;
     wxTextCtrl* m_proxy_address = nullptr;

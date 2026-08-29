@@ -35,7 +35,6 @@
 #include "util/_util.h"
 #include "util/_simple.h"
 #include "model/SettingModel.h"
-#include "model/UsageModel.h"
 #include "mmFrame.h"
 
 //----------------------------------------------------------------------------
@@ -204,18 +203,7 @@ void mmApp::HandleEvent(wxEvtHandler* handler, wxEventFunction func, wxEvent& ev
 
 int mmApp::FilterEvent(wxEvent& event)
 {
-    int ret = wxApp::FilterEvent(event);
-
-    if (event.GetEventType() == wxEVT_SHOW) {
-        wxWindow* win = static_cast<wxWindow*>(event.GetEventObject());
-
-        // wxDialog & wxFrame http://docs.wxwidgets.org/trunk/classwx_top_level_window.html
-        if (win && win->IsTopLevel() && win != this->m_frame) {
-            UsageModel::instance().pageview(win);
-        }
-    }
-
-    return ret;
+    return wxApp::FilterEvent(event);
 }
 
 //----------------------------------------------------------------------------
@@ -240,9 +228,6 @@ bool OnInitImpl(mmApp* app)
     }
     app->GetSettingDB()->Open(file_path);
     SettingModel::instance(app->GetSettingDB());
-
-    SettingModel::instance().shrinkUsageTable();
-    UsageModel::instance(app->GetSettingDB());
 
     /* Load general MMEX Custom Settings */
     PrefModel::instance().load(false);
@@ -447,14 +432,6 @@ int mmApp::OnExit()
     if (m_frame && !m_frame->IsBeingDeleted())
         m_frame->Destroy();
 #endif
-
-    wxString rj = UsageModel::instance().to_json();
-    wxLogDebug("RapidJson\n%s", rj);
-
-    UsageData new_usage_d = UsageData();
-    new_usage_d.m_date = mmDate::today().isoDate();
-    new_usage_d.m_json_content = rj;
-    UsageModel::instance().add_data_n(new_usage_d);
 
     if (m_setting_db) {
         m_setting_db->Close();

@@ -82,7 +82,6 @@ bool StockPanel::create(
     GetSizer()->SetSizeHints(this);
 
     this->windowsFreezeThaw();
-    UsageModel::instance().pageview(this);
     mmThemeAutoColour(this);
     return true;
 }

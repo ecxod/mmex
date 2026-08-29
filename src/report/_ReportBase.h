@@ -35,8 +35,7 @@ class ReportBase
 {
 public:
     enum REPORT_ID {
-        MyUsage = 0,
-        MonthlySummaryofAccounts,
+        MonthlySummaryofAccounts = 0,
         YearlySummaryofAccounts,
         WheretheMoneyGoes,
         WheretheMoneyComesFrom,

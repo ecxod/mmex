@@ -26,7 +26,6 @@
 #include "util/mmAttachment.h"
 #include "model/CategoryModel.h"
 #include "model/AttachmentModel.h"
-#include "model/UsageModel.h"
 #include "dialog/AttachmentDialog.h"
 #include "dialog/SchedDialog.h"
 
@@ -85,8 +84,6 @@ bool SchedPanel::create(
     w_filter_dlg = new TrxFilterDialog(this, -1, false);
 
     initList();
-
-    UsageModel::instance().pageview(this);
 
     return true;
 }

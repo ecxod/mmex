@@ -98,6 +98,5 @@ public:
 
     auto getLastDbPath() -> const wxString;
 
-    void shrinkUsageTable();
     auto to_html_row() -> row_t;
 };

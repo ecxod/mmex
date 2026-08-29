@@ -83,8 +83,6 @@ bool DashboardPanel::create(
 
     createHtml();
 
-    UsageModel::instance().pageview(this);
-
     return true;
 }
 

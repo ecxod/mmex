@@ -80,7 +80,6 @@ TrxLinkDialog::TrxLinkDialog(
     Create(parent, win_id, pos, size, style, name);
     DataToControls();
     BindEventsAndTrigger();
-    UsageModel::instance().pageview(this);
 }
 
 TrxLinkDialog::~TrxLinkDialog()

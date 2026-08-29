@@ -100,7 +100,6 @@ bool BudgetPanel::create(
         w_list->EnsureVisible(0);
 
     this->windowsFreezeThaw();
-    UsageModel::instance().pageview(this);
     return true;
 }
 

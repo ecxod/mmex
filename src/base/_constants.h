@@ -62,8 +62,6 @@ namespace version
 
 namespace weblink
 {
-    const wxString addReferralToURL(const wxString& BaseURL, const wxString& CampSource);
-    extern const wxString AMP;
     extern const wxString WebSite;
     extern const wxString Releases;
     extern const wxString Latest;
@@ -104,7 +102,6 @@ extern const wxString INIDB_USE_TRANSACTION_SOUND;
 extern const wxString INIDB_USE_ORG_DATE_COPYPASTE;
 extern const wxString INIDB_USE_ORG_DATE_DUPLICATE;
 extern const wxString INIDB_USE_ORG_STATE_DUPLICATE_PASTE;
-extern const wxString INIDB_SEND_USAGE_STATS;
 extern const wxString INIDB_NEWS_LAST_READ_DATE;
 
 extern const wxString ATTACHMENTS_FOLDER_DOCUMENTS;

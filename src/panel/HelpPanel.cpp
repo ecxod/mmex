@@ -22,7 +22,6 @@
 
 #include "base/_constants.h"
 #include "util/mmPath.h"
-#include "model/UsageModel.h"
 #include "app/mmFrame.h"
 
 BEGIN_EVENT_TABLE(HelpPanel, wxPanel)
@@ -58,8 +57,6 @@ bool HelpPanel::create(
     createControls();
     GetSizer()->Fit(this);
     GetSizer()->SetSizeHints(this);
-    UsageModel::instance().pageview(this);
-
     return true;
 }
 

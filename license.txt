@@ -35,21 +35,20 @@ You should have received a copy of the GNU General Public License along with thi
 Privacy Policy
 ================================================
 
-We can collect information when the Money Manager Ex (MMEX) application is installed or used.
+This privacy-hardened fork does not collect or transmit application usage statistics.
 People have different privacy concerns: our goal is to be clear about what information we collect, so that you can make meaningful choices about how it is used.
 
 1. Using the MMEX application
-When starting and using the MMEX application, we might collect ANONYMOUS usage statistics like version, geo-location, language, platform and most used functions. No private or financial information is collected.
+The application contains no usage-statistics endpoint, persistent telemetry identifier, page-view tracking, or analytics code.
 
-2. What is the collected information used for?
-Any of the information we collect may be used in one of the following ways: make statistics about software usage and distribution; personalize user experiences (information collected helps to better respond to individual needs); improve the application (MMEX is improved based on the information and feedback received)
+2. Network features
+Update and news checks can contact the documented MMEX and GitHub services when enabled. Market-data refreshes contact the selected quote provider. These functional requests are not application-usage telemetry and can be disabled or avoided.
 
-3. Is information disclosed to third-parties?
-Google Analytics is used to collect anonymous data. Other than for the above mentioned usage statistics collection, information is not sold, traded, or otherwise transferred to third-parties.
-https://support.google.com/analytics/answer/7318509
+3. Third-party analytics
+The installed application and bundled help do not load Google Analytics, advertising scripts, or remotely hosted JavaScript.
 
-4. Can the sending of usage statistics be disabled?
-Yes, by unselecting “Send anonymous statistics usage data” found using Menu Bar → Tools… → Options → Network.
+4. Usage statistics
+Usage-statistics collection and transmission have been removed from this fork rather than merely disabled.
 
 5. Your consent
 By installing or using MMEX, you consent to this Privacy policy.
@@ -57,5 +56,5 @@ By installing or using MMEX, you consent to this Privacy policy.
 6. Changes to our Privacy policy
 Any changes to this Privacy policy will correspond to an update to the date below.
 
-This policy was last modified on 2023-05-03.
-- MMEX team
+This policy was last modified on 2026-08-29.
+- ecxod privacy-hardened MMEX fork

@@ -72,7 +72,6 @@ bool AssetPanel::create(
 
     this->windowsFreezeThaw();
 
-    auto start = wxDateTime::UNow();
     m_tip = _t("MMEX allows fixed assets like cars, houses, land, and others to be tracked. Each asset can have its value appreciate by a certain rate per year, depreciate by a certain rate per year, or not change in value. The total assets are added to your total financial worth.");
     createControls();
     GetSizer()->Fit(this);
@@ -85,10 +84,6 @@ bool AssetPanel::create(
     this->windowsFreezeThaw();
     GetSizer()->Fit(this);
     GetSizer()->SetSizeHints(this);
-
-    UsageModel::instance().pageview(this,
-        (wxDateTime::UNow() - start).GetMilliseconds().ToLong()
-    );
 
     return true;
 }

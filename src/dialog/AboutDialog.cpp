@@ -39,11 +39,7 @@ AboutDialog::AboutDialog()
 {
 }
 
-AboutDialog::~AboutDialog()
-{
-    const bool v = m_send_data->GetValue();
-    PrefModel::instance().saveSendUsageStats(v);
-}
+AboutDialog::~AboutDialog() = default;
 
 
 AboutDialog::AboutDialog(wxWindow* parent, int tabToOpenNo)
@@ -239,15 +235,6 @@ void AboutDialog::createControls(int tabToOpenNo)
     itemBoxSizer->Add(buttonPanel, wxSizerFlags(g_flagsV).Center());
     wxBoxSizer* buttonPanelSizer = new wxBoxSizer(wxVERTICAL);
     buttonPanel->SetSizer(buttonPanelSizer);
-
-    m_send_data = new wxCheckBox(buttonPanel, wxID_ANY
-        , _t("Send anonymous statistics usage data"), wxDefaultPosition, wxDefaultSize, wxCHK_2STATE);
-    mmToolTip(m_send_data, _t("Enable to help us sending anonymous data about MMEX usage."));
-
-    buttonPanelSizer->Add(m_send_data, g_flagsV);
-
-    m_send_data->Show(tabToOpenNo == 4);
-    m_send_data->SetValue(PrefModel::instance().getSendUsageStats());
 
     wxButton* buttonOk = new wxButton(buttonPanel, wxID_OK, _t("&OK "));
     buttonOk->SetDefault();

@@ -544,14 +544,6 @@ msgstr ""
 msgid "Privacy"
 msgstr ""
 
-#: dialog/AboutDialog.cpp:244 preferences/NetworkPreferences.cpp:126
-msgid "Send anonymous statistics usage data"
-msgstr ""
-
-#: dialog/AboutDialog.cpp:245 preferences/NetworkPreferences.cpp:128
-msgid "Enable to help us sending anonymous data about MMEX usage."
-msgstr ""
-
 #: dialog/AccountDialog.cpp:98 mmframe.cpp:1976
 msgid "Edit Account"
 msgstr ""
@@ -1618,7 +1610,7 @@ msgstr ""
 #: dialog/TransactionFilterDialog.cpp:1056
 #: dialog/TransactionFilterDialog.cpp:1088
 #: dialog/TransactionFilterDialog.cpp:1680 import_export/webappdialog.cpp:188
-#: import_export/webappdialog.cpp:193 report/UsageReport.cpp:102
+#: import_export/webappdialog.cpp:193
 msgid "Empty value"
 msgstr ""
 
@@ -4749,7 +4741,6 @@ msgid "&Bulk content update "
 msgstr ""
 
 #: manager/GeneralReportManager.cpp:330 mmframe.cpp:3401 mmframereport.cpp:326
-#: report/UsageReport.cpp:144 report/UsageReport.cpp:161
 msgid "Reports"
 msgstr ""
 
@@ -6775,7 +6766,6 @@ msgid "View Budget Category Summary"
 msgstr ""
 
 #: panel/BudgetPanel.cpp:72 panel/ScheduledPanel.cpp:114
-#: report/UsageReport.cpp:162
 msgid "Frequency"
 msgstr ""
 
@@ -7940,10 +7930,6 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
-#: preferences/NetworkPreferences.cpp:121
-msgid "Usage Statistics"
-msgstr ""
-
 #: preferences/NetworkPreferences.cpp:138
 msgid "Check for latest news on startup"
 msgstr ""
@@ -8486,10 +8472,6 @@ msgstr ""
 
 #: report/TransactionsReport.cpp:538
 msgid "Average"
-msgstr ""
-
-#: report/UsageReport.cpp:28
-msgid "MMEX Usage Frequency"
 msgstr ""
 
 #: report/budget.cpp:91

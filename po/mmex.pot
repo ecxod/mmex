@@ -1133,8 +1133,7 @@ msgid "Issue encountered updating WebApp, check Web server and WebApp settings"
 msgstr ""
 
 #: app/mmFrame.cpp:3529 app/mmFrame.cpp:4757 app/mmFrame.cpp:4781
-#: manager/GeneralReportManager.cpp:350 report/UsageReport.cpp:147
-#: report/UsageReport.cpp:164 util/mmNavigatorList.cpp:70
+#: manager/GeneralReportManager.cpp:350 util/mmNavigatorList.cpp:70
 msgid "Reports"
 msgstr ""
 
@@ -2025,14 +2024,6 @@ msgstr ""
 
 #: dialog/AboutDialog.cpp:206
 msgid "Privacy"
-msgstr ""
-
-#: dialog/AboutDialog.cpp:244 pref/NetworkPref.cpp:126
-msgid "Send anonymous statistics usage data"
-msgstr ""
-
-#: dialog/AboutDialog.cpp:245 pref/NetworkPref.cpp:128
-msgid "Enable to help us sending anonymous data about MMEX usage."
 msgstr ""
 
 #: dialog/AccountDialog.cpp:131
@@ -3020,7 +3011,7 @@ msgstr ""
 #: dialog/FieldDialog.cpp:231 dialog/TrxFilterDialog.cpp:1037
 #: dialog/TrxFilterDialog.cpp:1070 dialog/TrxFilterDialog.cpp:1101
 #: dialog/TrxFilterDialog.cpp:1733 import_export/webappdialog.cpp:189
-#: import_export/webappdialog.cpp:193 report/UsageReport.cpp:105
+#: import_export/webappdialog.cpp:193
 msgid "Empty value"
 msgstr ""
 
@@ -6803,7 +6794,7 @@ msgstr ""
 msgid "Trade Type"
 msgstr ""
 
-#: panel/BudgetList.cpp:37 panel/SchedList.cpp:84 report/UsageReport.cpp:165
+#: panel/BudgetList.cpp:37 panel/SchedList.cpp:84
 msgid "Frequency"
 msgstr ""
 
@@ -7952,10 +7943,6 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
-#: pref/NetworkPref.cpp:121
-msgid "Usage Statistics"
-msgstr ""
-
 #: pref/NetworkPref.cpp:138
 msgid "Check for latest news on startup"
 msgstr ""
@@ -8514,10 +8501,6 @@ msgstr ""
 
 #: report/TrxReport.cpp:541
 msgid "Average"
-msgstr ""
-
-#: report/UsageReport.cpp:28
-msgid "MMEX Usage Frequency"
 msgstr ""
 
 #: report/budget.cpp:106

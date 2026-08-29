@@ -730,30 +730,8 @@ bool ReportPanel::saveReportText()
         m_rb->setGenericSelection(w_selection_choice->GetSelection());
     }
 
-    StringBuffer json_buffer;
-    Writer<StringBuffer> json_writer(json_buffer);
-
-    json_writer.StartObject();
-    json_writer.Key("module");
-    json_writer.String(wxTRANSLATE("Report"));
-    json_writer.Key("name");
-    json_writer.String(m_rb->getTitle(false).utf8_str());
-
-    const auto time = wxDateTime::UNow();
-
     const auto& name = getVFname4print("rep", m_rb->getHTMLText());
     w_browser->LoadURL(name);
-
-    json_writer.Key("seconds");
-    json_writer.Double((wxDateTime::UNow() - time).GetMilliseconds().ToDouble() / 1000);
-    json_writer.EndObject();
-
-    const auto t = wxString::FromUTF8(json_buffer.GetString());
-    wxLogDebug("%s", t);
-    UsageModel::instance().append_usage(t);
-    UsageModel::instance().pageview(this, m_rb,
-        (wxDateTime::UNow() - time).GetMilliseconds().ToLong()
-    );
 
     return true;
 }

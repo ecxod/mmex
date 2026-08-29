@@ -25,7 +25,6 @@ bp | BUDGETYEAR_V1
 b  | BUDGETTABLE_V1
 r  | REPORT_V1
 xs | SETTING_V1
-xu | USAGE_V1
 
    | uses (capital letter means indirectly)
 ---+---------------------------------------
@@ -87,4 +86,3 @@ gl >           t tp q qp
 fv >           t    q
 d  >   a e s p t    q
 b  >                     bp
-

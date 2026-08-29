@@ -194,8 +194,6 @@ add_executable(${MMEX_EXE} WIN32 MACOSX_BUNDLE
     table/TrxSplitTable.h
     table/TrxTable.cpp
     table/TrxTable.h
-    table/UsageTable.cpp
-    table/UsageTable.h
     table/_TableBase.cpp
     table/_TableBase.h
     table/_TableClause.cpp
@@ -252,8 +250,6 @@ add_executable(${MMEX_EXE} WIN32 MACOSX_BUNDLE
     data/TrxShareData.h
     data/TrxSplitData.cpp
     data/TrxSplitData.h
-    data/UsageData.cpp
-    data/UsageData.h
     data/_DataEnum.cpp
     data/_DataEnum.h
     data/_Repeat.cpp
@@ -313,8 +309,6 @@ add_executable(${MMEX_EXE} WIN32 MACOSX_BUNDLE
     model/TrxShareModel.h
     model/TrxSplitModel.cpp
     model/TrxSplitModel.h
-    model/UsageModel.cpp
-    model/UsageModel.h
     model/_ModelAll.cpp
     model/_ModelAll.h
     model/_all.h
@@ -467,8 +461,6 @@ add_executable(${MMEX_EXE} WIN32 MACOSX_BUNDLE
     report/StocksReport.h
     report/TrxReport.cpp
     report/TrxReport.h
-    report/UsageReport.cpp
-    report/UsageReport.h
     report/_ReportBase.cpp
     report/_ReportBase.h
     report/_all.h

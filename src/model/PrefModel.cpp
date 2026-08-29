@@ -189,7 +189,6 @@ void PrefModel::load(bool include_infotable)
     loadTransCategoryTransferNone();
     loadTrxStatus();
     loadTransDateDefault();
-    loadSendUsageStats();
     loadCheckNews();
 
     loadThemeMode();
@@ -639,16 +638,6 @@ void PrefModel::saveTransDateDefault(const int value)
 {
     SettingModel::instance().saveInt("TRANSACTION_DATE_DEFAULT", value);
     m_trans_date_default = value;
-}
-
-void PrefModel::loadSendUsageStats()
-{
-    m_send_usage_stats = SettingModel::instance().getBool(INIDB_SEND_USAGE_STATS, true);
-}
-void PrefModel::saveSendUsageStats(const bool value)
-{
-    SettingModel::instance().saveBool(INIDB_SEND_USAGE_STATS, value);
-    m_send_usage_stats = value;
 }
 
 void PrefModel::loadCheckNews()

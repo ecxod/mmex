@@ -306,31 +306,6 @@ const wxString SettingModel::getLastDbPath()
     return path;
 }
 
-//-------------------------------------------------------------------
-// Trim usage settings in case if values greater than 500k
-void SettingModel::shrinkUsageTable()
-{
-    const wxULongLong max_size = 524287;
-    const wxULongLong file_size = wxFileName(mmPath::getPathUser(mmPath::SETTINGS)).GetSize();
-    if (file_size < max_size)
-        return;
-
-    const wxString save_point = "SETTINGS_TRIM_USAGE";
-    mmDate date = mmDate::today().minusDateSpan(wxDateSpan::Months(2));
-    m_db->Savepoint(save_point);
-    try {
-        wxString sql = wxString::Format("delete from USAGE_V1 where USAGEDATE < \"%s\";",
-            date.isoStart()
-        );
-        m_db->ExecuteUpdate(sql);
-    }
-    catch (const wxSQLite3Exception& /*e*/) {
-        m_db->Rollback(save_point);
-    }
-    m_db->ReleaseSavepoint(save_point);
-    m_db->Vacuum();
-}
-
 row_t SettingModel::to_html_row()
 {
     row_t row;

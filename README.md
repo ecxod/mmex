@@ -12,6 +12,29 @@ MMEX includes all the basic features that 90% of users would want to see in a
 personal finance application. The design goals are to concentrate on
 simplicity and user-friendliness – an application that can be used every day.
 
+## Privacy-hardened ecxod fork
+
+This fork removes the upstream application's usage tracking instead of only
+changing its default setting. In particular:
+
+- the hard-coded usage-statistics endpoint and its background HTTP requests
+  have been removed;
+- persistent telemetry identifiers, window/page-view events, timing events,
+  local activity history, its database access layer and schema creation, and
+  the **My Usage** report have been removed;
+- the usage-statistics consent controls and the old setting that enabled the
+  tracker have been removed;
+- UTM campaign parameters are no longer added to links opened by the desktop
+  application;
+- Google Analytics has been removed from the installed help, and the help no
+  longer loads JavaScript from Google-hosted HTTP URLs; and
+- CoinCap requests use HTTPS rather than unencrypted HTTP.
+
+The application still has explicit functional network features. Automatic
+update and news checks are configurable under **Tools → Options → Network**,
+and quote refreshes contact the selected market-data provider. Those requests
+are not used by this fork to report application usage.
+
 
 ## Features
 

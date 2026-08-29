@@ -52,7 +52,6 @@ void ReportBase::setReportParameters(ReportBase::REPORT_ID report_id)
     m_report_id = report_id;
 
     switch (report_id) {
-    case MyUsage:                     m_parameters = M_DATE_RANGE | M_CHART; break;
     case MonthlySummaryofAccounts:    m_parameters = M_DATE_RANGE | M_ACCOUNT | M_CHART | M_GENERIC_SELECTION; break;
     case YearlySummaryofAccounts:     m_parameters = M_DATE_RANGE | M_ACCOUNT | M_CHART | M_GENERIC_SELECTION; break;
     case WheretheMoneyGoes:           m_parameters = M_DATE_RANGE | M_ACCOUNT | M_CHART; break;

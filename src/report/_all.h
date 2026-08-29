@@ -28,10 +28,8 @@
 #include "PayeeReport.h"
 #include "StocksReport.h"
 #include "TrxReport.h"
-#include "UsageReport.h"
 #include "_ReportBase.h"
 #include "budget.h"
 #include "budgetcategorysummary.h"
 #include "budgetingperf.h"
 #include "htmlbuilder.h"
-

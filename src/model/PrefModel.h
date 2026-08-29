@@ -104,7 +104,6 @@ private:
     int m_trans_category_transfer_none = PrefModel::NONE;  // TRANSACTION_CATEGORY_TRANSFER_NONE
     TrxStatus m_trx_status = TrxStatus();               // TRANSACTION_STATUS_RECONCILED
     int m_trans_date_default = 0;                       // TRANSACTION_DATE_DEFAULT
-    bool m_send_usage_stats = true;                     // SENDUSAGESTATS
     bool m_check_news = true;                           // CHECKNEWS
     int m_theme_mode = PrefModel::AUTO;                 // THEMEMODE
     int m_html_scale = 100;                             // HTMLSCALE
@@ -279,12 +278,6 @@ public:
     void loadTransDateDefault();
     void saveTransDateDefault(const int value);
     int getTransDateDefault() const noexcept;
-
-    // m_send_usage_stats
-    void loadSendUsageStats();
-    void saveSendUsageStats(const bool value);
-    bool getSendUsageStats() const noexcept;
-    bool doSendUsageStats() const noexcept;
 
     // m_check_news
     void loadCheckNews();
@@ -561,20 +554,6 @@ inline int PrefModel::getThemeMode() const noexcept
 inline int PrefModel::getFontSize() const noexcept
 {
     return m_font_size;
-}
-
-inline bool PrefModel::getSendUsageStats() const noexcept
-{
-    return m_send_usage_stats;
-}
-
-inline bool PrefModel::doSendUsageStats() const noexcept
-{
-#ifdef _DEBUG
-    return false;
-#else
-    return m_send_usage_stats;
-#endif
 }
 
 inline bool PrefModel::getIgnoreFutureTransactions() const noexcept

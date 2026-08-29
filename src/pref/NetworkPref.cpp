@@ -117,20 +117,8 @@ void NetworkPref::Create()
 
     proxyStaticBoxSizer->Add(flex_sizer3, wxSizerFlags(g_flagsExpand).Proportion(0));
 
-    //Usage data send
-    wxStaticBox* usageStaticBox = new wxStaticBox(network_panel, wxID_STATIC, _t("Usage Statistics"));
-    wxStaticBoxSizer* usageStaticBoxSizer = new wxStaticBoxSizer(usageStaticBox, wxVERTICAL);
-    networkPanelSizer->Add(usageStaticBoxSizer, wxSizerFlags(g_flagsExpand).Proportion(0));
-
-    m_send_data = new wxCheckBox(usageStaticBox, wxID_ANY
-        , _t("Send anonymous statistics usage data"), wxDefaultPosition, wxDefaultSize, wxCHK_2STATE);
-    m_send_data->SetValue(PrefModel::instance().getSendUsageStats());
-    mmToolTip(m_send_data, _t("Enable to help us sending anonymous data about MMEX usage."));
-
-    usageStaticBoxSizer->Add(m_send_data, g_flagsV);
-
-     //  News updates
-    wxStaticBox* newsStaticBox = new wxStaticBox(usageStaticBox, wxID_STATIC, _t("News"));
+    // News updates
+    wxStaticBox* newsStaticBox = new wxStaticBox(network_panel, wxID_STATIC, _t("News"));
     wxStaticBoxSizer* newsStaticBoxSizer = new wxStaticBoxSizer(newsStaticBox, wxVERTICAL);
     networkPanelSizer->Add(newsStaticBoxSizer, wxSizerFlags(g_flagsExpand).Proportion(0));
 
@@ -188,7 +176,6 @@ void NetworkPref::Create()
 
     SetBoldFontToStaticBoxHeader(WebAppStaticBox);
     SetBoldFontToStaticBoxHeader(proxyStaticBox);
-    SetBoldFontToStaticBoxHeader(usageStaticBox);
     SetBoldFontToStaticBoxHeader(newsStaticBox);
     SetBoldFontToStaticBoxHeader(timeoutStaticBox);
     SetBoldFontToStaticBoxHeader(updateStaticBox);
@@ -219,7 +206,6 @@ bool NetworkPref::SaveSettings()
     wxTextCtrl* WebAppGUID = static_cast<wxTextCtrl*>(FindWindow(ID_DIALOG_OPTIONS_TEXTCTRL_WEBAPPGUID));
     InfoModel::instance().saveString("WEBAPPGUID", WebAppGUID->GetValue().Trim(false).Trim());
 
-    PrefModel::instance().saveSendUsageStats(m_send_data->GetValue());
     PrefModel::instance().saveCheckNews(m_check_news->GetValue());
 
     SettingModel::instance().saveInt("NETWORKTIMEOUT", m_network_timeout->GetValue());

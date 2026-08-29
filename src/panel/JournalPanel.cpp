@@ -215,7 +215,6 @@ bool JournalPanel::create(
     loadFilter();
 
     this->windowsFreezeThaw();
-    UsageModel::instance().pageview(this);
     return true;
 }
 
