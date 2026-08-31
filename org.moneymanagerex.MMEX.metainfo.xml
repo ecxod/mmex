@@ -1,0 +1,2759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.moneymanagerex.MMEX</id>
+  <name xml:lang="ar">مدير المال MMEX</name>
+  <name xml:lang="az">MMEX Pul Meneceri</name>
+  <name xml:lang="be">MMEX Менеджэр грошай</name>
+  <name xml:lang="bg">MMEX мениджър на пари</name>
+  <name xml:lang="bn">MMEX মানি ম্যানেজার</name>
+  <name>MMEX Money Manager</name>
+  <name xml:lang="ca">MMEX gestor de diners</name>
+  <name xml:lang="cs">MMEX osobní finance a správa peněz</name>
+  <name xml:lang="da">MMEX Pengeadministrator</name>
+  <name xml:lang="de">MMEX persönliche Finanzen und Geldmanagement</name>
+  <name xml:lang="el">MMEX διαχειριστής χρημάτων</name>
+  <name xml:lang="en">MMEX Money Manager</name>
+  <name xml:lang="en_AU">MMEX Money Manager</name>
+  <name xml:lang="en_GB">MMEX Money Manager</name>
+  <name xml:lang="eo">MMEX Monmanaĝero</name>
+  <name xml:lang="es">MMEX finanzas personales y manejo de dinero</name>
+  <name xml:lang="et">MMEXi rahahaldur</name>
+  <name xml:lang="fa">مدیر مالی MMEX</name>
+  <name xml:lang="fi">MMEX henkilökohtainen talous ja rahanhallinta</name>
+  <name xml:lang="fil">Tagapamahala ng pera ng MMEX</name>
+  <name xml:lang="fr">MMEX finances personnelles et gestion de l'argent</name>
+  <name xml:lang="ga">Bainisteoir Airgid MMEX</name>
+  <name xml:lang="he">מנהל כסף MMEX</name>
+  <name xml:lang="hi">MMEX मनी मैनेजर</name>
+  <name xml:lang="hr">MMEX upravitelj novca</name>
+  <name xml:lang="hu">MMEX személyes pénzügyek és pénzkezelés</name>
+  <name xml:lang="hy">MMEX փողի կառավարիչ</name>
+  <name xml:lang="id">MMEX Manajer uang</name>
+  <name xml:lang="is">MMEX einkafjármál og peningastjórnun</name>
+  <name xml:lang="it">MMEX finanza personale e gestione del denaro</name>
+  <name xml:lang="ja">MMEXマネーマネージャー</name>
+  <name xml:lang="kn">MMEX ಮನಿ ಮ್ಯಾನೇಜರ್</name>
+  <name xml:lang="ko">MMEX 머니 매니저</name>
+  <name xml:lang="lt">MMEX pinigų vadybininkas</name>
+  <name xml:lang="lv">MMEX personīgās finanses un naudas pārvaldība</name>
+  <name xml:lang="nl">MMEX persoonlijke financiën en geldbeheer</name>
+  <name xml:lang="no_NY">MMEX persoonlijke financiën en geldbeheer</name>
+  <name xml:lang="oc">Gestionari de sòus MMEX</name>
+  <name xml:lang="pa">MMEX ਮਨੀ ਮੈਨੇਜਰ</name>
+  <name xml:lang="pl">MMEX menedżer pieniędzy</name>
+  <name xml:lang="pt">MMEX finanças pessoais e gestão de dinheiro</name>
+  <name xml:lang="pt_BR">MMEX finanças pessoais e gestão de dinheiro</name>
+  <name xml:lang="ro">MMEX finanțe personale și gestionarea banilor</name>
+  <name xml:lang="ru">MMEX Mенеджер личных финансов</name>
+  <name xml:lang="si">MMEX මුදල් කළමනාකරු</name>
+  <name xml:lang="sk">MMEX osobné financie a správa peňazí</name>
+  <name xml:lang="sl">MMEX osebne finance in upravljanje denarja</name>
+  <name xml:lang="sq">MMEX menaxher parash</name>
+  <name xml:lang="sr">ММЕКС менаџер новца</name>
+  <name xml:lang="sv">MMEX pengahanterare</name>
+  <name xml:lang="ta">MMEX பண மேலாளர்</name>
+  <name xml:lang="tr">MMEX kişisel finans ve para yönetimi</name>
+  <name xml:lang="uk">MMEX особисті фінанси та управління грошима</name>
+  <name xml:lang="vi">MMEX quản lý tiền</name>
+  <name xml:lang="zh_CN">MMEX资金经理</name>
+  <name xml:lang="zh_TW">MMEX資金經理</name>
+  <name xml:lang="zu">Umphathi Wemali we-MMEX</name>
+  <summary xml:lang="ar">تنظيم الشؤون المالية وتتبع التدفق النقدي</summary>
+  <summary xml:lang="az">Maliyyəni təşkil edin və pul vəsaitlərinin hərəkətini izləyin</summary>
+  <summary xml:lang="be">Арганізуйце фінансы і адсочвайце грашовыя патокі</summary>
+  <summary xml:lang="bg">Организирайте финансите и проследявайте паричните потоци</summary>
+  <summary xml:lang="bn">আর্থিক ব্যবস্থা সংগঠিত করুন এবং নগদ প্রবাহ ট্র্যাক করুন</summary>
+  <summary>Organize finances and track cash flow</summary>
+  <summary xml:lang="ca">Organitzar les finances i fer un seguiment del flux de caixa</summary>
+  <summary xml:lang="cs">Uspořádejte finance a sledujte peněžní toky</summary>
+  <summary xml:lang="da">Organiser økonomien og hold styr på pengestrømmen</summary>
+  <summary xml:lang="de">Finanzen organisieren und den Cashflow verfolgen</summary>
+  <summary xml:lang="el">Οργανώστε τα οικονομικά και παρακολουθήστε τις ταμειακές ροές</summary>
+  <summary xml:lang="en">Organize finances and track cash flow</summary>
+  <summary xml:lang="en_AU">Organise finances and track cash flow</summary>
+  <summary xml:lang="en_GB">Organise finances and track cash flow</summary>
+  <summary xml:lang="eo">Organiser økonomien og hold styr på pengestrømmen</summary>
+  <summary xml:lang="es">Organizar las finanzas y realizar un seguimiento del flujo de caja</summary>
+  <summary xml:lang="et">Korraldage rahaasju ja jälgige rahavoogusid</summary>
+  <summary xml:lang="fa">سازماندهی امور مالی و پیگیری جریان نقدی</summary>
+  <summary xml:lang="fi">Järjestä talous ja seuraa kassavirtaa</summary>
+  <summary xml:lang="fil">Ayusin ang pananalapi at subaybayan ang daloy ng salapi</summary>
+  <summary xml:lang="fr">Organiser les finances et suivre les flux de trésorerie</summary>
+  <summary xml:lang="ga">Eagraigh cúrsaí airgeadais agus rianaigh sreabhadh airgid</summary>
+  <summary xml:lang="he">ארגון כספים ומעקב אחר תזרים המזומנים</summary>
+  <summary xml:lang="hi">वित्त को व्यवस्थित करें और नकदी प्रवाह पर नज़र रखें</summary>
+  <summary xml:lang="hr">Organizirajte financije i pratite novčani tok</summary>
+  <summary xml:lang="hu">Pénzügyek megszervezése és pénzforgalom nyomon követése</summary>
+  <summary xml:lang="hy">Կազմակերպեք ֆինանսները և հետևեք դրամական հոսքերին</summary>
+  <summary xml:lang="id">Mengatur keuangan dan melacak arus kas</summary>
+  <summary xml:lang="is">Skipuleggja fjármál og fylgjast með sjóðstreymi</summary>
+  <summary xml:lang="it">Organizza le finanze e monitora il flusso di cassa</summary>
+  <summary xml:lang="ja">財務を整理し、キャッシュ フローを追跡する</summary>
+  <summary xml:lang="kn">ಹಣಕಾಸುಗಳನ್ನು ಆಯೋಜಿಸಿ ಮತ್ತು ನಗದು ಹರಿವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ</summary>
+  <summary xml:lang="ko">재무 구성 및 현금 흐름 추적</summary>
+  <summary xml:lang="lt">Tvarkykite finansus ir stebėkite pinigų srautus</summary>
+  <summary xml:lang="lv">Organizēt finanses un sekot līdzi naudas plūsmai</summary>
+  <summary xml:lang="nl">Financiën organiseren en cashflow bijhouden</summary>
+  <summary xml:lang="no_NY">Financiën organiseren en cashflow bijhouden</summary>
+  <summary xml:lang="oc">Organizar las finanças e seguir lo flux de liquiditats</summary>
+  <summary xml:lang="pl">Organizuj finanse i śledź przepływy pieniężne</summary>
+  <summary xml:lang="pt">Organize as finanças e acompanhe o fluxo de caixa</summary>
+  <summary xml:lang="pt_BR">Organize as finanças e acompanhe o fluxo de caixa</summary>
+  <summary xml:lang="ro">Organizați finanțele și urmăriți fluxul de numerar</summary>
+  <summary xml:lang="ru">Организовывать финансы и отслеживать движение денежных средств</summary>
+  <summary xml:lang="si">මූල්‍ය කටයුතු සංවිධානය කර මුදල් ප්‍රවාහය නිරීක්ෂණය කරන්න</summary>
+  <summary xml:lang="sk">Usporiadajte financie a sledujte peňažný tok</summary>
+  <summary xml:lang="sl">Organizirajte finance in sledite denarnim tokovom</summary>
+  <summary xml:lang="sq">Organizoni financat dhe gjurmoni fluksin e parave</summary>
+  <summary xml:lang="sr">Организујте финансије и пратите токове готовине</summary>
+  <summary xml:lang="sv">Organisera ekonomin och spåra kassaflödet</summary>
+  <summary xml:lang="ta">நிதிகளை ஒழுங்கமைத்து பணப்புழக்கத்தைக் கண்காணிக்கவும்</summary>
+  <summary xml:lang="tr">Finansmanı organize edin ve nakit akışını takip edin</summary>
+  <summary xml:lang="uk">Організуйте фінанси та відстежуйте грошові потоки</summary>
+  <summary xml:lang="vi">Tổ chức tài chính và theo dõi dòng tiền</summary>
+  <summary xml:lang="zh_CN">组织财务并跟踪现金流</summary>
+  <summary xml:lang="zh_TW">組織財務並跟踪現金流</summary>
+  <summary xml:lang="zu">Hlela izimali futhi ulandelele ukuhamba kwemali</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-only</project_license>
+  <description>
+    <p>
+      Money Manager Ex (MMEX) is a free/libre, open-source, cross-platform, easy-to-use personal financial and money management software.
+      It helps organize finances and track cash flow.
+    </p>
+    <p xml:lang="ar">
+      يعد Money Manager Ex (MMEX) برنامجًا مجانيًا/حرًا لإدارة الأموال والتمويل الشخصي، مفتوح المصدر، ومتعدد المنصات، وسهل الاستخدام. يساعد في تنظيم الشؤون المالية وتتبع التدفق النقدي.
+    </p>
+    <p xml:lang="az">
+      Money Manager Ex (MMEX) pulsuz/pulsuz, açıq mənbəli, çarpaz platformalı, istifadəsi asan şəxsi maliyyə və pul idarəetmə proqramıdır.
+      Bu, maliyyəni təşkil etməyə və pul vəsaitlərinin hərəkətini izləməyə kömək edir.
+    </p>
+    <p xml:lang="be">
+      Money Manager Ex (MMEX) - гэта бясплатнае/бясплатнае праграмнае забеспячэнне з адкрытым зыходным кодам, кросплатформеннае, простае ў выкарыстанні праграмнае забеспячэнне для асабістых фінансаў і кіравання грашыма.
+      Гэта дапамагае арганізаваць фінансы і адсочваць грашовыя патокі.
+    </p>
+    <p xml:lang="bg">
+      Money Manager Ex (MMEX) е безплатен/безплатен, с отворен код, междуплатформен, лесен за използване софтуер за лични финанси и управление на пари.
+      Помага за организиране на финанси и проследяване на паричния поток.
+    </p>
+    <p xml:lang="bn">
+      মানি ম্যানেজার এক্স (MMEX) হল একটি বিনামূল্যের/মুক্ত, ওপেন-সোর্স, ক্রস-প্ল্যাটফর্ম, সহজেই ব্যবহারযোগ্য ব্যক্তিগত আর্থিক এবং অর্থ ব্যবস্থাপনা সফটওয়্যার। এটি আর্থিক ব্যবস্থাপনা এবং নগদ প্রবাহ ট্র্যাক করতে সাহায্য করে।
+    </p>
+    <p xml:lang="ca">
+      Money Manager Ex (MMEX) és un programari de gestió financera i financera personal, de codi obert, multiplataforma i fàcil d'utilitzar.
+      Ajuda a organitzar les finances i fer un seguiment del flux d'efectiu.
+    </p>
+    <p xml:lang="cs">
+      Money Manager Ex (MMEX) je bezplatný, open-source, multiplatformní, snadno použitelný software pro správu osobních financí a peněz.
+      Pomáhá organizovat finance a sledovat cash flow.
+    </p>
+    <p xml:lang="da">
+      Money Manager Ex (MMEX) er en gratis, open source, cross-platform, brugervenlig software til personlig økonomi og pengehåndtering.
+      Den hjælper med at organisere økonomien og spore pengestrømmen.
+    </p>
+    <p xml:lang="de">
+      Money Manager Ex (MMEX) ist eine kostenlose, quelloffene, plattformübergreifende, einfach zu bedienende persönliche Finanzsoftware.
+      Sie hilft in erster Linie dabei, die eigenen Finanzen zu organisieren und den Überblick wo, wann und wie das Geld ausgegeben wird.
+    </p>
+    <p xml:lang="el">
+      Το Money Manager Ex (MMEX) είναι ένα δωρεάν/ελεύθερο, ανοιχτού κώδικα, πολλαπλών πλατφορμών, εύχρηστο λογισμικό προσωπικής οικονομικής και διαχείρισης χρημάτων.
+      Βοηθά στην οργάνωση των οικονομικών και στην παρακολούθηση των ταμειακών ροών.
+    </p>
+    <p xml:lang="en">
+      Money Manager Ex (MMEX) is a free/libre, open-source, cross-platform, easy-to-use personal financial and money management software.
+      It helps organize finances and track cash flow.
+    </p>
+    <p xml:lang="en_AU">
+      Money Manager Ex (MMEX) is a free/libre, open-source, cross-platform, easy-to-use personal financial and money management software.
+      It helps organise finances and track cash flow.
+    </p>
+    <p xml:lang="en_GB">
+      Money Manager Ex (MMEX) is a free/libre, open-source, cross-platform, easy-to-use personal financial and money management software.
+      It helps organise finances and track cash flow.
+    </p>
+    <p xml:lang="eo">
+      Money Manager Ex (MMEX) estas senpaga, malfermfonteca, transplatforma, facile uzebla programaro por persona financa kaj monadministrado.
+      Ĝi helpas organizi financojn kaj spuri monfluon.
+    </p>
+    <p xml:lang="es">
+      Money Manager Ex (MMEX) es un software de gestión financiera y financiera personal gratuito, de código abierto, multiplataforma y fácil de usar.
+      Ayuda a organizar las finanzas y a realizar un seguimiento del flujo de efectivo.
+    </p>
+    <p xml:lang="et">
+      Money Manager Ex (MMEX) on tasuta, avatud lähtekoodiga, platvormideülene ja hõlpsasti kasutatav isikliku finants- ja rahahalduse tarkvara. See aitab korraldada rahaasju ja jälgida rahavoogusid.
+    </p>
+    <p xml:lang="fa">
+      Money Manager Ex (MMEX) یک نرم‌افزار مدیریت مالی و پولی شخصی رایگان/رایگان، متن‌باز، چندسکویی و آسان برای استفاده است. این نرم‌افزار به سازماندهی امور مالی و پیگیری جریان نقدی کمک می‌کند.
+    </p>
+    <p xml:lang="fi">
+      Money Manager Ex (MMEX) on ilmainen / ilmainen, avoimen lähdekoodin, monialustainen, helppokäyttöinen henkilökohtainen talous- ja rahanhallintaohjelmisto. Se auttaa järjestämään taloutta ja seuraamaan kassavirtaa.
+    </p>
+    <p xml:lang="fil">
+      Ang Money Manager Ex (MMEX) ay isang libre/libre, open-source, cross-platform, madaling gamitin na personal na financial at money management software.
+      Nakakatulong itong ayusin ang pananalapi at subaybayan ang daloy ng salapi.
+    </p>
+    <p xml:lang="fr">
+      Money Manager Ex (MMEX) est un logiciel de finances personnelles gratuit, open-source, multiplateforme et facile à utiliser, logiciel de finances personnelles.
+      Il aide principalement à organiser les finances d'une personne et à garder la trace où, quand et comment va l'argent.
+    </p>
+    <p xml:lang="ga">
+      Is bogearraí bainistíochta airgid agus airgeadais phearsanta saor in aisce, foinse oscailte, tras-ardáin, éasca le húsáid é Money Manager Ex (MMEX).
+      Cuidíonn sé le cúrsaí airgeadais a eagrú agus sreabhadh airgid a rianú.
+    </p>
+    <p xml:lang="he">
+      Money Manager Ex (MMEX) היא תוכנה חינמית/חופשית, קוד פתוח, חוצת פלטפורמות, קלה לשימוש אישי פיננסי וניהול כסף. זה עוזר לארגן את הכספים ולעקוב אחר תזרים המזומנים.
+    </p>
+    <p xml:lang="hi">
+      मनी मैनेजर एक्स (MMEX) एक मुफ़्त/मुक्त, ओपन-सोर्स, क्रॉस-प्लेटफ़ॉर्म, उपयोग में आसान व्यक्तिगत वित्तीय और धन प्रबंधन सॉफ़्टवेयर है। यह वित्त को व्यवस्थित करने और नकदी प्रवाह को ट्रैक करने में मदद करता है।
+    </p>
+    <p xml:lang="hr">
+      Money Manager Ex (MMEX) je besplatan/besplatan softver otvorenog koda, više platformi, jednostavan za korištenje, osobni financijski softver i softver za upravljanje novcem.
+      Pomaže organizirati financije i pratiti novčani tok.
+    </p>
+    <p xml:lang="hu">
+      A Money Manager Ex (MMEX) személyes pénzügyek és pénzkezelés egy ingyenes, nyílt forráskódú, többplatformos, könnyen használható személyes pénzügyi szoftver.
+      Elsősorban a pénzügyek rendezésében segít, és nyomon követi, hogy hova, mikor és hogyan megy el a pénz.
+    </p>
+    <p xml:lang="hy">
+      Money Manager Ex-ը (MMEX) անվճար, բաց կոդով, խաչաձև հարթակներով, հեշտ օգտագործվող անձնական ֆինանսների և դրամական միջոցների կառավարման ծրագիր է:
+      Այն օգնում է կազմակերպել ֆինանսները և հետևել դրամական միջոցների հոսքին։
+    </p>
+    <p xml:lang="id">
+      Money Manager Ex (MMEX) adalah perangkat lunak manajemen keuangan dan keuangan pribadi yang gratis/bebas, sumber terbuka, lintas platform, dan mudah digunakan.
+      Perangkat lunak ini membantu mengatur keuangan dan melacak arus kas.
+    </p>
+    <p xml:lang="is">
+      Money Manager Ex (MMEX) er ókeypis/frjáls, opinn uppspretta, þvert á vettvang, auðveldur í notkun persónulegur fjárhags- og peningastjórnunarhugbúnaður.
+      Það hjálpar til við að skipuleggja fjármál og fylgjast með sjóðstreymi.
+    </p>
+    <p xml:lang="it">
+      Money Manager Ex (MMEX) и un programma di gestione finanziaria personale gratuito, open-source, multi-piattaforma e facile da usare.
+      Aiuta principalmente ad organizzare le proprie finanze e a tenere traccia di come, dove e quando si spende il denaro.
+    </p>
+    <p xml:lang="ja">
+      Money Manager Ex (MMEX) は、無料/自由、オープンソース、クロスプラットフォーム、使いやすい個人財務および資金管理ソフトウェアです。
+      財務の整理とキャッシュフローの追跡に役立ちます。
+    </p>
+    <p xml:lang="kn">
+      ಮನಿ ಮ್ಯಾನೇಜರ್ ಎಕ್ಸ್ (MMEX) ಒಂದು ಉಚಿತ/ಸ್ವಾತಂತ್ರ್ಯ, ಮುಕ್ತ-ಮೂಲ, ಅಡ್ಡ-ಪ್ಲಾಟ್‌ಫಾರ್ಮ್, ಬಳಸಲು ಸುಲಭವಾದ ವೈಯಕ್ತಿಕ ಹಣಕಾಸು ಮತ್ತು ಹಣ ನಿರ್ವಹಣೆ ಸಾಫ್ಟ್‌ವೇರ್ ಆಗಿದೆ.
+      ಇದು ಹಣಕಾಸುಗಳನ್ನು ಸಂಘಟಿಸಲು ಮತ್ತು ನಗದು ಹರಿವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
+    </p>
+    <p xml:lang="ko">
+      Money Manager Ex(MMEX)는 무료/자유, 오픈 소스, 크로스 플랫폼, 사용하기 쉬운 개인 금융 및 자금 관리 소프트웨어입니다.
+      재정을 정리하고 현금 흐름을 추적하는 데 도움이 됩니다.
+    </p>
+    <p xml:lang="lt">
+      Money Manager Ex (MMEX) yra nemokama / nemokama, atvirojo kodo, kelių platformų, lengvai naudojama asmeninių finansų ir pinigų valdymo programinė įranga.
+      Tai padeda organizuoti finansus ir sekti pinigų srautus.
+    </p>
+    <p xml:lang="lv">
+      Money Manager Ex (MMEX) ir bezmaksas/bezmaksas, atvērtā koda, vairāku platformu, viegli lietojama personīgo finanšu un naudas pārvaldības programmatūra.
+      Tas palīdz organizēt finanses un izsekot naudas plūsmai.
+    </p>
+    <p xml:lang="nl">
+      Money Manager Ex (MMEX) is een gratis/libre, open-source, cross-platform, gebruiksvriendelijke persoonlijke financiële en geldbeheersoftware.
+      Het helpt bij het organiseren van financiën en het bijhouden van de cashflow.
+    </p>
+    <p xml:lang="no_NY">
+      Money Manager Ex (MMEX) er en gratis/fri, åpen kildekode, tverrplattform, brukervennlig programvare for personlig økonomi og pengestyring.
+      Det hjelper med å organisere økonomi og spore kontantstrøm.
+    </p>
+    <p xml:lang="oc">
+      Money Manager Ex (MMEX) es un logicial gratuit/liure, de còde dobèrt, multiplataforma, facil d'utilizar, personal financièr e de gestion d'argent.
+      Ajuda a organizar las finanças e a seguir lo flux de liquiditats.
+    </p>
+    <p xml:lang="pa">
+      ਮਨੀ ਮੈਨੇਜਰ ਐਕਸ (MMEX) ਇੱਕ ਮੁਫ਼ਤ/ਮੁਫ਼ਤ, ਓਪਨ-ਸੋਰਸ, ਕਰਾਸ-ਪਲੇਟਫਾਰਮ, ਵਰਤੋਂ ਵਿੱਚ ਆਸਾਨ ਨਿੱਜੀ ਵਿੱਤੀ ਅਤੇ ਪੈਸਾ ਪ੍ਰਬੰਧਨ ਸਾਫਟਵੇਅਰ ਹੈ। ਇਹ ਵਿੱਤ ਨੂੰ ਸੰਗਠਿਤ ਕਰਨ ਅਤੇ ਨਕਦੀ ਪ੍ਰਵਾਹ ਨੂੰ ਟਰੈਕ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।
+    </p>
+    <p xml:lang="pl">
+      Money Manager Ex (MMEX) to program rozwijany jako open source służący do zarządzania domowym budżetem i finansami osobistymi. 
+    </p>
+    <p xml:lang="pt">
+      O Money Manager Ex (MMEX) é um software financeiro e de gestão de dinheiro gratuito/libre, de código aberto, multiplataforma e fácil de utilizar.
+      Ajuda a organizar as finanças e a rastrear o cash-flow.
+    </p>
+    <p xml:lang="pt_BR">
+      O Money Manager Ex (MMEX) é um software de gerenciamento financeiro e financeiro pessoal, gratuito, de código aberto, multiplataforma e fácil de usar.
+      Ele ajuda a organizar as finanças e a rastrear o fluxo de caixa.
+    </p>
+    <p xml:lang="ro">
+      Money Manager Ex (MMEX) este un software gratuit/libre, open-source, multi-platformă, ușor de utilizat, financiar personal și de gestionare a banilor.
+      Ajută la organizarea finanțelor și la urmărirea fluxului de numerar.
+    </p>
+    <p xml:lang="ru">
+      Money Manager Ex (MMEX) - бесплатная, с открытым исходным кодом, мультиплатформенная программа для персонального учёта финансов.
+      Она поможет Вам знать, когда, сколько и на что были потрачены деньги.
+    </p>
+    <p xml:lang="si">
+      මුදල් කළමනාකරු Ex (MMEX) යනු නිදහස්/නිදහස්, විවෘත-මූලාශ්‍ර, හරස්-වේදිකා, භාවිතයට පහසු පුද්ගලික මූල්‍ය සහ මුදල් කළමනාකරණ මෘදුකාංගයකි.
+      එය මූල්‍ය සංවිධානය කිරීමට සහ මුදල් ප්‍රවාහය නිරීක්ෂණය කිරීමට උපකාරී වේ.
+    </p>
+    <p xml:lang="sk">
+      Money Manager Ex (MMEX) je bezplatný, open source, multiplatformový, ľahko použiteľný osobný finančný a peňažný manažérsky softvér.
+      Pomáha organizovať financie a sledovať cash flow.
+    </p>
+    <p xml:lang="sl">
+      Money Manager Ex (MMEX) je brezplačna/brezplačna, odprtokodna programska oprema za različne platforme, ki je enostavna za uporabo, za upravljanje osebnih financ in denarja.
+      Pomaga organizirati finance in spremljati denarni tok.
+    </p>
+    <p xml:lang="sq">
+      Money Manager Ex (MMEX) është një softuer personal financiar dhe i menaxhimit të parave pa pagesë/libër, me burim të hapur, ndër-platformë, i lehtë për t'u përdorur.
+      Ndihmon në organizimin e financave dhe gjurmimin e fluksit të parave.
+    </p>
+    <p xml:lang="sr">
+      Монеи Манагер Ек (ММЕКС) је бесплатан/бесплатан, отвореног кода, вишеплатформски, једноставан за коришћење софтвер за личне финансијске и управљање новцем.
+      Помаже у организацији финансија и праћењу новчаних токова.
+    </p>
+    <p xml:lang="sv">
+      Money Manager Ex (MMEX) är en gratis/fri, öppen källkod, plattformsoberoende, lättanvänd programvara för personlig ekonomi och penninghantering.
+      Det hjälper till att organisera ekonomin och spåra kassaflödet.
+    </p>
+    <p xml:lang="ta">
+      Money Manager Ex (MMEX) என்பது ஒரு இலவச/சுதந்திரம், திறந்த மூல, குறுக்கு-தளம், பயன்படுத்த எளிதான தனிப்பட்ட நிதி மற்றும் பண மேலாண்மை மென்பொருள்.
+      இது நிதிகளை ஒழுங்கமைக்கவும் பணப்புழக்கத்தைக் கண்காணிக்கவும் உதவுகிறது.
+    </p>
+    <p xml:lang="tr">
+      Money Manager Ex (MMEX), ücretsiz/özgür, açık kaynaklı, platformlar arası, kullanımı kolay kişisel finans ve para yönetimi yazılımıdır.
+      Finansları düzenlemeye ve nakit akışını izlemeye yardımcı olur.
+    </p>
+    <p xml:lang="uk">
+      Money Manager Ex (MMEX) — це безкоштовне програмне забезпечення з відкритим вихідним кодом, кросплатформне, просте у користуванні для персональних фінансів і управління грошима.
+      Це допомагає організувати фінанси та відстежувати грошові потоки.
+    </p>
+    <p xml:lang="vi">
+      Money Manager Ex (MMEX) là phần mềm quản lý tiền bạc và tài chính cá nhân miễn phí/tự do, mã nguồn mở, đa nền tảng, dễ sử dụng.
+      Phần mềm này giúp sắp xếp tài chính và theo dõi dòng tiền.
+    </p>
+    <p xml:lang="zh_CN">
+      Money Manager Ex (MMEX) 是一款免费、开源、跨平台、易于使用的个人财务和资金管理软件。
+      它有助于组织财务和跟踪现金流。
+    </p>
+    <p xml:lang="zh_TW">
+      Money Manager Ex (MMEX) 是一款免費、開放原始碼、跨平台、易於使用的個人財務和資金管理軟體。
+      它有助於組織財務並追蹤現金流。
+    </p>
+    <p xml:lang="zu">
+      I-Money Manager Ex (MMEX) iyi-software yamahhala/ekhululekile, evulekile, ehlangene, isofthiwe yomuntu siqu esebenziseka kalula neyokuphatha imali.
+      Isiza ukuhlela ezezimali futhi ilandelele ukuhamba kwemali.
+    </p>
+    <p>
+      MMEX includes all the basic features that 90% of users would want to see in a personal finance application.
+      The design goals are to concentrate on simplicity and user-friendliness – an application that can be used everyday.
+    </p>
+    <p xml:lang="ar">
+      يتضمن MMEX جميع الميزات الأساسية التي يرغب 90% من المستخدمين في رؤيتها في تطبيق مالي شخصي. وتتمثل أهداف التصميم في التركيز على البساطة وسهولة الاستخدام - وهو تطبيق يمكن استخدامه يوميًا.
+    </p>
+    <p xml:lang="az">
+      MMEX istifadəçilərin 90%-nin şəxsi maliyyə proqramında görmək istədiyi bütün əsas xüsusiyyətləri özündə cəmləşdirir.
+      Dizayn məqsədləri sadəlik və istifadəçinin rahatlığına diqqət yetirməkdir – gündəlik istifadə oluna bilən proqram.
+    </p>
+    <p xml:lang="be">
+      MMEX уключае ўсе асноўныя функцыі, якія 90% карыстальнікаў хацелі б бачыць у дадатку асабістых фінансаў.
+      Мэта дызайну - засяродзіцца на прастаце і зручнасці для карыстальніка - дадатку, якім можна карыстацца кожны дзень.
+    </p>
+    <p xml:lang="bg">
+      MMEX включва всички основни функции, които 90% от потребителите биха искали да видят в приложение за лични финанси.
+      Целите на дизайна са да се концентрира върху простотата и удобството за потребителя – приложение, което може да се използва всеки ден.
+    </p>
+    <p xml:lang="bn">
+      MMEX-এ সমস্ত মৌলিক বৈশিষ্ট্য রয়েছে যা 90% ব্যবহারকারী একটি ব্যক্তিগত আর্থিক অ্যাপ্লিকেশনে দেখতে চান। ডিজাইনের লক্ষ্য হল সরলতা এবং ব্যবহারকারী-বান্ধবতার উপর মনোনিবেশ করা - এমন একটি অ্যাপ্লিকেশন যা প্রতিদিন ব্যবহার করা যেতে পারে।
+    </p>
+    <p xml:lang="ca">
+      MMEX inclou totes les funcions bàsiques que el 90% dels usuaris voldrien veure en una aplicació de finances personals.
+      Els objectius de disseny són centrar-se en la simplicitat i la facilitat d'ús, una aplicació que es pot utilitzar cada dia.
+    </p>
+    <p xml:lang="cs">
+      MMEX obsahuje všechny základní funkce, které by 90 % uživatelů chtělo vidět v aplikaci pro osobní finance.
+      Cílem návrhu je soustředit se na jednoduchost a uživatelskou přívětivost – aplikaci, kterou lze používat každý den.
+    </p>
+    <p xml:lang="da">
+      MMEX inkluderer alle de grundlæggende funktioner, som 90% af brugerne ønsker at se i en personlig økonomiapplikation.
+      Designmålene er at fokusere på enkelhed og brugervenlighed – en applikation, der kan bruges hver dag.
+    </p>
+    <p xml:lang="de">
+      MMEX enthält alle grundlegenden Funktionen, die sich 90% der Benutzer von einer Anwendung für persönliche Finanzen wünschen.
+      Die Design-Ziele sind die Konzentration auf Einfachheit und Benutzerfreundlichkeit – etwas, das man jeden Tag benutzen kann.
+    </p>
+    <p xml:lang="el">
+      Το MMEX περιλαμβάνει όλα τα βασικά χαρακτηριστικά που το 90% των χρηστών θα ήθελε να δει σε μια εφαρμογή προσωπικής χρηματοδότησης.
+      Οι στόχοι του σχεδιασμού είναι να επικεντρωθούν στην απλότητα και τη φιλικότητα προς τον χρήστη – μια εφαρμογή που μπορεί να χρησιμοποιηθεί καθημερινά.
+    </p>
+    <p xml:lang="en">
+      MMEX includes all the basic features that 90% of users would want to see in a personal finance application.
+      The design goals are to concentrate on simplicity and user-friendliness – an application that can be used everyday.
+    </p>
+    <p xml:lang="en_AU">
+      MMEX includes all the basic features that 90% of users would want to see in a personal finance application.
+      The design goals are to concentrate on simplicity and user-friendliness – an application that can be used everyday.
+    </p>
+    <p xml:lang="en_GB">
+      MMEX includes all the basic features that 90% of users would want to see in a personal finance application.
+      The design goals are to concentrate on simplicity and user-friendliness – an application that can be used everyday.
+    </p>
+    <p xml:lang="eo">
+      MMEX inkluzivas ĉiujn bazajn funkciojn, kiujn 90% de uzantoj volus vidi en aplikaĵo por persona financado.
+      La dezajnaj celoj estas koncentriĝi pri simpleco kaj uzanto-amikeco - aplikaĵo uzebla ĉiutage.
+    </p>
+    <p xml:lang="es">
+      MMEX incluye todas las funciones básicas que el 90 % de los usuarios desearían ver en una aplicación de finanzas personales.
+      Los objetivos de diseño son concentrarse en la simplicidad y la facilidad de uso: una aplicación que se pueda usar todos los días.
+    </p>
+    <p xml:lang="et">
+      MMEX sisaldab kõiki põhifunktsioone, mida 90% kasutajatest isikliku finantsrakenduses näha sooviksid. Disaini eesmärgid on keskenduda lihtsusele ja kasutajasõbralikkusele – rakendus, mida saab iga päev kasutada.
+    </p>
+    <p xml:lang="fa">
+      MMEX شامل تمام ویژگی‌های اساسی است که ۹۰٪ کاربران می‌خواهند در یک برنامه مالی شخصی ببینند. اهداف طراحی، تمرکز بر سادگی و کاربرپسندی است - برنامه‌ای که بتواند هر روز مورد استفاده قرار گیرد.
+    </p>
+    <p xml:lang="fi">
+      MMEX sisältää kaikki perusominaisuudet, jotka 90 % käyttäjistä haluaisi nähdä henkilökohtaisessa rahoitussovelluksessa.
+      Suunnittelun tavoitteina on keskittyä yksinkertaisuuteen ja käyttäjäystävällisyyteen – jokapäiväiseen käyttöön.
+    </p>
+    <p xml:lang="fil">
+      Kasama sa MMEX ang lahat ng pangunahing feature na gustong makita ng 90% ng mga user sa isang personal na aplikasyon sa pananalapi.
+      Ang mga layunin sa disenyo ay tumutok sa pagiging simple at pagiging kabaitan ng gumagamit - isang application na maaaring gamitin araw-araw.
+    </p>
+    <p xml:lang="fr">
+      MMEX comprend toutes les fonctionnalités de base que 90 % des utilisateurs souhaiteraient voir dans une application de finances personnelles.
+      Les objectifs de la conception sont de se concentrer sur la simplicité et la convivialité – quelque chose que l'on peut utiliser tous les jours.
+    </p>
+    <p xml:lang="ga">
+      Cuimsíonn MMEX na gnéithe bunúsacha go léir a mbeadh 90% d'úsáideoirí ag iarraidh a fheiceáil in fheidhmchlár airgeadais phearsanta.
+      Is iad na spriocanna dearaidh díriú ar shimplíocht agus ar chairdiúlacht úsáideora - feidhmchlár is féidir a úsáid gach lá.
+    </p>
+    <p xml:lang="he">
+      MMEX כולל את כל התכונות הבסיסיות ש-90% מהמשתמשים היו רוצים לראות באפליקציה למימון אישי. מטרות העיצוב הן להתרכז בפשטות וידידותיות למשתמש - אפליקציה שניתן להשתמש בה מדי יום.
+    </p>
+    <p xml:lang="hi">
+      MMEX में वे सभी बुनियादी सुविधाएँ शामिल हैं जो 90% उपयोगकर्ता व्यक्तिगत वित्त एप्लिकेशन में देखना चाहेंगे। डिज़ाइन का लक्ष्य सादगी और उपयोगकर्ता-मित्रता पर ध्यान केंद्रित करना है - एक ऐसा एप्लिकेशन जिसका उपयोग हर रोज़ किया जा सकता है।
+    </p>
+    <p xml:lang="hr">
+      MMEX uključuje sve osnovne značajke koje bi 90% korisnika željelo vidjeti u aplikaciji za osobne financije.
+      Ciljevi dizajna su usredotočiti se na jednostavnost i prilagođenost korisniku – aplikaciju koja se može koristiti svakodnevno.
+    </p>
+    <p xml:lang="hu">
+      Az MMEX tartalmazza mindazokat az alapvető funkciókat, amelyeket a felhasználók 90%-a látni szeretne egy személyes pénzügyi alkalmazásban.
+      A tervezési célok az egyszerűségre és a felhasználóbarátságra való összpontosítás – amit az ember mindennap használhat.
+    </p>
+    <p xml:lang="hy">
+      MMEX-ը ներառում է բոլոր հիմնական հնարավորությունները, որոնք օգտատերերի 90%-ը կցանկանային տեսնել անձնական ֆինանսների հավելվածում:
+      Դիզայնի նպատակներն են կենտրոնանալ պարզության և օգտագործողի համար հարմարության վրա՝ հավելված, որը կարող է օգտագործվել ամեն օր:
+    </p>
+    <p xml:lang="id">
+      MMEX mencakup semua fitur dasar yang diinginkan 90% pengguna dalam aplikasi keuangan pribadi.
+      Tujuan desainnya adalah untuk berkonsentrasi pada kesederhanaan dan kemudahan penggunaan – aplikasi yang dapat digunakan setiap hari.
+    </p>
+    <p xml:lang="is">
+      MMEX inniheldur alla grunneiginleika sem 90% notenda myndu vilja sjá í einkafjármálaforriti.
+      Hönnunarmarkmiðin eru að einbeita sér að einfaldleika og notendavænni - forriti sem hægt er að nota á hverjum degi.
+    </p>
+    <p xml:lang="it">
+      MMEX include tutte le caratteristiche di base che il 90% degli utenti avrebbe voluto vedere in un programma di gestione finanaziaria.
+      L'obiettivo principale della progettazione si и concentrato sulla facilitа e semplicitа d'utilizzo, qualcosa che chiunque potesse utilizzare ogni giorno.
+    </p>
+    <p xml:lang="ja">
+      MMEX には、ユーザーの 90% が個人財務アプリケーションに求める基本機能がすべて含まれています。
+      設計目標は、シンプルさと使いやすさ、つまり毎日使用できるアプリケーションに集中することです。
+    </p>
+    <p xml:lang="kn">
+      90% ಬಳಕೆದಾರರು ವೈಯಕ್ತಿಕ ಹಣಕಾಸು ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ನೋಡಲು ಬಯಸುವ ಎಲ್ಲಾ ಮೂಲಭೂತ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು MMEX ಒಳಗೊಂಡಿದೆ.
+      ವಿನ್ಯಾಸದ ಗುರಿಗಳು ಸರಳತೆ ಮತ್ತು ಬಳಕೆದಾರ ಸ್ನೇಹಪರತೆಯ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸುವುದು - ಪ್ರತಿದಿನ ಬಳಸಬಹುದಾದ ಅಪ್ಲಿಕೇಶನ್.
+    </p>
+    <p xml:lang="ko">
+      MMEX에는 사용자의 90%가 개인 금융 애플리케이션에서 보고 싶어하는 모든 기본 기능이 포함되어 있습니다.
+      디자인 목표는 단순성과 사용자 친화성에 집중하는 것입니다.
+      매일 사용할 수 있는 애플리케이션입니다.
+    </p>
+    <p xml:lang="lt">
+      MMEX apima visas pagrindines funkcijas, kurias asmeninių finansų programoje norėtų matyti 90 % vartotojų.
+      Projektavimo tikslai yra sutelkti dėmesį į paprastumą ir patogumą vartotojui – programą, kurią galima naudoti kasdien.
+    </p>
+    <p xml:lang="lv">
+      MMEX ietver visas pamata funkcijas, kuras 90% lietotāju vēlētos redzēt personīgo finanšu lietojumprogrammā.
+      Dizaina mērķi ir koncentrēties uz vienkāršību un lietotājam draudzīgumu – lietojumprogrammu, ko var izmantot ikdienā.
+    </p>
+    <p xml:lang="nl">
+      MMEX bevat alle basisfuncties die 90% van de gebruikers in een persoonlijke financiële applicatie zou willen zien.
+      De ontwerpdoelen zijn om zich te concentreren op eenvoud en gebruiksvriendelijkheid - een applicatie die dagelijks gebruikt kan worden.
+    </p>
+    <p xml:lang="no_NY">
+      MMEX inkluderer alle de grunnleggende funksjonene som 90 % av brukerne ønsker å se i en personlig økonomiapplikasjon.
+      Designmålene er å konsentrere seg om enkelhet og brukervennlighet – en applikasjon som kan brukes hver dag.
+    </p>
+    <p xml:lang="oc">
+      MMEX inclutz totas las foncionalitats de basa que 90% dels utilizaires voldrián veire dins una aplicacion de finanças personalas.
+      Los objectius de concepcion son de se concentrar sus la simplicitat e la facilitat d'utilizacion – una aplicacion que pòt èsser utilizada cada jorn.
+    </p>
+    <p xml:lang="pa">
+      MMEX ਵਿੱਚ ਉਹ ਸਾਰੀਆਂ ਬੁਨਿਆਦੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸ਼ਾਮਲ ਹਨ ਜੋ 90% ਉਪਭੋਗਤਾ ਇੱਕ ਨਿੱਜੀ ਵਿੱਤ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚ ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹਨ। ਡਿਜ਼ਾਈਨ ਟੀਚੇ ਸਾਦਗੀ ਅਤੇ ਉਪਭੋਗਤਾ-ਮਿੱਤਰਤਾ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਨਾ ਹਨ - ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਜੋ ਹਰ ਰੋਜ਼ ਵਰਤੀ ਜਾ ਸਕਦੀ ਹੈ।
+    </p>
+    <p xml:lang="pl">
+      Aplikacja doskonale nadaje się do obliczania osobistego budżetu, wszyscy użytkownicy którzy posiadają konta bankowe, lokaty, udziały w funduszach, kredyty, będą mogli bez problemu zarządzać własnymi finansami.
+    </p>
+    <p xml:lang="pt">
+      O MMEX inclui todas as características básicas que 90% dos utilizadores gostariam de ver numa aplicação de finanças pessoais.
+      Os objetivos de design são concentrar-se na simplicidade e na familyliness – uma aplicação que pode ser utilizada todos os dias.
+    </p>
+    <p xml:lang="pt_BR">
+      O MMEX inclui todos os recursos básicos que 90% dos usuários gostariam de ver em um aplicativo de finanças pessoais.
+      Os objetivos do design são concentrar-se na simplicidade e na facilidade de uso — um aplicativo que pode ser usado todos os dias.
+    </p>
+    <p xml:lang="ro">
+      MMEX include toate caracteristicile de bază pe care 90% dintre utilizatori ar dori să le vadă într-o aplicație de finanțe personale.
+      Obiectivele de design sunt să se concentreze pe simplitate și ușurință în utilizare – o aplicație care poate fi folosită în fiecare zi.
+    </p>
+    <p xml:lang="ru">
+      MMEX включает функции, которые 90% пользователей хотят видеть в программе учёта финансов. Принципы реализации – легковесность, простота выполнения операций, дружелюбность к пользователю.
+    </p>
+    <p xml:lang="si">
+      MMEX හි 90% ක් පරිශීලකයින් පුද්ගලික මූල්‍ය යෙදුමක දැකීමට කැමති සියලුම මූලික විශේෂාංග ඇතුළත් වේ.
+      සැලසුම් ඉලක්ක වන්නේ සරල බව සහ පරිශීලක-හිතකාමී බව කෙරෙහි අවධානය යොමු කිරීමයි - එය දිනපතා භාවිතා කළ හැකි යෙදුමකි.
+    </p>
+    <p xml:lang="sk">
+      MMEX obsahuje všetky základné funkcie, ktoré by 90 % používateľov chcelo vidieť v aplikácii osobných financií.
+      Cieľom dizajnu je sústrediť sa na jednoduchosť a užívateľskú prívetivosť – aplikáciu, ktorú možno používať každý deň.
+    </p>
+    <p xml:lang="sl">
+      MMEX vključuje vse osnovne funkcije, ki bi jih 90 % uporabnikov želelo videti v aplikaciji za osebne finance.
+      Cilj oblikovanja je osredotočanje na preprostost in uporabniku prijaznost – aplikacijo, ki jo je mogoče uporabljati vsak dan.
+    </p>
+    <p xml:lang="sq">
+      MMEX përfshin të gjitha tiparet bazë që 90% e përdoruesve do të dëshironin të shihnin në një aplikacion të financave personale.
+      Qëllimet e dizajnit janë të përqendrohen në thjeshtësinë dhe lehtësinë ndaj përdoruesit – një aplikacion që mund të përdoret çdo ditë.
+    </p>
+    <p xml:lang="sr">
+      ММЕКС укључује све основне карактеристике које би 90% корисника желело да види у апликацији за личне финансије.
+      Циљеви дизајна су да се концентришу на једноставност и прилагођеност кориснику – апликацију која се може користити свакодневно.
+    </p>
+    <p xml:lang="sv">
+      MMEX innehåller alla grundläggande funktioner som 90 % av användarna skulle vilja se i en privatekonomiapplikation.
+      Designmålen är att koncentrera sig på enkelhet och användarvänlighet – en applikation som kan användas varje dag.
+    </p>
+    <p xml:lang="ta">
+      தனிப்பட்ட நிதி பயன்பாட்டில் 90% பயனர்கள் பார்க்க விரும்பும் அனைத்து அடிப்படை அம்சங்களையும் MMEX கொண்டுள்ளது.
+      வடிவமைப்பு இலக்குகள் எளிமை மற்றும் பயனர் நட்பில் கவனம் செலுத்துவதாகும் - தினமும் பயன்படுத்தக்கூடிய ஒரு பயன்பாடு.
+    </p>
+    <p xml:lang="tr">
+      MMEX, kullanıcıların %90'ının kişisel finans uygulamasında görmek isteyeceği tüm temel özellikleri içerir.
+      Tasarım hedefleri, basitlik ve kullanıcı dostu olmaya odaklanmaktır; her gün kullanılabilen bir uygulama.
+    </p>
+    <p xml:lang="uk">
+      MMEX містить усі основні функції, які 90% користувачів хотіли б бачити в додатку для персональних фінансів.
+      Цілі дизайну полягають у тому, щоб зосередитися на простоті та зручності користувача – програмі, яку можна використовувати щодня.
+    </p>
+    <p xml:lang="vi">
+      MMEX bao gồm tất cả các tính năng cơ bản mà 90% người dùng muốn thấy trong một ứng dụng tài chính cá nhân.
+      Mục tiêu thiết kế là tập trung vào tính đơn giản và thân thiện với người dùng – một ứng dụng có thể sử dụng hàng ngày.
+    </p>
+    <p xml:lang="zh_CN">
+      MMEX 包含 90% 用户希望在个人财务应用程序中看到的所有基本功能。
+      设计目标是专注于简单性和用户友好性——一款可以每天使用的应用程序。
+    </p>
+    <p xml:lang="zh_TW">
+      MMEX 包含 90% 使用者希望在個人理財應用程式中看到的所有基本功能。
+      設計目標是專注於簡單性和用戶友好性——一個可以每天使用的應用程式。
+    </p>
+    <p xml:lang="zu">
+      I-MMEX ihlanganisa zonke izici eziyisisekelo u-90% wabasebenzisi abangafuna ukuzibona kuhlelo lokusebenza lwezezimali lomuntu siqu.
+      Imigomo yokuklama iwukugxila ekululameni nasekusebenziseni ubungane - uhlelo lokusebenza olungasetshenziswa nsuku zonke.
+    </p>
+    <p xml:lang="pl">
+      Wydatki oraz przychody można podzielić według kategorii dzięki czemu zarządzanie nimi jest zdecydowanie łatwiejsze.
+      W ten sposób można zaplanować własny budżet na cały rok.
+      Program posiada moduł rozbudowanych raportów które określają w jaki sposób użytkownik zarządza finansami i w jaki sposób wydaje pieniądze. 
+    </p>
+    <p xml:lang="pl">
+      MMEX posiada polski interfejs oraz daje możliwość wyboru polskiej waluty.
+    </p>
+  </description>
+  <developer id="moneymanagerex.org">
+    <name>MMEX team</name>
+  </developer>
+  <launchable type="desktop-id">org.moneymanagerex.MMEX.desktop</launchable>
+  <url type="homepage">https://moneymanagerex.org/</url>
+  <url type="bugtracker">https://github.com/moneymanagerex/moneymanagerex/issues</url>
+  <url type="help">https://moneymanagerex.org/moneymanagerex/</url>
+  <url type="donation">https://moneymanagerex.org/docs/mmex/donate/</url>
+  <url type="translate">https://crowdin.com/project/moneymanagerex</url>
+  <categories>
+    <category>Education</category>
+    <category>Finance</category>
+    <category>Office</category>
+  </categories>
+  <screenshots>
+    <screenshot type="default">
+      <caption xml:lang="ar">لوحة القيادة</caption>
+      <caption xml:lang="az">İdarə paneli</caption>
+      <caption xml:lang="be">Прыборная панэль</caption>
+      <caption xml:lang="bg">Табло за управление</caption>
+      <caption xml:lang="bn">ড্যাশবোর্ড</caption>
+      <caption>Dashboard</caption>
+      <caption xml:lang="ca">Tauler de control</caption>
+      <caption xml:lang="cs">Řídicí panel</caption>
+      <caption xml:lang="da">Dashboard</caption>
+      <caption xml:lang="de">Armaturenbrett</caption>
+      <caption xml:lang="el">Ταμπλό</caption>
+      <caption xml:lang="en">Dashboard</caption>
+      <caption xml:lang="en_AU">Dashboard</caption>
+      <caption xml:lang="en_GB">Dashboard</caption>
+      <caption xml:lang="eo">Instrumentpanelo</caption>
+      <caption xml:lang="es">Panel</caption>
+      <caption xml:lang="et">Armatuurlaud</caption>
+      <caption xml:lang="fa">داشبورد</caption>
+      <caption xml:lang="fi">Kojelauta</caption>
+      <caption xml:lang="fil">Dashboard</caption>
+      <caption xml:lang="fr">Tableau de bord</caption>
+      <caption xml:lang="ga">Painéal Rialaithe</caption>
+      <caption xml:lang="he">לוּחַ מַחווָנִים</caption>
+      <caption xml:lang="hi">डैशबोर्ड</caption>
+      <caption xml:lang="hr">Nadzorna ploča</caption>
+      <caption xml:lang="hu">Irányítópult</caption>
+      <caption xml:lang="hy">Վահանակ</caption>
+      <caption xml:lang="id">Dasbor</caption>
+      <caption xml:lang="is">Mælaborð</caption>
+      <caption xml:lang="it">Pannello di controllo</caption>
+      <caption xml:lang="ja">ダッシュボード</caption>
+      <caption xml:lang="kn">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</caption>
+      <caption xml:lang="ko">계기반</caption>
+      <caption xml:lang="lt">Prietaisų skydelis</caption>
+      <caption xml:lang="lv">Informācijas panelis</caption>
+      <caption xml:lang="nl">Dashboard</caption>
+      <caption xml:lang="no_NY">Dashbord</caption>
+      <caption xml:lang="oc">Tablèu de bòrd</caption>
+      <caption xml:lang="pa">ਡੈਸ਼ਬੋਰਡ</caption>
+      <caption xml:lang="pl">Tablica rozdzielcza</caption>
+      <caption xml:lang="pt">Painéis</caption>
+      <caption xml:lang="pt_BR">Painel</caption>
+      <caption xml:lang="ro">Tabloul de bord</caption>
+      <caption xml:lang="ru">Панель инструментов</caption>
+      <caption xml:lang="si">උපකරණ පුවරුව</caption>
+      <caption xml:lang="sk">Prístrojová doska</caption>
+      <caption xml:lang="sl">Nadzorna plošča</caption>
+      <caption xml:lang="sq">Paneli i kontrollit</caption>
+      <caption xml:lang="sr">Дасхбоард</caption>
+      <caption xml:lang="sv">Instrumentbräda</caption>
+      <caption xml:lang="ta">டாஷ்போர்டு</caption>
+      <caption xml:lang="tr">Gösterge Paneli</caption>
+      <caption xml:lang="uk">Приладова панель</caption>
+      <caption xml:lang="vi">Bảng điều khiển</caption>
+      <caption xml:lang="zh_CN">仪表板</caption>
+      <caption xml:lang="zh_TW">儀表板</caption>
+      <caption xml:lang="zu">Ideshibhodi</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/01cc2202-9d5a-4bba-a816-5868512196cb</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">تقرير المستفيد</caption>
+      <caption xml:lang="az">Alıcı Hesabatı</caption>
+      <caption xml:lang="be">Справаздача атрымальніка</caption>
+      <caption xml:lang="bg">Отчет на получателя</caption>
+      <caption xml:lang="bn">প্রাপক প্রতিবেদন</caption>
+      <caption>Payee Report</caption>
+      <caption xml:lang="ca">Informe del beneficiari</caption>
+      <caption xml:lang="cs">Zpráva o příjemci platby</caption>
+      <caption xml:lang="da">Modtagerrapport</caption>
+      <caption xml:lang="de">Zahlungsempfängerbericht</caption>
+      <caption xml:lang="el">Αναφορά δικαιούχου πληρωμής</caption>
+      <caption xml:lang="en">Payee Report</caption>
+      <caption xml:lang="en_AU">Payee Report</caption>
+      <caption xml:lang="en_GB">Payee Report</caption>
+      <caption xml:lang="eo">Raporto pri Pagato</caption>
+      <caption xml:lang="es">Informe de beneficiario</caption>
+      <caption xml:lang="et">Saaja aruanne</caption>
+      <caption xml:lang="fa">گزارش دریافت‌کننده وجه</caption>
+      <caption xml:lang="fi">Maksunsaajan raportti</caption>
+      <caption xml:lang="fil">Ulat ng nagbabayad</caption>
+      <caption xml:lang="fr">Rapport du bénéficiaire</caption>
+      <caption xml:lang="ga">Tuarascáil Íocaí</caption>
+      <caption xml:lang="he">דוח מקבל תשלום</caption>
+      <caption xml:lang="hi">भुगतानकर्ता रिपोर्ट</caption>
+      <caption xml:lang="hr">Izvješće primatelja</caption>
+      <caption xml:lang="hu">Kedvezményezett kimutatás</caption>
+      <caption xml:lang="hy">Ստացողի հաշվետվություն</caption>
+      <caption xml:lang="id">Laporan Penerima Pembayaran</caption>
+      <caption xml:lang="is">Skýrsla greiðsluviðtakanda</caption>
+      <caption xml:lang="it">Rapporto del beneficiario</caption>
+      <caption xml:lang="ja">受取人レポート</caption>
+      <caption xml:lang="kn">ಪಾವತಿದಾರರ ವರದಿ</caption>
+      <caption xml:lang="ko">수취인 보고서</caption>
+      <caption xml:lang="lt">Gavėjo ataskaita</caption>
+      <caption xml:lang="lv">Saņēmēja ziņojums</caption>
+      <caption xml:lang="nl">Rapport van de begunstigde</caption>
+      <caption xml:lang="no_NY">Betalingsmottakers rapport</caption>
+      <caption xml:lang="oc">Rapòrt del beneficiari</caption>
+      <caption xml:lang="pa">ਭੁਗਤਾਨਕਰਤਾ ਰਿਪੋਰਟ</caption>
+      <caption xml:lang="pl">Raport odbiorcy płatności</caption>
+      <caption xml:lang="pt">Relatório de pagamento</caption>
+      <caption xml:lang="pt_BR">Relatório do Beneficiário</caption>
+      <caption xml:lang="ro">Raportul beneficiarului</caption>
+      <caption xml:lang="ru">Отчет получателя платежа</caption>
+      <caption xml:lang="si">ආදායක වාර්තාව</caption>
+      <caption xml:lang="sk">Správa príjemcu platby</caption>
+      <caption xml:lang="sl">Poročilo o prejemniku plačila</caption>
+      <caption xml:lang="sq">Raporti i të paguarit</caption>
+      <caption xml:lang="sr">Извештај о примаоцу уплате</caption>
+      <caption xml:lang="sv">Betalningsmottagarens rapport</caption>
+      <caption xml:lang="ta">பணம் பெறுபவர் அறிக்கை</caption>
+      <caption xml:lang="tr">Alacaklı Raporu</caption>
+      <caption xml:lang="uk">Звіт одержувача</caption>
+      <caption xml:lang="vi">Báo cáo người nhận tiền</caption>
+      <caption xml:lang="zh_CN">收款人报告</caption>
+      <caption xml:lang="zh_TW">收款人報告</caption>
+      <caption xml:lang="zu">Umbiko Wokhokhelwayo</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/9ba8d274-7af8-496c-9ab6-2c49235ec735</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">مخطط الميزانية</caption>
+      <caption xml:lang="az">Büdcə Planlayıcısı</caption>
+      <caption xml:lang="be">Планавальнік бюджэту</caption>
+      <caption xml:lang="bg">Планиращ бюджет</caption>
+      <caption xml:lang="bn">বাজেট পরিকল্পনাকারী</caption>
+      <caption>Budget Planner</caption>
+      <caption xml:lang="ca">Planificador de pressupostos</caption>
+      <caption xml:lang="cs">Plánovač rozpočtu</caption>
+      <caption xml:lang="da">Budgetplanlægger</caption>
+      <caption xml:lang="de">Budgetplaner</caption>
+      <caption xml:lang="el">Προγραμματιστής προϋπολογισμού</caption>
+      <caption xml:lang="en">Budget Planner</caption>
+      <caption xml:lang="en_AU">Budget Planner</caption>
+      <caption xml:lang="en_GB">Budget Planner</caption>
+      <caption xml:lang="eo">Buĝeta Planilo</caption>
+      <caption xml:lang="es">Planificadora de presupuesto</caption>
+      <caption xml:lang="et">Eelarve planeerija</caption>
+      <caption xml:lang="fa">برنامه‌ریز بودجه</caption>
+      <caption xml:lang="fi">Budjettisuunnittelija</caption>
+      <caption xml:lang="fil">Tagaplano ng Badyet</caption>
+      <caption xml:lang="fr">Planificateur de budget</caption>
+      <caption xml:lang="ga">Pleanálaí Buiséid</caption>
+      <caption xml:lang="he">מתכנן תקציב</caption>
+      <caption xml:lang="hi">बजट प्लानर</caption>
+      <caption xml:lang="hr">Planer proračuna</caption>
+      <caption xml:lang="hu">Költségvetés-tervező</caption>
+      <caption xml:lang="hy">Բյուջեի պլանավորող</caption>
+      <caption xml:lang="id">Perencana Anggaran</caption>
+      <caption xml:lang="is">Fjárhagsáætlun</caption>
+      <caption xml:lang="it">Pianificatore di budget</caption>
+      <caption xml:lang="ja">予算プランナー</caption>
+      <caption xml:lang="kn">ಬಜೆಟ್ ಪ್ಲಾನರ್</caption>
+      <caption xml:lang="ko">예산 계획자</caption>
+      <caption xml:lang="lt">Biudžeto planuotojas</caption>
+      <caption xml:lang="lv">Budžeta plānotājs</caption>
+      <caption xml:lang="nl">Budgetplanner</caption>
+      <caption xml:lang="no_NY">Budsjettplanlegger</caption>
+      <caption xml:lang="oc">Planificator de budgèt</caption>
+      <caption xml:lang="pa">ਬਜਟ ਪਲੈਨਰ</caption>
+      <caption xml:lang="pl">Planer budżetu</caption>
+      <caption xml:lang="pt">Planeador Orçamental</caption>
+      <caption xml:lang="pt_BR">Planejador de orçamento</caption>
+      <caption xml:lang="ro">Planificator de buget</caption>
+      <caption xml:lang="ru">Планировщик бюджета</caption>
+      <caption xml:lang="si">අයවැය සැලසුම්කරු</caption>
+      <caption xml:lang="sk">Plánovač rozpočtu</caption>
+      <caption xml:lang="sl">Načrtovalec proračuna</caption>
+      <caption xml:lang="sq">Planifikues buxheti</caption>
+      <caption xml:lang="sr">Буџетски планер</caption>
+      <caption xml:lang="sv">Budgetplanerare</caption>
+      <caption xml:lang="ta">பட்ஜெட் திட்டமிடுபவர்</caption>
+      <caption xml:lang="tr">Bütçe Planlayıcısı</caption>
+      <caption xml:lang="uk">Планувальник бюджету</caption>
+      <caption xml:lang="vi">Kế hoạch ngân sách</caption>
+      <caption xml:lang="zh_CN">预算规划师</caption>
+      <caption xml:lang="zh_TW">預算規劃師</caption>
+      <caption xml:lang="zu">Umhleli Wesabelomali</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/ef2d2269-a973-4957-a10b-d13651390ad0</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">دعم لغات واجهة المستخدم المتعددة – المجرية (المجرية)</caption>
+      <caption xml:lang="az">Çoxlu İstifadəçi İnterfeysi Dil Dəstəyi – Macar (magyar)</caption>
+      <caption xml:lang="be">Падтрымка некалькіх моў карыстальніцкага інтэрфейсу - венгерская (magyar)</caption>
+      <caption xml:lang="bg">Поддръжка на няколко езика на потребителския интерфейс – унгарски (magyar)</caption>
+      <caption xml:lang="bn">মাল্টিপল ইউজার ইন্টারফেস ভাষা সমর্থন - হাঙ্গেরিয়ান (মাগিয়ার)</caption>
+      <caption>Multiple User Interface Language Support – Hungarian (magyar)</caption>
+      <caption xml:lang="ca">Suport d'idiomes d'interfície d'usuari múltiple: hongarès (magyar)</caption>
+      <caption xml:lang="cs">Podpora více jazyků uživatelského rozhraní – maďarština (magyar)</caption>
+      <caption xml:lang="da">Understøttelse af flere brugergrænsefladesprog – ungarsk (magyar)</caption>
+      <caption xml:lang="de">Unterstützung mehrerer Sprachen für die Benutzeroberfläche – Ungarisch (magyar)</caption>
+      <caption xml:lang="el">Υποστήριξη γλωσσών πολλαπλής διεπαφής χρήστη – Ουγγρικά (magyar)</caption>
+      <caption xml:lang="en">Multiple User Interface Language Support – Hungarian (magyar)</caption>
+      <caption xml:lang="en_AU">Multiple User Interface Language Support – Hungarian (magyar)</caption>
+      <caption xml:lang="en_GB">Multiple User Interface Language Support – Hungarian (magyar)</caption>
+      <caption xml:lang="eo">Subteno de Pluraj Uzantinterfacoj - Hungara (magyar)</caption>
+      <caption xml:lang="es">Compatibilidad con varios idiomas de interfaz de usuario: húngaro (magyar)</caption>
+      <caption xml:lang="et">Mitme kasutajaliidese keele tugi – ungari keel</caption>
+      <caption xml:lang="fa">پشتیبانی از رابط کاربری چندگانه - مجارستانی (magyar)</caption>
+      <caption xml:lang="fi">Usean käyttöliittymän kielituki – unkari (magyar)</caption>
+      <caption xml:lang="fil">Suporta sa Wika ng Maramihang User Interface – Hungarian (magyar)</caption>
+      <caption xml:lang="fr">Prise en charge de plusieurs langues de l'interface utilisateur – Hongrois (magyar)</caption>
+      <caption xml:lang="ga">Tacaíocht Il-Theangacha Comhéadain Úsáideora – Ungáiris (magyar)</caption>
+      <caption xml:lang="he">תמיכה בשפות ממשק משתמש מרובות - הונגרית (מגירית)</caption>
+      <caption xml:lang="hi">मल्टीपल यूजर इंटरफेस लैंग्वेज सपोर्ट – हंगेरियन (मैग्यार)</caption>
+      <caption xml:lang="hr">Podrška za više jezika korisničkog sučelja – mađarski (magyar)</caption>
+      <caption xml:lang="hu">Több felhasználói felület nyelvi támogatása – magyar</caption>
+      <caption xml:lang="hy">Բազմակի օգտագործողի ինտերֆեյսի լեզուների աջակցություն – հունգարերեն (magyar)</caption>
+      <caption xml:lang="id">Dukungan Bahasa Antarmuka Pengguna Ganda – Hungaria (Magyar)</caption>
+      <caption xml:lang="is">Tungumálastuðningur margra notendaviðmóta – ungverska (magyar)</caption>
+      <caption xml:lang="it">Supporto multilingua dell'interfaccia utente: ungherese (magyar)</caption>
+      <caption xml:lang="ja">複数のユーザー インターフェイス言語のサポート - ハンガリー語 (magyar)</caption>
+      <caption xml:lang="kn">ಬಹು ಬಳಕೆದಾರ ಇಂಟರ್ಫೇಸ್ ಭಾಷಾ ಬೆಂಬಲ - ಹಂಗೇರಿಯನ್ (magyar)</caption>
+      <caption xml:lang="ko">다중 사용자 인터페이스 언어 지원 – 헝가리어(magyar)</caption>
+      <caption xml:lang="lt">Kelių vartotojo sąsajos kalbų palaikymas – vengrų (magyar)</caption>
+      <caption xml:lang="lv">Vairāku lietotāja interfeisa valodu atbalsts — ungāru (magyar)</caption>
+      <caption xml:lang="nl">Ondersteuning voor meerdere gebruikersinterfacetalen – Hongaars (magyar)</caption>
+      <caption xml:lang="no_NY">Språkstøtte for flere brukergrensesnitt – ungarsk (magyar)</caption>
+      <caption xml:lang="oc">Supòrt de lenga d'interfàcia d'utilizaire multipla – ongrés (magyar)</caption>
+      <caption xml:lang="pa">ਮਲਟੀਪਲ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਭਾਸ਼ਾ ਸਹਾਇਤਾ - ਹੰਗਰੀਆਈ (ਮੈਗਯਾਰ)</caption>
+      <caption xml:lang="pl">Obsługa wielu języków interfejsu użytkownika – węgierski (magyar)</caption>
+      <caption xml:lang="pt">Suporte de linguagem de interface de utilizadores múltiplos – Húngaro (magia)</caption>
+      <caption xml:lang="pt_BR">Suporte a vários idiomas da interface do usuário – húngaro (magyar)</caption>
+      <caption xml:lang="ro">Suport de limbi pentru interfețe cu mai multe utilizatori – maghiară (magyar)</caption>
+      <caption xml:lang="ru">Поддержка нескольких языков пользовательского интерфейса – венгерский (мадьяр)</caption>
+      <caption xml:lang="si">බහු පරිශීලක අතුරුමුහුණත් භාෂා සහාය - හංගේරියානු (magyar)</caption>
+      <caption xml:lang="sk">Jazyková podpora viacerých používateľských rozhraní – maďarčina (magyar)</caption>
+      <caption xml:lang="sl">Podpora za več jezikov uporabniškega vmesnika – madžarščina (magyar)</caption>
+      <caption xml:lang="sq">Mbështetje gjuhësore e ndërfaqes së shumëfishtë të përdoruesit - Hungarisht (magyar)</caption>
+      <caption xml:lang="sr">Подршка језика вишеструког корисничког интерфејса – мађарски (магиар)</caption>
+      <caption xml:lang="sv">Språkstöd för flera användargränssnitt – ungerska (magyariska)</caption>
+      <caption xml:lang="ta">பல பயனர் இடைமுக மொழி ஆதரவு - ஹங்கேரிய (magyar)</caption>
+      <caption xml:lang="tr">Çoklu Kullanıcı Arayüzü Dil Desteği – Macarca (magyar)</caption>
+      <caption xml:lang="uk">Підтримка кількох мов інтерфейсу користувача – угорська (magyar)</caption>
+      <caption xml:lang="vi">Hỗ trợ nhiều ngôn ngữ giao diện người dùng – Tiếng Hungary (magyar)</caption>
+      <caption xml:lang="zh_CN">支持多种用户界面语言 - 匈牙利语（magyar）</caption>
+      <caption xml:lang="zh_TW">多用戶介面語言支援 – 匈牙利語 (magyar)</caption>
+      <caption xml:lang="zu">Ukusekelwa Kolimi Lokusetshenziswa Kwabasebenzisi Abaningi - IsiHungary (magyar)</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/4edfc0c8-7bfc-4052-bf2c-4b833b8b1547</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">مدير الفئات – دعم غير محدود للفئات المتداخلة متعددة المستويات</caption>
+      <caption xml:lang="az">Kateqoriya meneceri – limitsiz daxili çox səviyyəli kateqoriya dəstəyi</caption>
+      <caption xml:lang="be">Менеджэр катэгорый – неабмежаваная падтрымка ўкладзеных шматузроўневых катэгорый</caption>
+      <caption xml:lang="bg">Мениджър на категории – неограничена поддръжка на вложени многостепенни категории</caption>
+      <caption xml:lang="bn">ক্যাটাগরি ম্যানেজার - সীমাহীন নেস্টেড মাল্টি-লেভেল বিভাগ সমর্থন</caption>
+      <caption>Category Manager – unlimited nested multi-level category support</caption>
+      <caption xml:lang="ca">Gestor de categories: suport il·limitat de categories multinivell imbricades</caption>
+      <caption xml:lang="cs">Správce kategorií – neomezená podpora vnořených víceúrovňových kategorií</caption>
+      <caption xml:lang="da">Kategoriadministrator – ubegrænset understøttelse af indlejrede kategorier på flere niveauer</caption>
+      <caption xml:lang="de">Kategorie-Manager – unbegrenzte Unterstützung verschachtelter mehrstufiger Kategorien</caption>
+      <caption xml:lang="el">Διαχειριστής κατηγορίας – απεριόριστη ένθετη υποστήριξη κατηγοριών πολλαπλών επιπέδων</caption>
+      <caption xml:lang="en">Category Manager – unlimited nested multi-level category support</caption>
+      <caption xml:lang="en_AU">Category Manager – unlimited nested multi-level category support</caption>
+      <caption xml:lang="en_GB">Category Manager – unlimited nested multi-level category support</caption>
+      <caption xml:lang="eo">Kategoria Administranto - senlima subteno de nestitaj plurnivelaj kategorioj</caption>
+      <caption xml:lang="es">Administrador de categorías: compatibilidad ilimitada con categorías anidadas de varios niveles</caption>
+      <caption xml:lang="et">Kategooriahaldur – piiramatu pesastatud mitmetasandilise kategooria tugi</caption>
+      <caption xml:lang="fa">مدیریت دسته‌بندی - پشتیبانی نامحدود از دسته‌بندی‌های چندسطحی تودرتو</caption>
+      <caption xml:lang="fi">Luokkahallinta – rajoittamaton sisäkkäinen monitasoinen luokkatuki</caption>
+      <caption xml:lang="fil">Tagapamahala ng Kategorya – walang limitasyong nakapugad na multi-level na suporta sa kategorya</caption>
+      <caption xml:lang="fr">Gestionnaire de catégories – prise en charge illimitée de catégories imbriquées à plusieurs niveaux</caption>
+      <caption xml:lang="ga">Bainisteoir Catagóirí – tacaíocht neamhtheoranta do chatagóirí il-leibhéil neadaithe</caption>
+      <caption xml:lang="he">מנהל קטגוריות - תמיכה בקטגוריות מרובות רמות מקונן ללא הגבלה</caption>
+      <caption xml:lang="hi">कैटेगरी मैनेजर – अनलिमिटेड नेस्टेड मल्टी-लेवल कैटेगरी सपोर्ट</caption>
+      <caption xml:lang="hr">Upravitelj kategorija – neograničena podrška za kategorije s više razina</caption>
+      <caption xml:lang="hu">Kategóriakezelő – korlátlan beágyazott többszintű kategóriatámogatás</caption>
+      <caption xml:lang="hy">Կատեգորիայի կառավարիչ – անսահմանափակ ներդրված բազմամակարդակ կատեգորիաների աջակցություն</caption>
+      <caption xml:lang="id">Manajer kategori – dukungan kategori bertingkat bertingkat tanpa batas</caption>
+      <caption xml:lang="is">Flokkastjóri – ótakmarkaður hreiður stuðningur við fjölþrepa flokka</caption>
+      <caption xml:lang="it">Category manager – supporto illimitato per categorie multilivello nidificate</caption>
+      <caption xml:lang="ja">カテゴリーマネージャー – 無制限のネストされたマルチレベルカテゴリーのサポート</caption>
+      <caption xml:lang="kn">ವರ್ಗ ನಿರ್ವಾಹಕ - ಅನಿಯಮಿತ ನೆಸ್ಟೆಡ್ ಬಹು ಮಟ್ಟದ ವರ್ಗದಲ್ಲಿ ಬೆಂಬಲ</caption>
+      <caption xml:lang="ko">카테고리 관리자 - 무제한 중첩 다중 레벨 카테고리 지원</caption>
+      <caption xml:lang="lt">Kategorijų tvarkyklė – neribotas įdėtas kelių lygių kategorijų palaikymas</caption>
+      <caption xml:lang="lv">Kategoriju pārvaldnieks – neierobežots ligzdotu daudzlīmeņu kategoriju atbalsts</caption>
+      <caption xml:lang="nl">Categoriemanager – onbeperkte geneste ondersteuning voor meerdere categorieën</caption>
+      <caption xml:lang="no_NY">Kategoribehandling – ubegrenset nestet kategoristøtte på flere nivåer</caption>
+      <caption xml:lang="oc">Gestionari de categorias – supòrt illimitat de categorias multinivèls imbricadas</caption>
+      <caption xml:lang="pa">ਸ਼੍ਰੇਣੀ ਪ੍ਰਬੰਧਕ - ਅਸੀਮਤ ਨੇਸਟਡ ਮਲਟੀ-ਲੈਵਲ ਸ਼੍ਰੇਣੀ ਸਹਾਇਤਾ</caption>
+      <caption xml:lang="pl">Menedżer kategorii – nieograniczona obsługa zagnieżdżonych kategorii wielopoziomowych</caption>
+      <caption xml:lang="pt">Gestor de categorias – suporte ilimitado para categorias aninhadas em vários níveis</caption>
+      <caption xml:lang="pt_BR">Gerenciador de categorias – suporte ilimitado a categorias multiníveis aninhadas</caption>
+      <caption xml:lang="ro">Manager de categorii – suport nelimitat de categorii imbricate pe mai multe niveluri</caption>
+      <caption xml:lang="ru">Менеджер категорий – поддержка неограниченной вложенности многоуровневых категорий</caption>
+      <caption xml:lang="si">ප්‍රවර්ග කළමනාකරු - අසීමිත කැදැලි බහු-මට්ටමේ කාණ්ඩ සහාය</caption>
+      <caption xml:lang="sk">Správca kategórií – neobmedzená podpora vnorených viacerých úrovní kategórií</caption>
+      <caption xml:lang="sl">Upravitelj kategorij – neomejena podpora za ugnezdene večnivojske kategorije</caption>
+      <caption xml:lang="sq">Menaxheri i kategorisë – mbështetje e pakufizuar e kategorive me shumë nivele</caption>
+      <caption xml:lang="sr">Менаџер категорија – неограничена подршка за категорије на више нивоа</caption>
+      <caption xml:lang="sv">Kategorihanterare – obegränsat stöd för kapslade kategorier på flera nivåer</caption>
+      <caption xml:lang="ta">வகை மேலாளர் - வரம்பற்ற உள்ளமை பல நிலை வகை ஆதரவு</caption>
+      <caption xml:lang="tr">Kategori yöneticisi – sınırsız iç içe geçmiş çok seviyeli kategori desteği</caption>
+      <caption xml:lang="uk">Менеджер категорій – необмежена підтримка вкладених багаторівневих категорій</caption>
+      <caption xml:lang="vi">Trình quản lý danh mục – hỗ trợ danh mục lồng nhau nhiều cấp không giới hạn</caption>
+      <caption xml:lang="zh_CN">类别管理器-无限嵌套多级类别支持</caption>
+      <caption xml:lang="zh_TW">品類管理器－無限嵌套多層級品類支持</caption>
+      <caption xml:lang="zu">Umphathi Wesigaba - ukwesekwa kwesigaba samazinga amaningi okungenamkhawulo</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/be52a7f3-9dea-46dd-a04e-f198dd413b08</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">فلتر تقرير المعاملات</caption>
+      <caption xml:lang="az">Əməliyyat Hesabatı Filtri</caption>
+      <caption xml:lang="be">Фільтр справаздач аб транзакцыях</caption>
+      <caption xml:lang="bg">Филтър за отчет за транзакция</caption>
+      <caption xml:lang="bn">লেনদেন প্রতিবেদন ফিল্টার</caption>
+      <caption>Transaction Report Filter</caption>
+      <caption xml:lang="ca">Filtre d'informes de transaccions</caption>
+      <caption xml:lang="cs">Filtr přehledu transakcí</caption>
+      <caption xml:lang="da">Transaktionsrapportfilter</caption>
+      <caption xml:lang="de">Transaktionsberichtsfilter</caption>
+      <caption xml:lang="el">Φίλτρο αναφοράς συναλλαγών</caption>
+      <caption xml:lang="en">Transaction Report Filter</caption>
+      <caption xml:lang="en_AU">Transaction Report Filter</caption>
+      <caption xml:lang="en_GB">Transaction Report Filter</caption>
+      <caption xml:lang="eo">Filtrilo por Transakciaj Raportoj</caption>
+      <caption xml:lang="es">Filtro de informes de transacciones</caption>
+      <caption xml:lang="et">Tehinguaruande filter</caption>
+      <caption xml:lang="fa">فیلتر گزارش تراکنش</caption>
+      <caption xml:lang="fi">Tapahtumaraporttisuodatin</caption>
+      <caption xml:lang="fil">Filter ng Ulat ng Transaksyon</caption>
+      <caption xml:lang="fr">Filtre de rapport de transaction</caption>
+      <caption xml:lang="ga">Scagaire Tuairisc Idirbhirt</caption>
+      <caption xml:lang="he">מסנן דוחות עסקאות</caption>
+      <caption xml:lang="hi">लेनदेन रिपोर्ट फ़िल्टर</caption>
+      <caption xml:lang="hr">Filtar izvješća o transakciji</caption>
+      <caption xml:lang="hu">Ügyletjelentés-szűrő</caption>
+      <caption xml:lang="hy">Գործարքի հաշվետվության ֆիլտր</caption>
+      <caption xml:lang="id">Filter Laporan Transaksi</caption>
+      <caption xml:lang="is">Færsluskýrslusía</caption>
+      <caption xml:lang="it">Filtro report transazioni</caption>
+      <caption xml:lang="ja">取引レポートフィルター</caption>
+      <caption xml:lang="kn">ವಹಿವಾಟು ವರದಿ ಫಿಲ್ಟರ್</caption>
+      <caption xml:lang="ko">거래 보고서 필터</caption>
+      <caption xml:lang="lt">Sandorių ataskaitos filtras</caption>
+      <caption xml:lang="lv">Darījumu pārskatu filtrs</caption>
+      <caption xml:lang="nl">Transactierapportfilter</caption>
+      <caption xml:lang="no_NY">Transaksjonsrapportfilter</caption>
+      <caption xml:lang="oc">Filtre de rapòrt de transaccion</caption>
+      <caption xml:lang="pa">ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਰਿਪੋਰਟ ਫਿਲਟਰ</caption>
+      <caption xml:lang="pl">Filtr raportu transakcji</caption>
+      <caption xml:lang="pt">Filtro de relatório de transações</caption>
+      <caption xml:lang="pt_BR">Filtro de Relatório de Transações</caption>
+      <caption xml:lang="ro">Filtru de raport de tranzacție</caption>
+      <caption xml:lang="ru">Фильтр отчетов о транзакциях</caption>
+      <caption xml:lang="si">ගනුදෙනු වාර්තා පෙරහන</caption>
+      <caption xml:lang="sk">Filter prehľadu transakcií</caption>
+      <caption xml:lang="sl">Filter poročila o transakcijah</caption>
+      <caption xml:lang="sq">Filtri i raportit të transaksionit</caption>
+      <caption xml:lang="sr">Филтер за извештаје о трансакцијама</caption>
+      <caption xml:lang="sv">Transaktionsrapportfilter</caption>
+      <caption xml:lang="ta">பரிவர்த்தனை அறிக்கை வடிகட்டி</caption>
+      <caption xml:lang="tr">İşlem Raporu Filtresi</caption>
+      <caption xml:lang="uk">Фільтр звіту про транзакції</caption>
+      <caption xml:lang="vi">Bộ lọc báo cáo giao dịch</caption>
+      <caption xml:lang="zh_CN">交易报告过滤器</caption>
+      <caption xml:lang="zh_TW">交易報告過濾器</caption>
+      <caption xml:lang="zu">Isihlungi Sombiko Wokwenziwe</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/b69b1eba-e476-4755-b64c-1eec2946f4a8</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">الاستيراد من ملف CSV (قيم مفصولة بفواصل)</caption>
+      <caption xml:lang="az">CSV (Vergüllə Ayrılmış Dəyərlər) faylından idxal edin</caption>
+      <caption xml:lang="be">Імпарт з файла CSV (значэнні, падзеленыя коскамі)</caption>
+      <caption xml:lang="bg">Импортиране от CSV (стойности, разделени със запетая) файл</caption>
+      <caption xml:lang="bn">CSV (কমা-বিচ্ছিন্ন মান) ফাইল থেকে আমদানি</caption>
+      <caption>Import from CSV (Comma-Separated Values) file</caption>
+      <caption xml:lang="ca">Importa des d'un fitxer CSV (valors separats per comes).</caption>
+      <caption xml:lang="cs">Importujte ze souboru CSV (hodnoty oddělené čárkami)</caption>
+      <caption xml:lang="da">Importer fra CSV-fil (kommaseparerede værdier)</caption>
+      <caption xml:lang="de">Importieren aus einer CSV-Datei (kommagetrennte Werte)</caption>
+      <caption xml:lang="el">Εισαγωγή από αρχείο CSV (τιμές διαχωρισμένες με κόμμα).</caption>
+      <caption xml:lang="en">Import from CSV (Comma-Separated Values) file</caption>
+      <caption xml:lang="en_AU">Import from CSV (Comma-Separated Values) file</caption>
+      <caption xml:lang="en_GB">Import from CSV (Comma-Separated Values) file</caption>
+      <caption xml:lang="eo">Importo el CSV (Kom-Separitaj Valoroj) dosiero</caption>
+      <caption xml:lang="es">Importar desde un archivo CSV (valores separados por comas)</caption>
+      <caption xml:lang="et">Import CSV-failist (komaga eraldatud väärtused)</caption>
+      <caption xml:lang="fa">وارد کردن از فایل CSV (مقادیر جدا شده با کاما)</caption>
+      <caption xml:lang="fi">Tuo CSV-tiedostosta (pilkuilla erotetut arvot)</caption>
+      <caption xml:lang="fil">Mag-import mula sa CSV (Comma-Separated Values) file</caption>
+      <caption xml:lang="fr">Importer à partir d'un fichier CSV (valeurs séparées par des virgules)</caption>
+      <caption xml:lang="ga">Iompórtáil ó chomhad CSV (Luachanna Scartha le Camóga)</caption>
+      <caption xml:lang="he">ייבא מקובץ CSV (ערכים מופרדים בפסיקים)</caption>
+      <caption xml:lang="hi">CSV (कॉमा-सेपरेटेड वैल्यूज़) फ़ाइल से आयात करें</caption>
+      <caption xml:lang="hr">Uvoz iz datoteke CSV (vrijednosti odvojene zarezima)</caption>
+      <caption xml:lang="hu">Importálás CSV-fájlból (vesszővel elválasztott értékek)</caption>
+      <caption xml:lang="hy">Ներմուծում CSV (ստորակետերով բաժանված արժեքներ) ֆայլից</caption>
+      <caption xml:lang="id">Impor dari file CSV (nilai yang dipisahkan koma)</caption>
+      <caption xml:lang="is">Flytja inn úr CSV (komma-aðskilin gildi) skrá</caption>
+      <caption xml:lang="it">Importa da file CSV (valori separati da virgole)</caption>
+      <caption xml:lang="ja">CSV（カンマ区切り値）ファイルからインポート</caption>
+      <caption xml:lang="kn">CSV (ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಮೌಲ್ಯಗಳು) ಫೈಲ್‌ನಿಂದ ಆಮದು ಮಾಡಿ</caption>
+      <caption xml:lang="ko">CSV(쉼표로 구분된 값) 파일에서 가져오기</caption>
+      <caption xml:lang="lt">Importuoti iš CSV (kableliais atskirtų reikšmių) failo</caption>
+      <caption xml:lang="lv">Importēt no CSV (komatatdalīto vērtību) faila</caption>
+      <caption xml:lang="nl">Importeren vanuit CSV-bestand (door komma's gescheiden waarden)</caption>
+      <caption xml:lang="no_NY">Importer fra CSV-fil (kommaseparerte verdier)</caption>
+      <caption xml:lang="oc">Importar dempuèi lo fichièr CSV (Valors separadas per de virgulas)</caption>
+      <caption xml:lang="pa">CSV (ਕਾਮੇ-ਵੱਖ ਕੀਤੇ ਮੁੱਲ) ਫਾਈਲ ਤੋਂ ਆਯਾਤ ਕਰੋ</caption>
+      <caption xml:lang="pl">Importuj z pliku CSV (wartości rozdzielone przecinkami)</caption>
+      <caption xml:lang="pt">Importar de ficheiro CSV (valores separados por vírgula)</caption>
+      <caption xml:lang="pt_BR">Importar de arquivo CSV (valores separados por vírgula)</caption>
+      <caption xml:lang="ro">Importați din fișierul CSV (valori separate prin virgulă)</caption>
+      <caption xml:lang="ru">Импорт из CSV-файла (значения, разделенные запятыми)</caption>
+      <caption xml:lang="si">CSV (කොමාවෙන් වෙන් කරන ලද අගයන්) ගොනුවෙන් ආයාත කරන්න</caption>
+      <caption xml:lang="sk">Import zo súboru CSV (hodnoty oddelené čiarkou)</caption>
+      <caption xml:lang="sl">Uvoz iz datoteke CSV (vrednosti, ločene z vejicami)</caption>
+      <caption xml:lang="sq">Importo nga skedari CSV (vlera të ndara me presje)</caption>
+      <caption xml:lang="sr">Увези из ЦСВ датотеке (вредности раздвојене зарезима)</caption>
+      <caption xml:lang="sv">Importera från CSV-fil (kommaseparerade värden)</caption>
+      <caption xml:lang="ta">CSV (காற்புள்ளியால் பிரிக்கப்பட்ட மதிப்புகள்) கோப்பிலிருந்து இறக்குமதி செய்யவும்</caption>
+      <caption xml:lang="tr">CSV (virgülle ayrılmış değerler) dosyasından içe aktar</caption>
+      <caption xml:lang="uk">Імпорт із файлу CSV (значення, розділені комами)</caption>
+      <caption xml:lang="vi">Nhập từ tệp CSV (giá trị phân tách bằng dấu phẩy)</caption>
+      <caption xml:lang="zh_CN">从 CSV（逗号分隔值）文件导入</caption>
+      <caption xml:lang="zh_TW">從 CSV（逗號分隔值）檔案匯入</caption>
+      <caption xml:lang="zu">Ngenisa usuka kufayela le-CSV (Amanani Ahlukaniswe Ngokhefana)</caption>
+      <image type="source">https://user-images.githubusercontent.com/17465872/233931375-051e7c9f-d4c4-4baa-9586-7ad10ef48aba.png</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">الاستيراد من ملف QIF (تنسيق التبادل Quicken)</caption>
+      <caption xml:lang="az">QIF (Quicken Interchange Format) faylından idxal edin</caption>
+      <caption xml:lang="be">Імпарт з файла QIF (фармат абмену Quicken)</caption>
+      <caption xml:lang="bg">Импортиране от QIF (Quicken формат за обмен) файл</caption>
+      <caption xml:lang="bn">QIF (কুইকেন ইন্টারচেঞ্জ ফর্ম্যাট) ফাইল থেকে আমদানি</caption>
+      <caption>Import from QIF (Quicken Interchange Format) file</caption>
+      <caption xml:lang="ca">Importa des del fitxer QIF (Format d'intercanvi Quicken)</caption>
+      <caption xml:lang="cs">Import ze souboru QIF (výměnný formát Quicken)</caption>
+      <caption xml:lang="da">Importer fra QIF-fil (Quicken Interchange Format)</caption>
+      <caption xml:lang="de">Importieren aus einer QIF-Datei (Austauschformat Quicken)</caption>
+      <caption xml:lang="el">Εισαγωγή από το αρχείο QIF (Quicken μορφή ανταλλαγής)</caption>
+      <caption xml:lang="en">Import from QIF (Quicken Interchange Format) file</caption>
+      <caption xml:lang="en_AU">Import from QIF (Quicken Interchange Format) file</caption>
+      <caption xml:lang="en_GB">Import from QIF (Quicken Interchange Format) file</caption>
+      <caption xml:lang="eo">Importo el QIF (Quicken Interchange Format) dosiero</caption>
+      <caption xml:lang="es">Importar desde un archivo QIF (formato de intercambio Quicken)</caption>
+      <caption xml:lang="et">Import QIF-failist (Quicken Interchange Format)</caption>
+      <caption xml:lang="fa">وارد کردن از فایل QIF (فرمت تبادل سریع)</caption>
+      <caption xml:lang="fi">Tuo QIF-tiedostosta (Quicken-vaihtomuoto)</caption>
+      <caption xml:lang="fil">Mag-import mula sa QIF (Quicken Interchange Format) file</caption>
+      <caption xml:lang="fr">Importer à partir d'un fichier QIF (format d'échange Quicken)</caption>
+      <caption xml:lang="ga">Iompórtáil ó chomhad QIF (Formáid Idirmhalartaithe Quicken)</caption>
+      <caption xml:lang="he">ייבוא ​​מקובץ QIF (Quicken בפורמט מחלף)</caption>
+      <caption xml:lang="hi">QIF (क्विकन इंटरचेंज फ़ॉर्मेट) फ़ाइल से आयात करें</caption>
+      <caption xml:lang="hr">Uvoz iz datoteke QIF (format za razmjenu Quicken)</caption>
+      <caption xml:lang="hu">Importálás QIF-fájlból (Quicken-adatcsere formátuma)</caption>
+      <caption xml:lang="hy">Ներմուծում QIF (Quicken Interchange Format) ֆայլից</caption>
+      <caption xml:lang="id">Impor dari file QIF (format pertukaran Quicken)</caption>
+      <caption xml:lang="is">Flytja inn úr QIF (Quicken skiptisniði) skrá</caption>
+      <caption xml:lang="it">Importazione da file QIF (formato di scambio Quicken)</caption>
+      <caption xml:lang="ja">QIF (Quicken 交換形式) ファイルからのインポート</caption>
+      <caption xml:lang="kn">QIF (Quicken ಇಂಟರ್‌ಚೇಂಜ್ ಫಾರ್ಮ್ಯಾಟ್) ಫೈಲ್‌ನಿಂದ ಆಮದು ಮಾಡಿ</caption>
+      <caption xml:lang="ko">QIF(Quicken 교환 형식) 파일에서 가져오기</caption>
+      <caption xml:lang="lt">Importuokite iš QIF (Quicken mainų formato) failo</caption>
+      <caption xml:lang="lv">Importēt no QIF (Quicken apmaiņas formāts) faila</caption>
+      <caption xml:lang="nl">Importeren vanuit QIF (Quicken-uitwisselingsformaat)-bestand</caption>
+      <caption xml:lang="no_NY">Importer fra QIF-fil (Quicken-utvekslingsformat)</caption>
+      <caption xml:lang="oc">Importacion dempuèi lo fichièr QIF (Format d'escambi rapid)</caption>
+      <caption xml:lang="pa">QIF (ਕੁਇਕਨ ਇੰਟਰਚੇਂਜ ਫਾਰਮੈਟ) ਫਾਈਲ ਤੋਂ ਆਯਾਤ ਕਰੋ</caption>
+      <caption xml:lang="pl">Importuj z pliku QIF (format wymiany Quicken)</caption>
+      <caption xml:lang="pt">Importar do ficheiro QIF (formato de intercâmbio Quicken)</caption>
+      <caption xml:lang="pt_BR">Importar do arquivo QIF (formato de intercâmbio Quicken)</caption>
+      <caption xml:lang="ro">Importați din fișierul QIF (format de schimb Quicken)</caption>
+      <caption xml:lang="ru">Импорт из файла QIF (формат обмена Quicken)</caption>
+      <caption xml:lang="si">QIF (ඉක්මන් අන්තර් හුවමාරු ආකෘතිය) ගොනුවෙන් ආයාත කරන්න</caption>
+      <caption xml:lang="sk">Import zo súboru QIF (Quicken výmenný formát)</caption>
+      <caption xml:lang="sl">Uvoz iz datoteke QIF (Quicken izmenjava format)</caption>
+      <caption xml:lang="sq">Importoni nga skedari QIF (format shkëmbimi Quicken)</caption>
+      <caption xml:lang="sr">Увоз из датотеке QIF (Quicken формат размене)</caption>
+      <caption xml:lang="sv">Importera från QIF-fil (Quicken-utbytesformat)</caption>
+      <caption xml:lang="ta">QIF (Quicken பரிமாற்ற வடிவம்) கோப்பிலிருந்து இறக்குமதி செய்யவும்</caption>
+      <caption xml:lang="tr">QIF (Quicken değişim biçimi) dosyasından içe aktar</caption>
+      <caption xml:lang="uk">Імпорт із файлу QIF (формат обміну Quicken)</caption>
+      <caption xml:lang="vi">Nhập từ tệp QIF (Định dạng trao đổi Quicken)</caption>
+      <caption xml:lang="zh_CN">从 QIF（Quicken交换格式）文件导入</caption>
+      <caption xml:lang="zh_TW">從 QIF（Quicken交換格式）檔案匯入</caption>
+      <caption xml:lang="zu">Ngenisa usuka kufayela le-QIF (Quicken Interchange Format)</caption>
+      <image type="source">https://user-images.githubusercontent.com/17465872/233931411-d7a92fed-272f-446d-b86a-89f99b66683a.png</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">تصدير كملف XML (لغة ترميز قابلة للتوسيع)</caption>
+      <caption xml:lang="az">XML (genişləndirilə bilən işarələmə dili) faylı kimi ixrac edin</caption>
+      <caption xml:lang="be">Экспарт у файл XML (расшыраная мова разметкі)</caption>
+      <caption xml:lang="bg">Експортирайте като XML (разширяем език за маркиране) файл</caption>
+      <caption xml:lang="bn">XML (এক্সটেনসিবল মার্কআপ ভাষা) ফাইল হিসাবে রপ্তানি করুন</caption>
+      <caption>Export as XML (eXtensible Markup Language) file</caption>
+      <caption xml:lang="ca">Exporta com a fitxer XML (llenguatge de marques extensible)</caption>
+      <caption xml:lang="cs">Exportujte jako soubor XML (rozšiřitelný značkovací jazyk)</caption>
+      <caption xml:lang="da">Eksporter som XML-fil (eXtensible Markup Language)</caption>
+      <caption xml:lang="de">Als XML-Datei (Extensible Markup Language) exportieren</caption>
+      <caption xml:lang="el">Εξαγωγή ως αρχείο XML (επεκτάσιμη γλώσσα σήμανσης)</caption>
+      <caption xml:lang="en">Export as XML (eXtensible Markup Language) file</caption>
+      <caption xml:lang="en_AU">Export as XML (eXtensible Markup Language) file</caption>
+      <caption xml:lang="en_GB">Export as XML (eXtensible Markup Language) file</caption>
+      <caption xml:lang="eo">Eksporti kiel XML (eXtensible Markup Language) dosiero</caption>
+      <caption xml:lang="es">Εξαγωγή ως αρχείο XML (επεκτάσιμη γλώσσα σήμανσης)</caption>
+      <caption xml:lang="et">Eksport XML-failina (eXtensible Markup Language)</caption>
+      <caption xml:lang="fa">خروجی به صورت فایل XML (زبان نشانه‌گذاری توسعه‌پذیر)</caption>
+      <caption xml:lang="fi">Vie XML-tiedostona (laajennettava merkintäkieli)</caption>
+      <caption xml:lang="fil">I-export bilang XML (eXtensible Markup Language) na file</caption>
+      <caption xml:lang="fr">Exporter en tant que fichier XML (langage de balisage extensible)</caption>
+      <caption xml:lang="ga">Easpórtáil mar chomhad XML (Teanga Mharcála eXtensible)</caption>
+      <caption xml:lang="he">ייצוא כקובץ XML (שפת סימון ניתנת להרחבה)</caption>
+      <caption xml:lang="hi">XML (एक्सटेंसिबल मार्कअप लैंग्वेज) फ़ाइल के रूप में निर्यात करें</caption>
+      <caption xml:lang="hr">Izvezi kao XML (proširivi označni jezik) datoteku</caption>
+      <caption xml:lang="hu">Exportálás XML-fájlként (bővíthető jelölőnyelv)</caption>
+      <caption xml:lang="hy">Արտահանում որպես XML (eXtensible Markup Language) ֆայլ</caption>
+      <caption xml:lang="id">Ekspor sebagai berkas XML (bahasa markup yang dapat diperluas)</caption>
+      <caption xml:lang="is">Flytja út sem XML (stækkanlegt markup language) skrá</caption>
+      <caption xml:lang="it">Esporta come file XML (linguaggio di markup estensibile)</caption>
+      <caption xml:lang="ja">XML (拡張マークアップ言語) ファイルとしてエクスポート</caption>
+      <caption xml:lang="kn">XML (ವಿಸ್ತರಿಸುವ ಮಾರ್ಕ್ಅಪ್ ಭಾಷೆ) ಫೈಲ್ ಆಗಿ ರಫ್ತು ಮಾಡಿ</caption>
+      <caption xml:lang="ko">XML(확장 가능한 마크업 언어) 파일로 내보내기</caption>
+      <caption xml:lang="lt">Eksportuoti kaip XML (išplečiamos žymėjimo kalbos) failą</caption>
+      <caption xml:lang="lv">Eksportēt kā XML (paplašināmās iezīmēšanas valodas) failu</caption>
+      <caption xml:lang="nl">Exporteren als XML-bestand (uitbreidbare opmaaktaal)</caption>
+      <caption xml:lang="no_NY">Eksporter som XML-fil (utvidbart markeringsspråk)</caption>
+      <caption xml:lang="oc">Exportar coma fichièr XML (lengatge de marcatge eXtensible)</caption>
+      <caption xml:lang="pa">XML (ਐਕਸਟੈਂਸੀਬਲ ਮਾਰਕਅੱਪ ਭਾਸ਼ਾ) ਫਾਈਲ ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ</caption>
+      <caption xml:lang="pl">Eksportuj jako plik XML (rozszerzalny język znaczników)</caption>
+      <caption xml:lang="pt">Exportar como ficheiro XML (linguagem de marcação extensível)</caption>
+      <caption xml:lang="pt_BR">Exportar como arquivo XML (linguagem de marcação extensível)</caption>
+      <caption xml:lang="ro">Exportați ca fișier XML (limbaj de marcare extensibil)</caption>
+      <caption xml:lang="ru">Экспортировать как XML (расширяемый язык разметки) файл</caption>
+      <caption xml:lang="si">XML (eXtensible Markup Language) ගොනුවක් ලෙස අපනයනය කරන්න</caption>
+      <caption xml:lang="sk">Exportovať ako súbor XML (rozšíriteľný značkovací jazyk)</caption>
+      <caption xml:lang="sl">Izvozi kot datoteko XML (razširljiv označevalni jezik)</caption>
+      <caption xml:lang="sq">Eksporto si skedar XML (gjuhë të zgjerueshme të shënjimit)</caption>
+      <caption xml:lang="sr">Извези као КСМЛ (прошириви језик за означавање) датотеку</caption>
+      <caption xml:lang="sv">Exportera som XML-fil (utbyggbart märkningsspråk)</caption>
+      <caption xml:lang="ta">எக்ஸ்எம்எல் (நீட்டிக்கக்கூடிய மார்க்அப் மொழி) கோப்பாக ஏற்றுமதி செய்யவும்</caption>
+      <caption xml:lang="tr">XML (genişletilebilir işaretleme dili) dosyası olarak dışa aktar</caption>
+      <caption xml:lang="uk">Експорт як файл XML (розширювана мова розмітки)</caption>
+      <caption xml:lang="vi">Xuất dưới dạng tệp XML (ngôn ngữ đánh dấu mở rộng)</caption>
+      <caption xml:lang="zh_CN">导出为 XML（可扩展标记语言）文件</caption>
+      <caption xml:lang="zh_TW">匯出為 XML（可擴展標記語言）文件</caption>
+      <caption xml:lang="zu">Khipha njengefayela le-XML (eXtensible Markup Language)</caption>
+      <image type="source">https://user-images.githubusercontent.com/17465872/233931435-825fa069-f182-4b50-970d-21755c90f1da.png</image>
+    </screenshot>
+    <screenshot>
+      <caption xml:lang="ar">مدير العملات - دعم العملات المتعددة</caption>
+      <caption xml:lang="az">Valyuta Meneceri – çox valyuta dəstəyi</caption>
+      <caption xml:lang="be">Валютны менеджэр - падтрымка некалькіх валют</caption>
+      <caption xml:lang="bg">Валутен мениджър - поддръжка на няколко валути</caption>
+      <caption xml:lang="bn">কারেন্সি ম্যানেজার - মাল্টি কারেন্সি সমর্থন</caption>
+      <caption>Currency Manager – multi currency support</caption>
+      <caption xml:lang="ca">Gestor de divises: suport de diverses monedes</caption>
+      <caption xml:lang="cs">Správce měn – podpora více měn</caption>
+      <caption xml:lang="da">Valutaadministrator – understøttelse af flere valutaer</caption>
+      <caption xml:lang="de">Währungsmanager – Unterstützung mehrerer Währungen</caption>
+      <caption xml:lang="el">Διαχειριστής νομισμάτων - υποστήριξη πολλαπλών νομισμάτων</caption>
+      <caption xml:lang="en">Currency Manager – multi currency support</caption>
+      <caption xml:lang="en_AU">Currency Manager – multi currency support</caption>
+      <caption xml:lang="en_GB">Currency Manager – multi currency support</caption>
+      <caption xml:lang="eo">Valuta Administranto - subteno de pluraj valutoj</caption>
+      <caption xml:lang="es">Gestor de divisas: compatibilidad con múltiples divisas</caption>
+      <caption xml:lang="et">Valuutahaldur – mitme valuuta tugi</caption>
+      <caption xml:lang="fa">مدیریت ارز - پشتیبانی از چند ارز</caption>
+      <caption xml:lang="fi">Valuuttahallinta - usean valuutan tuki</caption>
+      <caption xml:lang="fil">Tagapamahala ng Pera - suporta sa maraming pera</caption>
+      <caption xml:lang="fr">Gestionnaire de devises - prise en charge de plusieurs devises</caption>
+      <caption xml:lang="ga">Bainisteoir Airgeadra – tacaíocht il-airgeadra</caption>
+      <caption xml:lang="he">מנהל מטבעות - תמיכה בריבוי מטבעות</caption>
+      <caption xml:lang="hi">करेंसी मैनेजर – मल्टी करेंसी सपोर्ट</caption>
+      <caption xml:lang="hr">Upravitelj valuta - podrška za više valuta</caption>
+      <caption xml:lang="hu">Pénznemkezelő – több pénznem támogatása</caption>
+      <caption xml:lang="hy">Արժույթի կառավարիչ – բազմաարժույթային աջակցություն</caption>
+      <caption xml:lang="id">Manajer mata uang - dukungan multi mata uang</caption>
+      <caption xml:lang="is">Gjaldmiðilsstjóri - stuðningur í mörgum gjaldmiðlum</caption>
+      <caption xml:lang="it">Gestore valute - supporto multivaluta</caption>
+      <caption xml:lang="ja">通貨マネージャー - 複数通貨のサポート</caption>
+      <caption xml:lang="kn">ಕರೆನ್ಸಿ ಮ್ಯಾನೇಜರ್ - ಬಹು ಕರೆನ್ಸಿ ಬೆಂಬಲ</caption>
+      <caption xml:lang="ko">통화 관리자 - 다중 통화 지원</caption>
+      <caption xml:lang="lt">Valiutų tvarkyklė – kelių valiutų palaikymas</caption>
+      <caption xml:lang="lv">Valūtas pārvaldnieks – vairāku valūtu atbalsts</caption>
+      <caption xml:lang="nl">Valutamanager – ondersteuning voor meerdere valuta’s</caption>
+      <caption xml:lang="no_NY">Valutabehandler – støtte for flere valutaer</caption>
+      <caption xml:lang="oc">Gestionari de devisas – supòrt de devisas multi</caption>
+      <caption xml:lang="pa">ਮੁਦਰਾ ਪ੍ਰਬੰਧਕ - ਮਲਟੀ ਕਰੰਸੀ ਸਹਾਇਤਾ</caption>
+      <caption xml:lang="pl">Menedżer walutowy – obsługa wielu walut</caption>
+      <caption xml:lang="pt">Gestor de moeda – suporte multimoeda</caption>
+      <caption xml:lang="pt_BR">Gerenciador de moeda – suporte a várias moedas</caption>
+      <caption xml:lang="ro">Manager valutar – suport pentru mai multe valute</caption>
+      <caption xml:lang="ru">Менеджер валют – поддержка нескольких валют</caption>
+      <caption xml:lang="si">මුදල් කළමනාකරු - බහු මුදල් සහාය</caption>
+      <caption xml:lang="sk">Menový manažér – podpora viacerých mien</caption>
+      <caption xml:lang="sl">Upravitelj valut – podpora za več valut</caption>
+      <caption xml:lang="sq">Menaxheri i monedhës – mbështetje për shumë monedha</caption>
+      <caption xml:lang="sr">Менаџер валута – подршка за више валута</caption>
+      <caption xml:lang="sv">Valutahanterare – stöd för flera valutor</caption>
+      <caption xml:lang="ta">நாணய மேலாளர் - பல நாணய ஆதரவு</caption>
+      <caption xml:lang="tr">Para birimi yöneticisi – çoklu para birimi desteği</caption>
+      <caption xml:lang="uk">Менеджер валют – підтримка кількох валют</caption>
+      <caption xml:lang="vi">Trình quản lý tiền tệ – hỗ trợ nhiều loại tiền tệ</caption>
+      <caption xml:lang="zh_CN">货币管理器 – 支持多种货币</caption>
+      <caption xml:lang="zh_TW">貨幣管理器 – 多貨幣支持</caption>
+      <caption xml:lang="zu">Umphathi Wemali - ukwesekwa kwezimali eziningi</caption>
+      <image type="source">https://github.com/moneymanagerex/moneymanagerex/assets/17465872/4e6e9a83-a242-43d5-9676-e65163f32fed</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release type="stable" version="1.9.4 RC 1" date="2026-08-25T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#8448 Transaction dialog takes 5s to open; not data-bound</li>
+          <li>#5697 Allow transactions to be filtered based on attachments</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#8497 MMEX V1.9.3 crashes when creating an HTML model for a new report.</li>
+          <li>#8485 Investment -&gt;New Filter ===&gt; Crash</li>
+          <li>#8475 Assets Value</li>
+          <li>#8471 Creating a new database fails with "SQL logic error: near "Africa": syntax error" when UI languageis Italian</li>
+          <li>#8467 Can't move a column</li>
+          <li>#8455 All dates are not all dates</li>
+          <li>#8428 CSV Import: "Color" checkbox does not enable the color selector</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.9.3" date="2026-08-07T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#8015 [FEATURE REQUEST] Account icons: usability, custom selection, and bank logos</li>
+          <li>#8401 wx3.3.3</li>
+          <li>#8297 Enchancements in database API</li>
+          <li>#8287 Currency Manager, add apostrophe ' to the "Grouping char"</li>
+          <li>#8279 Warning messages when compiling on Windows 11</li>
+          <li>#8260 Modified Payee-PayeeTrend.grm (with Select input)</li>
+          <li>#8239 New string translation macros</li>
+          <li>#8229 Update to wxWidgets v3.3.2</li>
+          <li>#8175 [regression] User interface language</li>
+          <li>#7870 Make reconciled balance disappear on home screen if you want it to</li>
+          <li>#8404 Fix: Clang compiler support, warnings removed</li>
+          <li>#8339 Translate "Cash Ledger"</li>
+          <li>#8320 Add selection between accounts and account types in summary of accounts report</li>
+          <li>#8314 Add filtering for accounts and time period in summary of accounts report</li>
+          <li>#8241 Move OK/CANCEL button locations on transaction dialog</li>
+          <li>#8221 Dashboard updates and corrections</li>
+          <li>#8219 Journal Panel additional functionality</li>
+          <li>#8195 fix(#8191): package wxWidgets translations</li>
+          <li>#8088 Add tooltips to toolbar configuration buttons</li>
+          <li>#8072 Clarify CSV field labels for real and unreal gains</li>
+          <li>#7994 Feature: Toolbar and Navigator configuration and custom account types</li>
+          <li>#7962 Added the option to export stocks and added the option to limit the exported transactions/stocks between 2 dates (issue#7810)</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#8276 Crash on startup with existing databases in 1.9.3.0 on Windows bug</li>
+          <li>#8431 Cannot jump from Transaction Report to account list</li>
+          <li>#8432 Wrong "Selected transactions total" with multi-currency database</li>
+          <li>#8390 Bug: Asset account view cannot be hidden in navigator configuration</li>
+          <li>#8364 Create a scheduled transaction from an existing transaction (category and tags are missing)</li>
+          <li>#8352 csv delimiter "|" give Bad allocation Error</li>
+          <li>#8324 OFX Error</li>
+          <li>#8311 Column width resizing is not saved</li>
+          <li>#8309 Non riesco a stampare</li>
+          <li>#8292 License dates are still wrong</li>
+          <li>#8274 Error opening a new database</li>
+          <li>#8268 Context menu right‑click causes crash in Currency Manager</li>
+          <li>#8265 Payee Report - All = incorrect results</li>
+          <li>#8262 Performance issue on v1.9.3 Beta</li>
+          <li>#8257 App crashes when selecting a closed Bank Account</li>
+          <li>#8254 Attachments will no longer be displayed in the transaction overview</li>
+          <li>#8225 Missing translation 1.9.3 Béta version</li>
+          <li>#8192 Time stamp for “Scheduled Transactions” is missing when entering manually</li>
+          <li>#8176 Account deletion does not work</li>
+          <li>#8169 Notes and color field are in the wrong place in "transaction report"</li>
+          <li>#8140 Reconcile window opening balance may be incorrect if future transactions are displayed in checking panel</li>
+          <li>#8130 Accounts Balance - Yearly Report Closed accounts</li>
+          <li>#8124 Date Range issues</li>
+          <li>#8118 Update Account Name in Account View</li>
+          <li>#8116 [Reconcile account] Number formats</li>
+          <li>#8087 Dashboard does not show Last N days</li>
+          <li>#8057 GUI: Misprint at Stock Portfolio Overview (Tips, English)</li>
+          <li>#8000 Reconcile dialog calculator not working on MacOS</li>
+          <li>#7240 Homepage Import/Export CSV Link</li>
+          <li>#8413 Column handling fixes and refactor</li>
+          <li>#8403 Fix: Correct display of disabled buttons under Linux/GTK</li>
+          <li>#8400 Fix: display configured names in panel haeders and navigator edit dialog</li>
+          <li>#8359 Reconcile dialog - update sums after edit</li>
+          <li>#8349 Fix regression introduced with "refine TrxDialog"</li>
+          <li>#8335 Fix new account type always defaulting to Checking</li>
+          <li>#8306 Fix currency related crashes during new database creation</li>
+          <li>#8253 Fix segmentation fault</li>
+          <li>#8247 Misc Fixes and updates</li>
+          <li>#8245 Two (minor) Bugfixes</li>
+          <li>#7997 Qif import fixes</li>
+          <li>#7706 ERROR PRINTING TRANSACTIONS</li>
+          <li>#7685 Transaction Report Settings Are Not Saved</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.9.2" date="2026-01-20T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#7980 Refine scheduled transactions panel</li>
+          <li>#7946 Transaction dialog Save and new enhancements</li>
+          <li>#7947 Dedicated Flag to show/hide future transactions on dashboard</li>
+          <li>#7821 2-digit years are interpreted as the first century, instead of being in the closest century</li>
+          <li>#7758 Allow Finance/Yahoo cookie and crumb to be reset</li>
+          <li>#7724 [Bug] Transaction list sorting by Date column is broken and can cause application crash (v1.9.1/1.9.2)</li>
+          <li>#7308 Allow toolbar color to be customized</li>
+          <li>#6771 Avoiding duplicate entries on CSV Import</li>
+          <li>#3710 OFX import/export support</li>
+          <li>#7781 Enhanced and refactored General Report Manager</li>
+          <li>#7803 Pull in latest version of GRM reports</li>
+          <li>#7819 Payee manager enhancements</li>
+          <li>#7818 Bugfix and transaction dialog enhancements</li>
+          <li>#7911 Updated documentation: expanded Tags section, added screenshots and GIFs</li>
+          <li>#7913 Documentation Update: Complete rewrite of the Tags section with images and GIF + Improved translation: Adding Initial Shares to Stock</li>
+          <li>#7824 Fix Arch Linux support</li>
+          <li>#7940 New Features: Navigator expand/collapse all popup menu - Reconcile dialog</li>
+          <li>#7923 Header of MMEX</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#8026 Dashboard/Account View overlay issue</li>
+          <li>#8009 Correct dark mode colors on some dialogs (Windows)</li>
+          <li>#7984 Cash Flow -&gt; Transactions - Current Day Transactions are displayed as if not already reconciled</li>
+          <li>#7975 Add descriptive tooltips to budget status icons in the Budgeting Panel</li>
+          <li>#7949 Reconcile dialog issues</li>
+          <li>#7984 Cash Flow -&gt; Transactions - Current Day Transactions are displayed as if not already reconciled</li>
+          <li>#7972 Cannot invoke Theme Manager from menus</li>
+          <li>#7863 error occurred when saving the transaction</li>
+          <li>#7851 Budget overview issue</li>
+          <li>#7847 Crash updating Payees</li>
+          <li>#7807 Reports/Categories/Where the money goes totals incorrect</li>
+          <li>#7780 App crash on click on specific Stock Portfolio name after changing of sort order</li>
+          <li>#7765 Reporting Start and End date issues</li>
+          <li>#7761 CSV Import - Custom Fields Fail to Populate</li>
+          <li>#7745 Save and Save and New has the same keyboard shortcut</li>
+          <li>#7742 MacOS random crashes on exit</li>
+          <li>#7737 MMEX crashes - stock portfolio account closed</li>
+          <li>#7736 Default Stock URL should be: finance.yahoo.com/quote/%s</li>
+          <li>#7710 v1.9.1 Crash on opening when it auto attempts to import WebApp transactions</li>
+          <li>#7700 MMEX crashes after clicking on Stock Portfolios</li>
+          <li>#7692 SOLVED (but please recheck) v1.9.1: Assertion before graphic "Summary", "Where the Money Goes/Comes From"</li>
+          <li>#7688 Base currency in reports is not displayed</li>
+          <li>#7562 AppImage build failure... github.com/AppImageCrafters/appimage-builder/issues/375</li>
+          <li>#6868 Please allow `Now` to be translated and to work with localized versions of MMEX</li>
+          <li>#6462 Notes are duplicated for some split transactions</li>
+          <li>#6233 All Transactions view - Selected Transactions Amount</li>
+          <li>#6128 Please set the default `Symbol Location` = `Suffix` for `Currency Code` = `HUF`</li>
+          <li>#7793 Fixed sorting of investment accounts in stocks widget</li>
+          <li>#7830 Refactor setting dialog static box assignments and remove double list refresh</li>
+          <li>#7829 Derive accelerator key from (translated) tooltip text</li>
+          <li>#7694 The New Database Wizard window is extremely wide</li>
+          <li>#7914 Misc fixes</li>
+          <li>#7916 Fix missing images and improve Tags documentation (en_US + it_IT)</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.9.1" date="2025-09-12T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#7334 Copy sum on click</li>
+          <li>#7606 Enhancement: Replace bulk transation setting option with dedicated button in transaction dialog</li>
+          <li>#7605 Enhancement: Combine transaction related settings in dedicated panel</li>
+          <li>#7604 Enhancement: Context menu option to move columns to beginning/end</li>
+          <li>#7588 Enhancement: Use default status after copy/paste or duplicate</li>
+          <li>#7577 Feature: Unified date range handling</li>
+          <li>#7567 1.9.1 Beta Juli 23 Homepage is displayed incorrectly</li>
+          <li>#7559 Enhancement: Show total in stock transaction list</li>
+          <li>#7558 Feature: Show stock list instead of help page in Stock portfolios</li>
+          <li>#7557 Feature: Emphasize not reconciled transactions</li>
+          <li>#7539 Improved German translation - removed warnings - small fixes</li>
+          <li>#7530 wxWidgets 3.3.0 (now 3.3.1)</li>
+          <li>#7468 Last 1.9.1 Beta doesn't run on Linux</li>
+          <li>#7467 wxWidgets 3.2.8</li>
+          <li>#7445 Warning when re-opening MMEX after a system restart</li>
+          <li>#7441 wxWidgets 3.x STL BUILD</li>
+          <li>#7372 wxWidgets 3.2.7</li>
+          <li>#7363 Self Transfer as Revaluation</li>
+          <li>#7247 Refactor translation macros</li>
+          <li>#7190 Dashboard: No red in negative amounts and Histogram dissappeared</li>
+          <li>#7150 Refine date ranges in transaction panels</li>
+          <li>#6882 c++17</li>
+          <li>#5124 Update Windows wxWebView to use wxWEBVIEW_BACKEND_EDGE backend</li>
+          <li>#1628 Model_Attachment::REFTYPE_CHOICES</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#7668 Wrong date range on "Category Income/Expenses - 12 month" report</li>
+          <li>#7663 Future transactions not displayed if &gt; 30 days after end of unbounded range end</li>
+          <li>#7580 Bug: New splits are not added in the split transaction dialog</li>
+          <li>#7568 Transaction form invisible</li>
+          <li>#7546 If you edit a scheduled payment and cancel the attachment, it disappears.</li>
+          <li>#7532 changing budget selection in budget reports has no effect</li>
+          <li>#7485 wxWidgets debug alert triggers when viewing stock panel</li>
+          <li>#7465 System crash deleting quote from historic view of a title</li>
+          <li>#7451 You must use int64 for History Id retrieved from List (otherwise it could be a negative value and lead to memory exception)</li>
+          <li>#7392 Report on new sub-category not showing correct result</li>
+          <li>#7296 MMEX crashes when selecting a specific credit card account</li>
+          <li>#7292 Three languages are not sorted and shown like the other languages</li>
+          <li>#7277 Strange Symbols Appearing in Transaction Date Filters (1.9.1 Beta1)</li>
+          <li>#7272 MMEX crashes when filtering on custom field only in transation report</li>
+          <li>#7271 Transaction Report -&gt; link to transactions broken</li>
+          <li>#7235 Change ending date for Monthly Category report?</li>
+          <li>#7229 Error on using the credit limit feature</li>
+          <li>#7220 Transaction Report crash if tags are selected</li>
+          <li>#7210 Manuually entering the same new tag in Split Transactions will cause a Constraint error</li>
+          <li>#7204 AppVeyor compile errors when building with wxWidgets 3.3.0</li>
+          <li>#7195 Creating scheduled transaction of X days</li>
+          <li>#7194 QIF File import error after updating to 1.9.0</li>
+          <li>#7192 MMEX 1.9.0: MMEX CSV export not working properly</li>
+          <li>#7174 SUID with unique timestamp in milliseconds</li>
+          <li>#6949 Q instead of ctrl+q closes the program</li>
+          <li>#6898 Drop-down list: 1. Remove colon `:`; 2. Replace colon `:` with 1-character ellipsis `…`</li>
+          <li>#5196 Poor icon rendering for different DPIs using wxGenericTreeCtrl</li>
+          <li>#2891 Locked transaction</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.9.0" date="2025-02-07T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#7136 Difficulty to revert from 1.9.0 to 1.8.1</li>
+          <li>#7131 Balance column gets unreliable when changing the sorting columns</li>
+          <li>#7122 The computing of appreciation/depreciation of assets isn't exact</li>
+          <li>#7112 Cleanup Appveyor build warnings</li>
+          <li>#7109 Sorting transaction by Date and other column which is NOT "ID"</li>
+          <li>#7059 Show transactions panel for an account group</li>
+          <li>#6966 Enabling INT64 and SUID for MMEX4Desktop</li>
+          <li>#6860 Add executions of scheduled transactions in transaction panels</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#7178 Account filter setting "View Transaction Report..." is not persistent</li>
+          <li>#7175 Adapt new dB version</li>
+          <li>#7157 Cash Flow Report for Specific Accounts treats transfers in reverse</li>
+          <li>#7142 All Transactions and Scheduled Transactions Menu Items Missing in latest Beta Version</li>
+          <li>#7130 Stock ticker ^RIYWCT not recognized</li>
+          <li>#7110 Sorting transactions by "Date" and "Id" is not working properly</li>
+          <li>#7102 Crash when blank checking panel area is right clicked in Linux</li>
+          <li>#7099 Column data incorrect when switching between databases</li>
+          <li>#7097 CSV Import - attempting to load a preset saved for an account with an int64 ID results in error</li>
+          <li>#7090 Import causes PAYEE_V1 Exception constraint failed[2067]</li>
+          <li>#7088 Unable to Edit Payees with larger values</li>
+          <li>#7082 Transaction Hyperlinks on HTML Reports not working with larger values</li>
+          <li>#7070 incorrect language display 1.9.0 Beta</li>
+          <li>#7033 Checking panel columns are duplicated when Settings dialog is closed</li>
+          <li>#7030 Import CSV with new lines</li>
+          <li>#7018 Transaction Report - Account handling broken</li>
+          <li>#7012 Unable to delete custom fields</li>
+          <li>#7009 MMEX crashes when creating a new database</li>
+          <li>#6998 MMEX crashes whenever the nav tree is reset</li>
+          <li>#6992 can not save PAYEE_V1</li>
+          <li>#6990 String missing from Crowdin</li>
+          <li>#6977 'Deleted Transactions' is crashing in v1.8.1</li>
+          <li>#6975 Account View: Columns showing incorrect data in v1.8.1</li>
+          <li>#6972 Error in "About panel" on 1.8.1</li>
+          <li>#6971 Impossible to open an encrypted database with version 1.8.1</li>
+          <li>#6956 Invalid Total Amount on split transaction</li>
+          <li>#6924 Fatal error occurs when entering date value exceeding the specified value</li>
+          <li>#6917 Translations broken</li>
+          <li>#6871 Database encryption change to AES256</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.8.1" date="2024-11-29T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#6892 wxWidgets 3.2.6</li>
+          <li>#6847 about default column seq.</li>
+          <li>#6827 The model of scheduled transactions (billsdeposits) is confusing</li>
+          <li>#6799 Align with wxWidgets 3.2.5 release</li>
+          <li>#6743 Mohtly budget overview no longer availabe</li>
+          <li>#6737 Unable to edit Stock Transaction</li>
+          <li>#6733 Total Net worth line on Dashboard hide when scrolling down</li>
+          <li>#6703 Provide a calculator attached to Amount column</li>
+          <li>#6538 Upgrade database encryption to AES256</li>
+          <li>#5887 Account Reallocation - Remove Selected Account's Type</li>
+          <li>#4160 Order of columns in the transaction list is not saved</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#6957 subtract monthly budget from yearly budget in reporting - strange behaviour</li>
+          <li>#6954 Show notes of split category in transaction details page</li>
+          <li>#6945 Values containing "é" accents are not filterable on reports ANSI - UTF8</li>
+          <li>#6938 `User Interface Language` list incorrectly showing in English when System locale is selected (System locale = English, Australia)</li>
+          <li>#6935 "Find all transactions" not working from checking account panels</li>
+          <li>#6917 Translations broken</li>
+          <li>#6913 CI builds failing due to bad translation in po/zh_TW.po</li>
+          <li>#6897 Please allow `Cash Flow - Daily` to be translatable</li>
+          <li>#6863 Disallow blank payee name in edit dialog</li>
+          <li>#6781 Localized Pie-Charts are broken</li>
+          <li>#6763 Thousands separator is missing, again</li>
+          <li>#6752 Custom Field - Date Error</li>
+          <li>#6745 Cashflow transactions doubling income payments</li>
+          <li>#6736 Custom reports broke down after upgrading to 1.8.0</li>
+          <li>#6709 New release 1.8 - account line characters are no longer visible</li>
+          <li>#6393 Transaction Report - filter window has an overlapping between 'Specify' and 'Presentation Options' on MacOS</li>
+          <li>#6158 Entry Account Name Invalid When Correcting Title Case</li>
+          <li>#6056 database upgrade to version17 failed [ 1.6.4. ] Datebase upgraded?</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.8.0" date="2024-04-29T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#5685 Transaction report charts</li>
+          <li>#3681 Provide 'view reset' option</li>
+          <li>#6633 [i18n] Update Help directory for English from en_GB to en_US</li>
+          <li>#6581 multi transaction Update: move Time Input to next line</li>
+          <li>#6481 MMB Files (*.mmb): 1. Add a space; and, 2. allow translation</li>
+          <li>#6457 Make Transaction column value copyable</li>
+          <li>#6566 Pie chart in Reports - Number format is inconsistent with decimal digits count &amp; comma separation</li>
+          <li>#6431 open dialogue extension</li>
+          <li>#6408 Transaction Report - Rate column</li>
+          <li>#6386 Ensure that the generated file from NEWS.md can pass Flathub validation.</li>
+          <li>#5824 Transaction Filter / Nav Label Changes</li>
+          <li>#5512 Keep a history of past transaction report filters</li>
+          <li>#2729 Store the time of transaction</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#6672 Tag not entered when scheduled transaction is auto-registered</li>
+          <li>#6658 Transaction Filter dialog size is not stable</li>
+          <li>#6642 Incorrect balance being exported to CSV</li>
+          <li>#6640 Credit Limit progress bar shouldn't include future payment</li>
+          <li>#6639 Summary Report does not ignore deleted transactions</li>
+          <li>#6632 Design or bug - specifying ALL accounts on Transaction Filter</li>
+          <li>#6614 Translations are not shown for strings which include the char →</li>
+          <li>#6610 Asset "Initial Value" on dashboard does not display the initial value, VALUE field includes void transactions</li>
+          <li>#6608 `Current Value` of `Other Assets (124)` in `Assets` shown on `Dashboard` is **not** right justified</li>
+          <li>#6596 Translated Help (index) pages link to English sub-pages (grm, budget, stocks_and_shares) even when translations are available</li>
+          <li>#6595 When set the color, note is inserted</li>
+          <li>#6589 Transaction Report not filtering categories if period range specified</li>
+          <li>#6583 Remove shortcut hints shown in the "frequently used notes" menu on Linux</li>
+          <li>#6573 Dashboard - Accounts- context menu Y position</li>
+          <li>#6572 `Edit Account` dialog</li>
+          <li>#6570 Scheduled Transaction Dialog - Payments Left</li>
+          <li>#6561 Unchecked in custom field, date format</li>
+          <li>#6554 export as CSV file, wrong text in savefiledialog</li>
+          <li>#6548 can't resize split note dialog</li>
+          <li>#6524 CSV upload payee matching: option "Add Match Details to Notes" does not work</li>
+          <li>#6523 Transaction Report not showing all tagged transactions</li>
+          <li>#6503 Move transactions</li>
+          <li>#6497 Using the right-click menu option "Find all transations with..." in the 'All Transactions' panel does not apply the filter</li>
+          <li>#6493 Wrong exchange rate downloaded for BTC/CHF</li>
+          <li>#6489 Bad desktop file</li>
+          <li>#6480 Transaction Report Filter Saved Settings - Category is cleared on focus if it contains a regular expression or a Category not in the list</li>
+          <li>#6476 Crash when 'bad' filter identified</li>
+          <li>#6474 comma not always accepted with different settings</li>
+          <li>#6465 1.7.0 has compile error when compiling from source</li>
+          <li>#6424 Tags are not being copied during copy/paste transactions</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.7.0" date="2023-12-26T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#6247 GA4 integration</li>
+          <li>#6246 Have Flathub as the sole distribution mechanism for MMEX on Linux</li>
+          <li>#5401 Import with custom columns</li>
+          <li>#4232 Option to easily view all transactions for a payee by selection</li>
+          <li>#6354 Update GRM submodule for 1.7.0</li>
+          <li>#6333 Recent Files list doesn't always show the full path to the recent MMX .mmb files</li>
+          <li>#6332 Copy text on About window</li>
+          <li>#6322 wxWidgets 3.2.4 released</li>
+          <li>#6311 [Feature Request] Use Credit Card credit limit to format Credit Limit field automatically</li>
+          <li>#6308 Sort share accounts in the nav panel by STOCKNAME instead of STOCKID</li>
+          <li>#6305 Remove wxDatePickerCtrl workaround for MacOS</li>
+          <li>#6200 New/Edit Scheduled Transaction: Set Focus on Amount should select its value</li>
+          <li>#6185 General Manager Reports</li>
+          <li>#6143 Rename Full Transactions Report to Account View: All Transactions</li>
+          <li>#6069 Please extend the `Search` field to the end of the window. Thank you</li>
+          <li>#6063 Strings ordering</li>
+          <li>#6062 Organize vs Organise</li>
+          <li>#5989 Build with wxWidgets 3.2.3</li>
+          <li>#5464 Improve budget perfomance report</li>
+          <li>#5439 Addition of "classes" or "tags"</li>
+          <li>#4899 Import dialog / Appearance of the list of templates</li>
+          <li>#4270 Import data into custom fields from CSV (&amp; other file formats)</li>
+          <li>#1983 Change name of Recurring Transactions to Transaction Planner</li>
+          <li>#1349 Consolidate README.md and README.TXT</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#6346 Invalid Menu ID causing debug alert</li>
+          <li>#6338 No error message shown when unable to move transactions from one account to another with an invalid account creation data</li>
+          <li>#6323 Booking in foreign currency</li>
+          <li>#6296 MMEX Instance crashes when trying to create a new Asset</li>
+          <li>#6281 Plural when multiple transactions selected</li>
+          <li>#6280 `Tags` down-arrow too small</li>
+          <li>#6270 Transaction Report - Wrong Field(s) Become Hidden Due to Tags/Rate Column Indices</li>
+          <li>#6212 Transaction Report crashes if category starts with `+`</li>
+          <li>#6203 Refresh Stock Prices from Yahoo error "url using bad/illegal format or missing url" in version 1.7.0 beta.1</li>
+          <li>#6183 Tags Filtering</li>
+          <li>#6154 `Color` not showing in `Transaction Filter` as vertical scrollbar can not go any further down</li>
+          <li>#6141 MMEX 1.7 Beta 1 - High CPU &amp; GPU usage when Edit Transaction and Transaction Filter dialogs are displayed</li>
+          <li>#6140 Dropdown menus issue (duplicated list)</li>
+          <li>#6102 Dashboard Transaction Statistics erroneously includes deleted transactions</li>
+          <li>#6098 View Since Statement Date does not work unless account statement is Locked</li>
+          <li>#6096 MMEX icon in ALT+TAB is blurry</li>
+          <li>#6089 Crash when adding a new asset</li>
+          <li>#6077 MMEX database Upgrade to version 18 Failed</li>
+          <li>#6074 Money format question</li>
+          <li>#6071 Saving account - deposit 0, saved as withdrawal</li>
+          <li>#6064 Memory leaks on CSV import</li>
+          <li>#6040 Refresh Stock Prices from Yahoo error "url using bad/illegal format or missing url"</li>
+          <li>#6036 Crash in theme manager</li>
+          <li>#5988 Homepage account balances wrong for some currencies</li>
+          <li>#5344 macOS menubar Window option position &amp; localization</li>
+          <li>#5330 MacOS window refresh UI client area corruption</li>
+          <li>#5328 bad string (translations issue)</li>
+          <li>#5215 Transaction Filter dialog loses its saved display location on the screen</li>
+          <li>#1691 Stock errors</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.6.4" date="2023-06-21T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#5945 DB password change dialog Cancel button</li>
+          <li>#5904 REPORTS - On all charts on V. 1.6.4</li>
+          <li>#5901 Currency Dialog Representation</li>
+          <li>#5892 1. Remove `Sub Category:` from budget entry dialog; 2. Show entire category path in `Category:`</li>
+          <li>#5861 1. Implement `Theme Mode` = `Auto` to select `Light`/`Dark` theme from operating system setting; 2. Rename `Auto` to `System`.</li>
+          <li>#5853 Transaction sound</li>
+          <li>#5812 Transaction report: option to group by ID</li>
+          <li>#5792 Extra date format required.</li>
+          <li>#5790 Associate an import/export Preset (template) name with an account</li>
+          <li>#5759 Automatically Download Stock Prices at Startup</li>
+          <li>#5709 Titlebar display order: 1. database filename; 2. localized program name. `Recent Files` menu: 3. Add database directory</li>
+          <li>#5706 Split Transaction Notes are not exported to QIF files</li>
+          <li>#5668 Make Dialogs resizable</li>
+          <li>#5659 Changes `Files` to `File` in `Import from`</li>
+          <li>#5658 Changes keyboard shortcuts in `Accounts` menu</li>
+          <li>#5655 Change `Url` to `URL`</li>
+          <li>#5650 Add ellipsis to "View with Transaction Filter" menu option</li>
+          <li>#5636 Change `system default` to `System default` and other minor improvements</li>
+          <li>#5571 Deleted Transaction Dialog Titlebar</li>
+          <li>#5465 Show only subtransactions that match the filter</li>
+          <li>#3684 Drag and Drop to import file in correct account</li>
+          <li>#3148 Payee matching</li>
+          <li>#2361 Conversion rate input for transfer type 'Transaction' Advanced (checked)</li>
+          <li>#1806 MMEX Flatpak listing on Flathub</li>
+          <li>#1254 Register filetypes for mmex at system level in Linux</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#6030 IUSE.L rate</li>
+          <li>#6013 Crash when closing QIF import dialog while reports are open</li>
+          <li>#5999 Custom decimal field validation bug</li>
+          <li>#5975 Transfer arrow points the wrong way on Share Withdrawal transactions</li>
+          <li>#5973 Share accounts displayed in Favorites even if "Display Share Accounts" is unchecked</li>
+          <li>#5969 Incorrect Total Gain/Loss within Stock widget on the Dashboard</li>
+          <li>#5966 Crash when deleting or restoring transactions using context menu</li>
+          <li>#5964 Constraint error on upgrade from DB 17 to DB 18 when another database is already open</li>
+          <li>#5949 bad locale name</li>
+          <li>#5948 Error opening encrypted DB</li>
+          <li>#5947 Error when try to import a .csv file with a subcategory missing</li>
+          <li>#5938 Button not visible in Relocation dialog.</li>
+          <li>#5926 Erroneous transaction (causes crash on click)</li>
+          <li>#5910 MMEX version 1.6.3 64-bits</li>
+          <li>#5894 Can not update stock prices. Get invalid cookie error.</li>
+          <li>#5890 share update error</li>
+          <li>#5885 `Transaction Filter` is bigger than the screen</li>
+          <li>#5875 Initialized when entering Unicode characters in the custom field Tooltip.</li>
+          <li>#5870 Check for updates</li>
+          <li>#5860 Category Report fails reporting 0 even if expenditures are present</li>
+          <li>#5857 Crash when using Organize Categories or Organize Payees if transaction report is open</li>
+          <li>#5855 Stock Portfolios: Click on update throwing Invalid Cookie error</li>
+          <li>#5852 Crash when creating new database &amp; account</li>
+          <li>#5843 Stock Avg Share Price and Total Cost calculation error</li>
+          <li>#5835 Going over Account text field, using Tab, deletes selected account</li>
+          <li>#5834 Incorrect total net worth reported on Dashboard</li>
+          <li>#5833 Summary of stocks Gains/Loss currency exchange error</li>
+          <li>#5832 Transaction Details panel becomes unnecessarily wide when custom field contains data</li>
+          <li>#5830 Auto recurring transaction crash</li>
+          <li>#5828 Stock and Asset transactions can be copied/pasted using keyboard</li>
+          <li>#5823 View Trans window for Stock transaction - make it larger/resizable please.</li>
+          <li>#5817 Transaction Filter does not work correctly when changing an account</li>
+          <li>#5813 Range options in transaction filter have no effect</li>
+          <li>#5809 Account, Payee and Category dropdown lists are not active</li>
+          <li>#5808 New Tranaction widnow is growing after reopening and can't be shrinked down</li>
+          <li>#5791 Colour settings are not saved with the template on import dialogs</li>
+          <li>#5774 Locale is carried over between databases.</li>
+          <li>#5772 CSV Import - "Type" defined amount sign does not work</li>
+          <li>#5769 RESOCONTO OPERAZIONI - FILTRO NON VA QUANDO SALVATO</li>
+          <li>#5752 Transaction Report Filter does not work with Split Transaction Notes</li>
+          <li>#5683 Cancel add asset transaction when creating new asset crashes MMEX</li>
+          <li>#5670 MMEX crashes on asset transaction when "Last Used" is set for Default Payee, "Last used for payee" is set for Default Category, and the last transaction was a transfer</li>
+          <li>#5643 Can´t add Initial Balance on Polish Zloty (PLN) Currency</li>
+          <li>#5641 Imported transactions from webapp not working correctly</li>
+          <li>#5630 Transaction not deleted</li>
+          <li>#5629 1. Please expand `Search` field; 2./3. remove spaces ` ` before and after `/`; 4. `Show All` keyboard accelerator</li>
+          <li>#5628 Please allow title `Currency Manager` to be translatable</li>
+          <li>#5626 Please allow `locale::facet::_S_create_C_locale name not valid` to be translatable</li>
+          <li>#5625 Please allow `Normal`, `Enlarged`, `Large`, `Huge` to be translatable</li>
+          <li>#5618 Crash on selecting share price in investment window (see Image)</li>
+          <li>#5615 1.6.3 keyboard shortcuts do not work anymore</li>
+          <li>#5614 Recurring transactions.</li>
+          <li>#5606 Search Feature issue introduced 1 - 2 updates ago not resolved</li>
+          <li>#5602 QIF import date format</li>
+          <li>#5599 Transaction Report / Categorie</li>
+          <li>#5590 GRM text box context menu is not translated</li>
+          <li>#5576 Issue importing attachment to the desktop application</li>
+          <li>#5573 Budget Performance Report</li>
+          <li>#5568 MMEX database upgrade to version 17 failed</li>
+          <li>#5451 Missing currency ZMW Zambian Kwacha</li>
+          <li>#5394 for "all transactions" CRTL+c does not work</li>
+        </ul>
+        <p>This release includes the following changes:</p>
+        <ul>
+          <li>#6032 GUI - minor text improvement in Russian</li>
+          <li>#5997 MMEX flatpak is not listed on website</li>
+          <li>#5962 What does INFOID: 8 relate to please?</li>
+          <li>#5686 Budget view crash on double click category summary</li>
+          <li>#5656 Show count of selected/filtered/total records in the view</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.6.3" date="2023-02-01T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#5521 Last updated date time for transactions</li>
+          <li>#5530 Time Picker for GRM</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3965 Transactions color change</li>
+          <li>#4698 Filters do not take into account transactions where the categories are split</li>
+          <li>#5437 Void Transaction are considered in cashflow report (both daily, montly, and transaction)</li>
+          <li>#5444 Hidden subcategory is shown at the drop-down window</li>
+          <li>#5457 Transaction report incl sub categories fails duplicate reports</li>
+          <li>#5466 Recurring transactions - attachments are disappear</li>
+          <li>#5467 Deleted transactions should be excluded from Last Used date query</li>
+          <li>#5474 QIF ability to import/export field "E" of split lines notes</li>
+          <li>#5489 Forecast Report due to multiple currencies</li>
+          <li>#5504 Export as / Import from ... account menu</li>
+          <li>#5541 Edit Account images</li>
+          <li>#5549 ALT+letter button and menu accelerators also activate the transaction status accelerator actions</li>
+          <li>#5569 Сrash when all historical stock prices deleted</li>
+          <li>#5583 Quicken QIF import issue in split transactions with balnk row</li>
+        </ul>
+        <p>This release includes the following change:</p>
+        <ul>
+          <li>#4334 #5516 #5427 #5428 #5429 #5459 #5509 #5468 #5462 #5461</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.6.2" date="2022-12-18T00:00:00Z">
+      <description>
+        <p>Your database will be updated once you run this version. You will then not be able to open your database with earlier versions of the software or run Android versions with the same database. As ever, it is recommended to take a copy of your database prior to installing any new software version.</p>
+        <p>#1477 changes the DB schema for the storage of categories. Whilst this will not affected basic usage of MMEX if you have created GRM reports that use categories then you may need to update them. The standard GRM templates have been updated to accommodate the new schema and can be used as examples.</p>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#1477 Nested Categories</li>
+          <li>#5302 Upgrade SQLite</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#5334 QIF Import does not import transactions with date &lt; today if the account doesn't already exist</li>
+          <li>#5346 Account summary not showing assets or shares</li>
+          <li>#5352 Crash on selecting Monthly or Yearly - Reports: Summary of Accounts</li>
+          <li>#5356 README links to Travis CI for linux/mac build status</li>
+          <li>#5359 Order by 'status icon' column in transaction lists</li>
+          <li>#5360 Hovering mouse pointer over an asset icon displays unwanted tooltip outline</li>
+          <li>#5364 Multi-transaction edit not allowing change to Amount, Payee, or Category</li>
+          <li>#5370 Reconciled amount incorrect if deleted transactions exist</li>
+          <li>#5372 Resolve MSVC compiler warnings</li>
+          <li>#5377 Modifications of split values are lost when row is added</li>
+          <li>#5381 Asset - Initial Value and Current Value</li>
+          <li>#5382 Mouse wheel scrolling rate is very slow in Split Transactions dialog</li>
+          <li>#5391 Use of | (pipe) in category name causes issues with transaction report</li>
+          <li>#5392 Unexpected space added to Category filter when Regex is used to include multiple sub categories</li>
+          <li>#5415 MMEX Options: center labels under icons</li>
+          <li>#5416 Currency Dialog - Incorrect Column Header ("Symbol" should be "Code")</li>
+          <li>#5433 Failure to upgrade database to DB v17 for MMEX 1.6.2</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.6.1" date="2022-11-18T00:00:00Z">
+      <description>
+        <p>Your database will be updated once you run this version. You will then not be able to open your database with earlier versions of the software or run Android versions with the same database. As ever, it is recommended to take a copy of your database prior to installing any new software version.</p>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#5197 Account Summary reports do not include asset values</li>
+          <li>#5211 Toolbar buttons are erroneously greyed out when opening an existing database via App Start dialog</li>
+          <li>#5244 Recurring Transaction Check Fix</li>
+          <li>#5250 Add split button deletes the previous values</li>
+          <li>#5254 The text for translation is fragmented</li>
+          <li>#5273 Total not updating correctly on split transactions view</li>
+          <li>#5281 Recurring Transactions - Remove filtering</li>
+          <li>#5290 New transaction - Incorrect minimum balance check</li>
+          <li>#5292 Transaction Report does not show split transaction notes</li>
+          <li>#5298 User confusion regarding Deleted Transactions node in Navigation tree</li>
+          <li>#5299 Transaction Report node in Navigation tree is not highlighted when corresponding report is displayed</li>
+          <li>#5310 Home Page Assets Widget collapse state not saved</li>
+          <li>#5320 Notes disappear when clicking "Cancel" in Split Transactions window</li>
+          <li>#5324 Crash when creating a share transaction with a date older than opening date of the account</li>
+          <li>#5331 Slow refresh when add split rows</li>
+          <li>#5339 Beta build crashes on asset deletion</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2963 Added a Deleted/Trash transaction feature</li>
+          <li>#5234 Quick category entry using ":" to autocomplete (Windows only)</li>
+          <li>#5251 Now shows notes of split transactions in account view</li>
+          <li>#5259 Hide/Unhide of Custom Reports</li>
+          <li>#5276 Split transaction notes now displayed in the information panel</li>
+          <li>#5292 Transaction Report now shows split transaction notes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.6.0" date="2022-10-27T00:00:00Z">
+      <description>
+        <p>Your database will be updated once you run this version. You will then not be able to open your database with earlier versions of the software or run Android versions with the same database. As ever, it is recommended to take a copy of your database prior to installing any new software version.</p>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3779 Adoption of wxBitmapBundle to support HighDPI display</li>
+          <li>#4122 Invalid calculation Stocks Gain/Loss</li>
+          <li>#4362 Online help pages</li>
+          <li>#4412 Management of assets</li>
+          <li>#4791 Odd Window positioning behaviour (MacOS)</li>
+          <li>#5091 Include Grand Total for Reconciled Column</li>
+          <li>#5106 Organize Budget actuals always reflect current year</li>
+          <li>#5108 Secondary 'Sort By' Column</li>
+          <li>#5109 Add ability to use RETURN key to bring up category selection on organize categories</li>
+          <li>#5122 v1.5.21 has calculation error in account view</li>
+          <li>#5137 Monthly Budget showing wrong "Actual" totals</li>
+          <li>#5145 Transaction Report - Custom field settings not recovered</li>
+          <li>#5147 Transaction Report - Saved custom field settings not used when run from navigation tree</li>
+          <li>#5158 New Category creation whilst in Split Transaction issue</li>
+          <li>#5170 Can not save Category_V1 / Subcategory_1</li>
+          <li>#5191 Crash on account creation due to blank image list</li>
+          <li>#5193 Transaction Report Date Range not saved</li>
+          <li>#5198 Asset transactions marked as transfer are not counted in asset value</li>
+          <li>#5205 Crash when cancelling the creation of a new database if App Start Dialog has been used</li>
+          <li>#5210 Transaction Filter Date Range is not updated to reflect the current setting of Period Range</li>
+          <li>#5218 New database wizard is too wide when application language is French</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#910 Notes in split categories</li>
+          <li>#1158 Currency Manager window should be more ergonomic</li>
+          <li>#1390 Enable/disable payees</li>
+          <li>#2307 Notes on Budget lines</li>
+          <li>#3554 Account initial balance is not dated</li>
+          <li>#4099 Notes field for budget page</li>
+          <li>#4216 DB ver. 15</li>
+          <li>#4280 Add Payee Information Fields</li>
+          <li>#4545 Dark mode for help pages (MacOS/Linux only at present)</li>
+          <li>#4631 Regular Expressions in transaction filter notes</li>
+          <li>#4730 Block/Hide Categories</li>
+          <li>#4880 Use CircleCI for pipeline builds</li>
+          <li>#5100 Upgrade to wxWidgets 3.2.1</li>
+          <li>#5111 Asset widget on homepage should show list of assets</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.21" date="2022-09-21T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3892 Manual share price is not saved</li>
+          <li>#4087 Summary of shares report not displaying fractional shares if total is greater than 1</li>
+          <li>#4807 Stocks/Shares - Application Crashes on Trying to Enter a Stock Transaction</li>
+          <li>#4954 mmex 1.5.19 : wrong behaviour of autoselection of category</li>
+          <li>#4969 Stock Portfolio Gain/Loss</li>
+          <li>#5033 Split Category Transactions Do Not Appear on Transaction Report</li>
+          <li>#5035 Filter on Date / Period - Will not pick up current date and date range including current date</li>
+          <li>#5042 Crash Report - Upgraded from v1.5.18 to v1.5.20</li>
+          <li>#5049 Calculation and display errors in the securities portfolio</li>
+          <li>#5054 Incorrect ascending/descending sort order indicator for Assets/Recurring Transactions columns</li>
+          <li>#5056 Organize Category dialog does not scroll newly added items into view</li>
+          <li>#5057 In-place editing of asset name allows asset with blank name to be created</li>
+          <li>#5058 Stock balance calculation in ModelStock and summary report always uses current number of shares</li>
+          <li>#5059 Minimum width of Organize Categories dialog allows buttons to become clipped</li>
+          <li>#5077 Budget reporting when offset is non-zero</li>
+          <li>#5101 Debug error when right clicking on column header in "All Transactions" -- extra blank lines in "Hide/Show Columns"</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2200 Add a sponsor button in MMEX GitHub repository</li>
+          <li>#4214 Option to link a monthly budget to an annual budget</li>
+          <li>#4549 Improving** the UX of the "Organize Categories" window — drag'n'drop</li>
+          <li>#4690 Secondary 'Sort By' Column</li>
+          <li>#4741 Add profits to budget</li>
+          <li>#4844 "Empty" Transaction Report</li>
+          <li>#4989 Category collapsed state</li>
+          <li>#5051 Date Control Tooltip Suggestion</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.20" date="2022-09-02T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#4868 Integer and Decimal custom fields are treated like Strings in the Account view</li>
+          <li>#4946 Optimize/Fix use of mmTextCtrl in dialogs using this control for numbers</li>
+          <li>#4950 Problem entering decimal numbers</li>
+          <li>#4951 Reference number format</li>
+          <li>#4955 Integer Custom Field - erroneous behaviour</li>
+          <li>#4978 Spurious column sort-order indicator shown when double clicking on Stock Portfolio</li>
+          <li>#4982 Advanced Filter not saving new 'Date Range' value</li>
+          <li>#4999 Boolean custom field misalignment</li>
+          <li>#5000 Saved Transaction Reports don't work in Linux</li>
+          <li>#5003 Date custom field focus and update issues</li>
+          <li>#5005 Split Transaction Dialog grows too big</li>
+          <li>#5012 "Split Transaction" not displayed in category field on Linux</li>
+          <li>#5019 Display 'Split Summary' infotip sometimes not displayed</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#4971 Transaction report - add feature to group by "type"</li>
+          <li>#4987 Boolean and Date custom field improvements</li>
+          <li>#5016 Place focus in the Search field when Organize Categories dialog is opened</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.19" date="2022-08-19T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#4698 Filters do not take into account transactions where the categories are split</li>
+          <li>#4881 "Manage Categories" window in a split transaction only opens for the first 2 split rows</li>
+          <li>#4886 After upgrading to 1.5.17 and 1.5.18 it does not keep the last category for a given payee.</li>
+          <li>#4887 After you have relocated a Payee successfully (confirmed) the dialogue box should clear from screen.</li>
+          <li>#4897 Account website URL validation failure</li>
+          <li>#4907 Display Share Accounts - the setting is not saved</li>
+          <li>#4911 Buttons become hidden on Split Transaction dialog</li>
+          <li>#4918 Change the term 'Scale' to 'Decimal Places' for the English translation of MMEX</li>
+          <li>#4919 Edit existing category name and entering a colon</li>
+          <li>#4921 Decimal custom fields do not retain values greater than 999.99 when editing a saved transaction</li>
+          <li>#4922 Crash when Transaction Filter includes a custom field</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#4885 Search consistency for Payee and Category dialog</li>
+          <li>#4907 Display Share Accounts - the setting is now saved</li>
+          <li>#4934 Summary of Accounts - charts change (stacked Bar + Line)</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.18" date="2022-07-28T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3226 Organize Attachments dialog refers to internal account number instead of the actual account name</li>
+          <li>#4827 Options fields fit if resized</li>
+          <li>#4828 Renaming Category - Unfriendly error message and incorrectly display of category name</li>
+          <li>#4843 Transaction Report - no data</li>
+          <li>#4838 Last Used Category is not filled in when selecting Payee from Organize Payees Dialog</li>
+          <li>#4852 MMEX will not run on MacOS &lt; 10.14</li>
+          <li>#4867 Custom decimal field precision incorrect on transaction edit</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#4830 Cashflow report showing transactions</li>
+          <li>#4840 Cash Flow reports settings</li>
+          <li>#4863 Improve usability of pop-up calendar on MacOS</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.17" date="2022-07-17T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2704 Add Account Wizard mentions Savings in the text, but it it not one of the Type choices</li>
+          <li>#3960 Windows version is not displayed correctly</li>
+          <li>#4371 Category sort is incorrect with French characters</li>
+          <li>#4710 Transferring between two accounts with same currency get converted into base currency using reverse forex</li>
+          <li>#4711 Font now too large  </li>
+          <li>#4712 Streamlining the Split Transaction dialog enhancement </li>
+          <li>#4714 Add new subcategory</li>
+          <li>#4716 Sum operation in the Amount field is not performed with new 1.5.16</li>
+          <li>#4736 Filter is broken after account switching</li>
+          <li>#4745 Export &amp; Import CSV File Invalid Date Error</li>
+          <li>#4749 Relocate Dialogs find entries when nothing specified</li>
+          <li>#4757 Unable to edit category for transaction in closed account</li>
+          <li>#4763 Budget Setup - Text field too small</li>
+          <li>#4772 Layout and behaviour of Recurring Transaction dialog is not consistent with Single Transaction dialog</li>
+          <li>#4778 App crashes when adding new share transaction</li>
+          <li>#4785 Crash when switching transaction type</li>
+          <li>#4786 macOS: Crash When Changing HTML Scale Factor</li>
+          <li>#4787 Behaviour of Recurring Transaction dialog not consistent with Single Transaction dialog - Amount Field Clearing</li>
+          <li>#4796 Saved presets in Transaction Filter and saved column formats duplicate</li>
+          <li>#4804 Colour is displayed as Color on field labels when language is set to English (United Kingdom)</li>
+          <li>#4813 Multi-transaction update of Payee Name causes "Payee Error"</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3139 macOS - No Drop Down Calendar When Entering Transactions Dates</li>
+          <li>#4708 Create mmDatePickerCtrl</li>
+          <li>#4717 Inconsistent behaviour when pressing Enter in transaction category field enhancement </li>
+          <li>#4748 Delete source category after relocation</li>
+          <li>#4754 wxScrolledWindow for options dialog enhancement </li>
+          <li>#4759 wxWidgets 3.2.0</li>
+          <li>#4768 Transaction Report: void status amount</li>
+          <li>#4779 Default category for transfers</li>
+          <li>#4789 Report Category including all sub-categories</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.16" date="2022-06-23T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#4593 Transaction report error</li>
+          <li>#4621 Budget Reports - default value is not saved</li>
+          <li>#4625 Version: 1.5.15 64-bit freezing</li>
+          <li>#4633 Transfer in Recurring Transactions panel</li>
+          <li>#4643 Transactions Filter with split transactions working incorrect</li>
+          <li>#4648 Xchange rate (advanced box) not picking up rate after currency update</li>
+          <li>#4651 Input not allowed for custom decimal fields when precision set &gt;0</li>
+          <li>#4652 No summary data after Shift-Click selection of multiple transactions</li>
+          <li>#4659 Split Transaction Dialog amount window not visible</li>
+          <li>#4660 Reports: specific accounts checkbox is not saved</li>
+          <li>#4662 Transaction Report - group by category</li>
+          <li>#4663 Transaction display after category selection</li>
+          <li>#4664 Split Transaction Dialog enhancement</li>
+          <li>#4692 Closing application from Dock icon on MacOS is not done gracefully when dialog open</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3634 Font size</li>
+          <li>#4237 Dialogs size storing</li>
+          <li>#4439 Dialogs with categories, payees, accounts etc refactoring</li>
+          <li>#4591 Split Transaction Dialog refactoring</li>
+          <li>#4680 Transaction report name/title</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.15" date="2022-06-16T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2681 curl upgrade to 7_82_0</li>
+          <li>#2714 Libcurl missing</li>
+          <li>#2590 Portable mode ini file missing</li>
+          <li>#3241 MMEX shows using libcurl v7.61 which currently has 17 vulnerabilities</li>
+          <li>#4159 Add Custom Fields to Recurring Transactions</li>
+          <li>#4286 Back link no longer works for "Where the Money Goes" and "Where the Money Comes From"</li>
+          <li>#4296 Empty message language changed</li>
+          <li>#4302 lunasvg upgrade to v2.3.1</li>
+          <li>#4307 Categories export (JSON)</li>
+          <li>#4314 Not all custom fields are visible in the transaction dialog</li>
+          <li>#4319 Add Custom Fields to Transaction Report</li>
+          <li>#4321 JSON export ignore account for Custom fields</li>
+          <li>#4334 Ellipsis ... actualization in the main menu</li>
+          <li>#4335 Storing the language code</li>
+          <li>#4341 QIF file import improvements</li>
+          <li>#4346 Bad array new length message</li>
+          <li>#4352 Frequently used notes does not display latest notes</li>
+          <li>#4357 Splash screen link no longer works</li>
+          <li>#4377 Viewing closed account</li>
+          <li>#4401 Transaction report Filtering details</li>
+          <li>#4407 Notes are not erased when changing accounts</li>
+          <li>#4418 Categories translation</li>
+          <li>#4419 Transaction Filter settings</li>
+          <li>#4436 Update Python scripts the make them Python 3 compatible</li>
+          <li>#4472 Default custom field value</li>
+          <li>#4483 Expanding a collapsed Navigation tree not intuitive for new users</li>
+          <li>#4516 Report Manager Navigation tree size</li>
+          <li>#4519 Use macOS 11 app icon style</li>
+          <li>#4532 Minus amount display on Income vs Expenses Monthly</li>
+          <li>#4550 Improving the UX of the Organize Categories</li>
+          <li>#4602 Voided transactions in a filtered view are being included in the calculation</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2232 Filter by multiple categories and payees</li>
+          <li>#3430 Hide unused Reports</li>
+          <li>#3750 Transaction Report Filter settings items in Navigation tree</li>
+          <li>#4420 Assign color to imported transactions</li>
+          <li>#4250 Allow more than 10 saved transaction filters</li>
+          <li>#4453 Color selection for Multi Transaction Update</li>
+          <li>#4542 Allow column sorting on Summary of Accounts &amp; Income vs Expenses reports</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.14" date="2022-04-14T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#4183 Attachments are not cloned when a transaction is duplicated (or copy/pasted)</li>
+          <li>#4187 Filter out obsolete currencies in Currency Dialog and Currency Exchange Rates</li>
+          <li>#4189 Categories Monthly Report end date wrong</li>
+          <li>#4191 Invalid group separator issue</li>
+          <li>#4195 Zero Share price summary issue</li>
+          <li>#4200 Summary of Accounts - Yearly - Miscalculations</li>
+          <li>#4207 Set custom fields when editing multiple transactions</li>
+          <li>#4223 Closed account - icon color</li>
+          <li>#4227 Cannot edit or add payees in "Edit Recurring Transaction" window</li>
+          <li>#4233 HTMLEncode not handling non-ASCII</li>
+          <li>#4235 Sort issue? - Capital vs lowercase</li>
+          <li>#4239 Transaction Report -&gt; Transaction Filter: Can't change 'Transfer To' from here</li>
+          <li>#4240 Transaction Report Footers Take Up Too Much Space</li>
+          <li>#4241 'Others Icons size' sometimes get changed unexpectedly...</li>
+          <li>#4242 RSS feed on new site is at a different URL</li>
+          <li>#4258 1.5.14-Beta.1 does not compile on Ubuntu 18.04 'bionic'</li>
+          <li>#4260 Recurring Transaction Dialog should show day of week</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>#3998 Reports summarized to main category</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.13" date="2022-02-06T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2685 Build issue with LuaGlue - Not declared name luaL_checkint</li>
+          <li>#4139 UI enhancement - Position of Frequently Used Notes button on Transaction dialog</li>
+          <li>#4150 Summary Report - mismatch between Chart pop-up and raw data</li>
+          <li>#4155 Incorrect last day for "show last month" menu item</li>
+          <li>#4168 New transaction isn't populated with the Custom Field value</li>
+          <li>#4171 Date format mask does not saved in CSV files import</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>#4031 Fast payer search</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.12" date="2022-01-30T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2014 Canonical names for doc folders</li>
+          <li>#3980 1.5.10-Beta.1 crashes with warnings about missing themes</li>
+          <li>#4032 Program Crashes on Organize Payees or Organize Categories</li>
+          <li>#4065 Hotkey for setting Status to "None" differs depending on context</li>
+          <li>#4070 ORGANIZE PAYEES Error</li>
+          <li>#4085 Categories Summary report sub-category total does not match Transaction report sub-category for same period.</li>
+          <li>#4092 Future bookings are displayed incorrectly on homepage</li>
+          <li>#4116 Incorrect "Summary of Accounts" balance</li>
+          <li>#4120 Stocks Report corrupted in v1.5.11</li>
+          <li>#4127 Downloading Currency and Stock rates opens User Manual</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Features:</li>
+          <li>#3669 Summary line of the Account Display is "odd"</li>
+          <li>#3897 Using transfer in editing multi-transactions</li>
+          <li>#4009 Transaction report -&gt;Presentations options</li>
+          <li>#4098 Select all the visible transactions using `Cmd + A`</li>
+          <li>#4110 Jump between accounts along the "Transfer" transaction</li>
+          <li>#4124 Duplicate Recurring Transaction</li>
+        </ul>
+        <p>New help pages added: Chinese Simplified, Dutch, Croatian</p>
+      </description>
+    </release>
+    <release type="stable" version="1.5.11" date="2021-12-07T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#4041 Price for Gold Feb 22 (GC=F)</li>
+          <li>#4036 Current year range has wrong periods in December</li>
+          <li>#4055 Current Year not correct</li>
+          <li>#4038 Trouble downloading new versions</li>
+          <li>#3223 The scroll bar flickers</li>
+          <li>#4025 Report graph causes app to freeze when window not 'Maximised'</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#4023 Budget categories research</li>
+          <li>#4048 Update to ApexCharts 3.28.2</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.10" date="2021-11-23T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3967 Warning sound</li>
+          <li>#3926 Stock report crashes</li>
+          <li>#3988 Autocomplete of "Account" not working on MacOS</li>
+          <li>#3995 Creating Recurring Transactions with all data from existing entry (include notes field)</li>
+          <li>#3996 When Re-allocating an Existing Payee the search bar is stuck on one character</li>
+          <li>#4002 No Automatic Scroll to Bottom After Creating Duplicate Transaction</li>
+          <li>#3598 Custom fields</li>
+          <li>#2334 Yahoo exchange rates issue</li>
+          <li>#4020 Currency exchange rates - currency values history</li>
+          <li>#4019 Currency exchange rates saving</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3283 Display of the bookings</li>
+          <li>#3829 Where the Money Goes &gt; view Details of Transactions</li>
+          <li>#3945 Transaction Report to include specification of "Period" in addition to date range</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.9" date="2021-10-31T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3899 Advanced filter saved by ok</li>
+          <li>#3914 Recurring Transaction - color of transaction</li>
+          <li>#3933 Currency exchange rates info</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2080 Income vs Expenses on Home Page</li>
+          <li>#3745 Current year income / expenses</li>
+          <li>#3935 Ability to add subtotal to transaction report</li>
+          <li>#3948 Recurring Transactions Entry</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.8" date="2021-10-02T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3870 The selection "last month" is wrong</li>
+          <li>#3763 macOS: New Transaction Hot Key should be CMD+N</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3863 Ability to specify which columns are include in transaction report</li>
+          <li>#3875 Display growth/performance/cumulative difference on Income vs Expenses</li>
+          <li>#3877 Leave import view open after import</li>
+          <li>#3890 Stacked Area chart for Summary of Accounts</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.7" date="2021-09-18T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3783 Transaction Type on CSV import is ignored?</li>
+          <li>#3800 Error in high figures when entering transaction amounts, or in balances / reports.</li>
+          <li>#3797 #3808 #3809 #3828 Translation fixes</li>
+          <li>#3820 Date Range menu disapears</li>
+          <li>#3830 Date spinner on Enter Recurring Transaction not working</li>
+          <li>#3846 Can't type in HTML Scale Factor (MacOS)</li>
+          <li>#3815 New Recurring Transaction switching Type of Transaction works partly but not as expected</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3784 Duplicate transaction date</li>
+          <li>#3781 Budget and Reporting period - User selectable start of month</li>
+          <li>#3818 A single theme cannot support both light and dark modes</li>
+          <li>#3768 Belarisian translation finalized</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.6" date="2021-08-20T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3648 Backup files has the same extension as main file</li>
+          <li>#3738 Help/About display geometry</li>
+          <li>#3740 warning C4706: assignment within conditional expression</li>
+          <li>#3748 Transaction report not classifying transfers correctly</li>
+          <li>#3756 Accounts selection in Advanced filter for single account list view is confusing</li>
+          <li>#3763 macOS: New Transaction Hot Key should be CMD+N</li>
+          <li>#3780 Duplicate transaction: amount resets if focus is moved out with mouse, not keyboard</li>
+          <li>#3785 Newly assigned Account is reset if transaction type changed on Edit/Duplicate</li>
+          <li>#3786 Summary of Stocks Display - alignment</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#1964 Transaction List Exchange rates</li>
+          <li>#3743 coincap.io API for crypto currencies</li>
+          <li>#3678 Show remaining credit limit on Credit Cards</li>
+          <li>#3768 Belarisian translation</li>
+          <li>#3787 Stocks Performance Charts - title text</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.5" date="2021-07-31T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3643 Webapp - UTF-8 issue</li>
+          <li>#3696 'Confirm to add new payee' ignored</li>
+          <li>#3711 Payee default category enhancements</li>
+          <li>#3714 Payee changes when editing existing transaction (to change account)</li>
+          <li>#3724 Automobile Category not in Organize Categories but shows in report</li>
+          <li>#3733 Months not reported correctly for budget reports when using Financial Years</li>
+          <li>#3188 wxBitmapButton icon sizes should be consistent with other Buttons and widgets</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>#3686 Allow filter by transaction highlight color</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.4" date="2021-07-18T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#1832 Financial year settings ignored in budget reports</li>
+          <li>#3626 #3645 Undefined Locale prevents saving transaction amounts greater than 999</li>
+          <li>#3625 'Summary of accounts' reports missing closed Accounts</li>
+          <li>#3627 Minor formatting issue with Monthly Summary of Accounts report</li>
+          <li>#3606 Multiple Transaction Edit and Transfers bug</li>
+          <li>#3620 wxHtmlWindow's do not support theme customisation</li>
+          <li>#3636 Wrong date format of an additional field</li>
+          <li>#3639 Custom fields save settings exception</li>
+          <li>#3640 Custom Fields sort order in Transaction Dialog</li>
+          <li>#3651 Bulk Transaction not saved</li>
+          <li>#3667 Crash on database creation</li>
+          <li>#3673 Upcoming Transactions widget will not close</li>
+          <li>#3666 Dark Mode theme lacks contrast in wcTreeCtrl's on MacOS</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3180 Option to suppress tips</li>
+          <li>#3653 Search for Attachments</li>
+          <li>#3653 Search for Attachments description and UD Fields</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.3" date="2021-06-13T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3536 Recurring Transaction Date Paid and Date Due Mix-up</li>
+          <li>#3557 Group separator using locale</li>
+          <li>#3558 Only open account currency</li>
+          <li>#3559 Currency format locale based options redesign</li>
+          <li>#3587 Cannot start: "bad locale name"</li>
+          <li>#3604 Autocomplete of target account for transfers on MacOS</li>
+          <li>#3585 Crash in Model_Currency::toString</li>
+          <li>#3325 Transaction Report settings name utf8 support</li>
+          <li>#3396 Account list loses focus when using keyboard navigation</li>
+          <li>#3474 Accounts Visible menu missing check mark to indicate which option is selected</li>
+          <li>#1295 Hot key for 'enter' &amp; 'tools' is the same</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3435 Transaction Report - multi-select for accounts</li>
+          <li>#3559 Currency format locale based options redesign</li>
+          <li>#3323 Date format display with Day name</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.2" date="2021-06-04T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#3222 Screen geometry</li>
+          <li>#3273 Update to wxWidgets 3.1.5</li>
+          <li>#3321 Theme manager window size</li>
+          <li>#3325 Transaction Report settings name utf8 support</li>
+          <li>#3326 UDFC01, 02... are not displayed in "All Transactions"</li>
+          <li>#3315 Browse button tooltip on Import/Export XML dialog refers to importing/exporting a CSV file instead of an XML file</li>
+          <li>#3337 Missing translation of categories in budget</li>
+          <li>#3340 Currency dialog: Width / Selected base currency icon / Search field label</li>
+          <li>#3348 Search by numbers on All Transactions view</li>
+          <li>#3355 Upcoming transactions applet</li>
+          <li>#3273 Update to wxWidgets 3.1.5</li>
+          <li>#3401 Category Icome/Expenses report not display date range correctly</li>
+          <li>#3414 Crypto currencies exchange rate</li>
+          <li>#3517 [Att.] is added in notes</li>
+          <li>#3532 lunasvg library upgrade</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2473 Grouping character in amount</li>
+          <li>#3166 Theme background color</li>
+          <li>#3323 Date format display with Day name</li>
+          <li>#3347 Simple csv export</li>
+          <li>#3362 Enter next booking</li>
+          <li>#3375 Move multiple transactions at once</li>
+          <li>#3460 dd Mon yyyy date format</li>
+          <li>#3515 Display the difference value as a line on Income vs Expenses report</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.1" date="2021-04-24T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#1292 Add financial year start date option for budget</li>
+          <li>#3166 Theme background color</li>
+          <li>#3209 All Transactions panel currencies</li>
+          <li>#3240 Cashflow report error for negative total</li>
+          <li>#3238 Reallocate Payees performance issue</li>
+          <li>#3237 Update wizard info improvements</li>
+          <li>#3265 Custom Fields fixes</li>
+          <li>#3298 Change "saved filters" from check points to Listbox</li>
+          <li>#3299 Customfielddata will not be delete.</li>
+          <li>#3237 Update wizard info</li>
+          <li>#3261 Transaction Balance and sort order</li>
+          <li>#3239 Transaction not displayed from Account Link within Transaction Report</li>
+          <li>#3240 Cashflow report error for negative total</li>
+          <li>#3244 Update wizard window not expanded correctly</li>
+          <li>#3252 Import info panel not expanded correctly</li>
+          <li>#3242 Yahoo tickers</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3267 User color to recurring transactions added</li>
+          <li>#3286 Hebrew help pages added</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.5.0" date="2021-04-11T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#3019 Load icons from zip and generate images from SVG</li>
+          <li>#2923 Update the application icons</li>
+          <li>#1961 The ChartNew.js was replaced by the ApexCharts</li>
+          <li>#2918 All Transactions Panel</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#1549 Budget Estimate with Bi-Monthly Category is Wrong</li>
+          <li>#2028 Tooltips on the pie chart in the Payee report present always a positive value</li>
+          <li>#2217 Multi-select for checking panel is broken</li>
+          <li>#2405 Crash if app killed in tray</li>
+          <li>#2418 Payee wrong autofill</li>
+          <li>#2442 menu icon sizing on MacOS</li>
+          <li>#2447 wxFileDialog always returns an empty string</li>
+          <li>#2626 Category - subcategory delimiter</li>
+          <li>#2662 Export to CSV amount fields format</li>
+          <li>#2705 MMEX always tries to connect to vps.moneymanagerex.org on startup</li>
+          <li>#2765 Advanced Filter in Accounts doesn't work</li>
+          <li>#2795 Split Deposit amount</li>
+          <li>#2817 Analytics collected on first run without user consent</li>
+          <li>#2825 WebView support for wkWebView with latest wxWidgets</li>
+          <li>#2826 Always Opens on Wrong Monitor</li>
+          <li>#2829 Add account choice to "budget performance"</li>
+          <li>#2830 Budget year name</li>
+          <li>#2833 Currency history only for existing transactions</li>
+          <li>#2844 Copy transactions with multi line notes</li>
+          <li>#2881 Build date/time updated on every build</li>
+          <li>#2893 Transaction report style</li>
+          <li>#2929 Menu items hot buttons</li>
+          <li>#2987 Display Share Accounts</li>
+          <li>#3151 Cash flow report exception</li>
+          <li>#3184 Organize Payees dialog editing issues</li>
+          <li>#3189 Position of New Transaction icon in the toolbar</li>
+          <li>#3227 Incorrect icon on Assets filter button</li>
+          <li>#3228 Color/Colour spelling inconsistency for English (UK) and English (US) application language</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.3.6" date="2020-12-24T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#1718 QIF import fails for single-digit dates</li>
+          <li>#2620 Crash when selecting "Relocate Payee"</li>
+          <li>#2621 graphs text encoding</li>
+          <li>#2730 Currencies manager contains too many currencies</li>
+          <li>#2631 advanced filter on bank/cash accounts</li>
+          <li>#2632 Unable to Change Date Format</li>
+          <li>#2647 Recurring Transaction: Due &amp; Paid dates got swapped around</li>
+          <li>#2657 Invalid menu item name</li>
+          <li>#2661 why I can't change the language to Chinese (Traditional)?</li>
+          <li>#2662 CSV export for "balance" field causes TYPE CONV error when imported in ACCESS</li>
+          <li>#2671 Account Advanced filter Un-Reconciled does not working</li>
+          <li>#2673 Period: Over time has incorrect start date</li>
+          <li>#2674 Gain/Loss sort order is invalid</li>
+          <li>#2683 Transaction Filter, Notes search now only returns exact results</li>
+          <li>#2684 Application crash when selecting 'Relocate Payee' when in the "Organize Payees' dialog</li>
+          <li>#2688 Regression in Transaction report</li>
+          <li>#2691 Incorrect currency translation</li>
+          <li>#2694 MMEX Window is "off screen"</li>
+          <li>#2709 Export report to Excel</li>
+          <li>#2726 Missing translation of categories</li>
+          <li>#2732 QIF import and payee case sensitive issue bug import</li>
+          <li>#2733 json data for Google statistics</li>
+          <li>#2735 Bug in the Bug Report</li>
+          <li>#2738 mmex architecture info</li>
+          <li>#2746 Links handler in custom reports</li>
+          <li>#2761 Enable more then 3 characters as currency symbol</li>
+        </ul>
+        <p>With virus-free greetings -- mmex development team</p>
+      </description>
+    </release>
+    <release type="stable" version="1.3.5" date="2020-06-15T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2608 MMEX does not show graphics anymore (Thank you, Renato)</li>
+          <li>#2601 Top Withdrawals in Home Page</li>
+          <li>#2579 Added years for Cash Flow report labels</li>
+          <li>#2571 Navigation tree settings ignore some collapsed items</li>
+          <li>#2561 Saving of report settings</li>
+          <li>#2557 Detected memory leaks on Custom dates</li>
+          <li>#2556 #2549 #2554 Stocks Performance report</li>
+          <li>#2554 Stock name</li>
+          <li>#2520 Fuzzy translations</li>
+          <li>#2509 0,00 marked as negative</li>
+          <li>#2501 Reports panel</li>
+          <li>#2500 Report a bug does not run in an external browser</li>
+          <li>#2499 Attachments folder exception</li>
+          <li>#2497 Edit Share transaction</li>
+          <li>#2496 Unused category</li>
+          <li>#2494 Future transactions</li>
+          <li>#2492 Account naming issue</li>
+          <li>#2488 Attachments folder fix</li>
+          <li>#2487 Datepicker appearance</li>
+          <li>#2485 Crash on create account for shares</li>
+          <li>#2484 Crash or assert on transaction link</li>
+          <li>#2480 Display the Budget Setup without category summaries</li>
+          <li>#2478 Categories selection</li>
+          <li>#2477 wxBitmap labels and sizing issue</li>
+          <li>#2470 Crash on every reports Ubuntu 20.04</li>
+          <li>#2456 Currency rates fixes</li>
+          <li>#2449 Categories do not import when importing QIF files</li>
+          <li>#2443 Web app lost category and sub-category</li>
+          <li>#2440 #2449 #2443 Web app</li>
+          <li>#2433 Expenses report issue</li>
+          <li>#2432 Category Income/Expenses - Last 12 Months</li>
+          <li>#2427 Ignore future</li>
+          <li>#2426 Default Payee in Options/Others</li>
+          <li>#2417 Transaction Filter does not open</li>
+          <li>#2416 Crash when entering next occurrence of a recurring transaction</li>
+          <li>#2413 Webapp autostart memory leaks</li>
+          <li>#2410 Notes fiels in CSV import</li>
+          <li>#2403 Account in Transaction report selected</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2518 Swedish translation (Thank you, Tomas Marklund)</li>
+          <li>#2512 Use currency history</li>
+          <li>#2506 Account webpage</li>
+          <li>#2506 Account webpage</li>
+          <li>#2425 Icon sizes</li>
+          <li>#2425 Icon sizes (Win)</li>
+          <li>#2392 Transaction colour</li>
+        </ul>
+        <p>Currency Exchange Rates</p>
+        <p>Virtual File System</p>
+        <p>Foreign language versions updated on Crowdin</p>
+      </description>
+    </release>
+    <release type="stable" version="1.3.4" date="2020-04-26T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>#2395 Graph scaling</li>
+          <li>#2387 Storage mmexini.db3</li>
+          <li>#2229 Account attachments fail to open</li>
+          <li>#2382 Bug - select category in recurring transaction</li>
+          <li>#2379 Transaction auto number</li>
+          <li>#2036 Categories:Monthly report - add date ranges</li>
+          <li>#2375 Custom Field String issue</li>
+          <li>#2369 Transaction dialog outlook (MAC)</li>
+          <li>#2031 Default category is not assigned automatically for known payee during .qif import</li>
+          <li>#1146 Possibility to run several mmex apps</li>
+        </ul>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>#2391 Grouping on Budget Setup</li>
+          <li>#2231 Export to JSON</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.3.3" date="2017-03-04T00:00:00Z">
+      <description>
+        <p>This release fixes the following bug:</p>
+        <ul>
+          <li>assets #1074 #1070</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>Search box not working #1060</li>
+        </ul>
+        <p>Mac build updated on Oct 7, 2017 to use wxWidgets 3.0.2 instead of 3.1. This fixes the issues with right click menus being greyed out.</p>
+      </description>
+    </release>
+    <release type="stable" version="1.3.2" date="2017-02-25T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Programs and Features icon in Windows. SF Issue #972</li>
+          <li>Albanian lang file</li>
+          <li>Prevent Crash on Home page Issue #1019</li>
+          <li>Hebrew, Hungarian Translations</li>
+          <li>Displayed Latin Currency symbols Issue #739</li>
+          <li>Crash on startup when files not found Issue #1033</li>
+          <li>Transaction Filter Crash, Account checked, none supplied. Issue #1043</li>
+          <li>Check for null pointer. Issue #979</li>
+          <li>Move Transaction. Issue #1063</li>
+          <li>HTML report export. Issue #1064</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.7" date="2016-04-14T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Italian translation updated</li>
+          <li>Russian translation updated</li>
+          <li>Help files updated</li>
+          <li>Validate math expressions (Issue #659)</li>
+          <li>Items in Navigation keep disappearing in Ubuntu and MacOS (Issue #658)</li>
+          <li>Transactions color tag is lost in some specific case (Issue #788)</li>
+          <li>Minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.6" date="2016-03-05T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>OK the default when entering a transaction (Issue #676)</li>
+          <li>most recent notes (Issue #677)</li>
+          <li>Fraction part may get lost after opening transaction for edit (Issue #690)</li>
+          <li>Grand Total missing stocks</li>
+          <li>Hebrew translation updated</li>
+          <li>Transaction Report formatting (Issue #717)</li>
+          <li>Monthly Summary of Accounts Report (Issue #610)</li>
+          <li>Minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.5" date="2016-01-26T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Portuguese_br translation updated</li>
+          <li>Split transaction not allowed ENTER Key or ARITMETIC EXPRESSIONS (Issue #648)</li>
+          <li>Monthly Summary of Accounts Report deleted (Issue #610)</li>
+          <li>QIF import fixes (Issue #617)</li>
+          <li>Cash account type added for android synchronisation (Issue #455)</li>
+          <li>Minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.4" date="2015-12-20T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Italiano translation updated</li>
+          <li>Home Page folder path fix</li>
+          <li>Speedup</li>
+          <li>QIF import fixes</li>
+          <li>CMD + C on OS X causes MMEX popup window to close (Issue #769)</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>Japanese translation added</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.3" date="2015-11-04T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Assertion 'datetime failed' (Issue #536)</li>
+          <li>Delete currency (Issue #569)</li>
+          <li>Add attachments on duplicate transaction (Issue #579)</li>
+          <li>Wrong currency on repeating transactions (Issues #562, #568)</li>
+          <li>EOL support for CSV export/import (Issue #577)</li>
+          <li>ANSI encoding and date with time support for CSV import (Issue #579)</li>
+          <li>Problem with full screen mode on Mac (bug #742)</li>
+          <li>tmp folder permissions(Issue #559)</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>Currency added Venezuelan Bolivar</li>
+        </ul>
+        <p>Translations update</p>
+      </description>
+    </release>
+    <release type="stable" version="1.2.2" date="2015-07-29T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Transaction Type Transfer From/To Error (bug #707)</li>
+          <li>Stock Account fix total value</li>
+          <li>Export of small withdrawals have wrong sign (bug #695)</li>
+          <li>Czech translation update</li>
+          <li>Colours on print and print preview are not the same (bug #722)</li>
+          <li>QIF import fixes (bug 712)</li>
+          <li>Cancel button label changed to Close for Currency dialogue (bug #714)</li>
+        </ul>
+        <p>This release adds the following feature:</p>
+        <ul>
+          <li>Lithuanian translation added</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.1" date="2015-06-07T00:00:00Z">
+      <description>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Negative 'Initial Balance' (bug #692)</li>
+          <li>Recurring Transactions navigation issue (bug #679)</li>
+          <li>Spelling mistakes (bugs #676, #677)</li>
+          <li>Temporary View Change (bug #684)</li>
+          <li>html format (issue #487)</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.2.0" date="2015-04-28T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Introducing new account type - Credit Card</li>
+          <li>Monthly Summary of Accounts</li>
+          <li>Stock History Monitoring</li>
+          <li>My Usage Reports</li>
+          <li>MMEX News display on Home page</li>
+          <li>Apply button on Options Dialog saves displayed page.</li>
+          <li>Extra columns displayed in panels.</li>
+          <li>Command to change encrypted database password.</li>
+          <li>Command to compact the database</li>
+          <li>Import transactions from WebApp</li>
+          <li>Repeating transaction created from existing transaction</li>
+          <li>Functionality Change: Repeating Transaction.</li>
+          <li>'Next Occur Date' redefined as 'Payment Date' and 'Due Date'</li>
+          <li>Database Upgrade: Database version updated to version 3 with auto data correction for Repeating Transactions.</li>
+        </ul>
+        <p>This release fixes the following bug:</p>
+        <ul>
+          <li>Many bug fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.1.2" date="2014-11-17T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Repeating transaction dialog restyling</li>
+          <li>Added transaction filter to repeating transactions panel</li>
+          <li>Added more keywords into GRM</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>CashFlow crash</li>
+          <li>Fix for repeating transactions with split categories</li>
+          <li>Fix PayPal QIF import (bug #543)</li>
+          <li>Fix stock update date format (bug #545)</li>
+          <li>Fix budget for substituted category (bug #546)</li>
+          <li>Fix category removal error on budget panel (bug #551)</li>
+          <li>Translations update</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.1.1" date="2014-11-02T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Full UTF-8 and wide characters support in GRM and LUA</li>
+          <li>Full integration with WebApp</li>
+          <li>Added "unknown" payee\category in QIF, CSV and WebApp import</li>
+          <li>Navigation panel status saving</li>
+          <li>New JS pie charts on report</li>
+          <li>Added option to reallocate account type</li>
+          <li>Added option to change password of encrypted DB</li>
+          <li>Added timeout option for web-calls</li>
+          <li>Added FullScreen support</li>
+          <li>Save transactions colours to database instead of local pc</li>
+        </ul>
+        <p>This release fixes the following bugs:</p>
+        <ul>
+          <li>Fix for '&amp;' sign in notes (bug #441)</li>
+          <li>Fix new transaction with no payee in list (bug #450)</li>
+          <li>Fix deletion of two categories (bug #452)</li>
+          <li>Fix override categories in home page (bugs #447 #444)</li>
+          <li>Fix transaction filter transfers and payees (bugs #453 #457)</li>
+          <li>Fix for trasnfer between account with different currencies (bugs #462 #472)</li>
+          <li>Fix cashflow report (bug #481)</li>
+          <li>Fix space in amount (bug #493)</li>
+          <li>Fix wrong beahviour of splitted and new transactions</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

@@ -1,0 +1,213 @@
+# Install script for directory: /root/mmex/po
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/root/mmex/build-win64/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "TRUE")
+endif()
+
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/x86_64-w64-mingw32-objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ar_SA" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ar_SA.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/be_BY" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/be_BY.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/bg_BG" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/bg_BG.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ca_ES" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ca_ES.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/cs_CZ" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/cs_CZ.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/da_DK" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/da_DK.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/de_DE" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/de_DE.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/el_GR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/el_GR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/en_GB" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/en_GB.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/en_US" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/en_US.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/es_ES" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/es_ES.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/fa_AF" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/fa_AF.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/fa_IR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/fa_IR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/fo_FO" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/fo_FO.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/fr_FR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/fr_FR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/he_IL" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/he_IL.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/hr_HR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/hr_HR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/hu_HU" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/hu_HU.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/id_ID" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/id_ID.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/it_IT" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/it_IT.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ja_JP" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ja_JP.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/kn_IN" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/kn_IN.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ko_KR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ko_KR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/lt_LT" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/lt_LT.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/nl_NL" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/nl_NL.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/pl_PL" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/pl_PL.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/pt_BR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/pt_BR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/pt_PT" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/pt_PT.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ro_RO" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ro_RO.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ru_RU" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ru_RU.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/sk_SK" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/sk_SK.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/sl_SI" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/sl_SI.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/sq_AL" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/sq_AL.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/sr" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/sr.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/sv_SE" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/sv_SE.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/ta_IN" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/ta_IN.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/tr_TR" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/tr_TR.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/uk_UA" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/uk_UA.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/vi_VN" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/vi_VN.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/zh_CN" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/zh_CN.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/zh_TW" TYPE FILE RENAME "mmex.mo" FILES "/root/mmex/build-win64/po/zh_TW.mo")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/en_US" TYPE FILE FILES "/root/mmex/build-win64/po/common.mo")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/root/mmex/build-win64/po/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
